@@ -1,0 +1,8 @@
+dataframe-image
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+statsmodels
+UpSetPlot

@@ -1,0 +1,50 @@
+Here is a brief data dictionary:
+
+dim_date.csv -- This is a table containing date-level information that might be useful for producing transaction forecasts. It contains the following columns:
+	dim_date_id: Primary key and index.  Integer.
+	
+	date_val: Date value corresponding to the record.  Date.
+
+	calendar_year: Year for the record.  Integer.
+	
+	calendar_month: Month of the year for the record.  Integer.
+
+	calendar_day: Day of the month for the record.  Integer.
+
+	day_of_week: The Nth day of the week.  Integer.
+
+	is_weekday: Flag for if the record is associated with Monday through Friday.  Bit.
+
+	is_workday: Flag for if the record is associated with Monday through Friday and is not a holiday.  Bit.
+
+	is_holiday: Flag for if the record is associated with a holiday.  Bit.  
+
+
+dim_claims.csv -- This is a table containing pharmacy claim-level information. It contains the following columns:
+	dim_claim_id: Primary key and index.  Integer.
+
+	bin: The BIN of the payer for the claim.  Numeric.
+
+	drug: The drug that was associated with the claim. Character.
+
+	reject_code: If the claim was rejected, what was the associated rejection code.  Character.
+
+	pharmacy_claim_approved: Flag for if the claim was approved by the payer.  Bit.
+
+dim_pa.csv -- This is a table containing PA-level for every rejected pharmacy claim in dim_claims.  It contains the following columns:
+	dim_pa_id: Primary key and index.  Integer.
+
+	correct_diagnosis: Flag for information provided by the provider indicating that the patient has the correct diagnosis for the associated drug.  Bit.  
+
+	tried_and_failed: Flag for information provided by the provider indicating that the patient has tried and failed the relevant generic alternatives.  Bit.
+
+	contraindication: Flag for information provided by the provider indicating that the patient has an associated contraindication for the medication requested.  Bit.  
+
+	pa_approved: Flag for if the payer favorably reviewed and approved the PA.  Bit.  
+
+bridge.csv -- This is a bridge table that links the primary keys of all the tables to one another that is used for joining the tables. It contains the following columns:
+	dim_claim_id: Primary key for dim_claims.  
+
+	dim_pa_id: Primary key for dim_pa. 
+
+	dim_date_id: Primary key for dim_date.  
