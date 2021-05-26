@@ -36,10 +36,10 @@ The formulary of a payer is list of the preferred drugs each payer has. These li
 Each reject code has a different meaning. A code 70 means that the drug is not on the formulary and is not covered by the payer. A code 75 means the drug is on the formulary, but another drug is typically prefered. These drugs will require a prior authorization. A code 76 means that while the drug is covered, plan limitations ahve been exceeded. This typically means the patient is over the number of refills on the prescription. 
 
 Through examining the data from each payer and each drug, we find the following: 
-> Payer 417380: Drug A is on formulary, but requires a PA (Code 75), Drug B is on formulary and only requires a PA if the patient is over refills (Code 76), Drug C is not covered (Code 70).
-> Payer 417614: Drug A is not covered (Code 70), Drug B is on formulary but requires a PA (Code 75), Drug C is on formulary and only requires a PA if patient is over refills (Code 76). 
-> Payer 417740: Drug A is on formulary and only requires a PA if patient is over refills (Code 76), Drug B is not covered (Code 70), Drug C is on formulary but requires a PA (Code 75). 
-> Payer 999001: All drugs are on formulary and only require a PA if patient is over refills (Code 76). 
+* Payer 417380: Drug A is on formulary, but requires a PA (Code 75), Drug B is on formulary and only requires a PA if the patient is over refills (Code 76), Drug C is not covered (Code 70).
+* Payer 417614: Drug A is not covered (Code 70), Drug B is on formulary but requires a PA (Code 75), Drug C is on formulary and only requires a PA if patient is over refills (Code 76). 
+* Payer 417740: Drug A is on formulary and only requires a PA if patient is over refills (Code 76), Drug B is not covered (Code 70), Drug C is on formulary but requires a PA (Code 75). 
+* Payer 999001: All drugs are on formulary and only require a PA if patient is over refills (Code 76). 
 
 ## Predicting the Number of Refills
 
