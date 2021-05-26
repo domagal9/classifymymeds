@@ -4,8 +4,8 @@ Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Lee
 ## Overview 
 include links to sections of MD file as a table of contents (How to generate this?) 
 
-[Project Description](#headers)  
-[Predicting PA Acceptance](#headers)  
+[Project Description](#project-description)  
+[Predicting PA Acceptance](#predicting-pa-acceptance)  
 
 ## Project Description
 
