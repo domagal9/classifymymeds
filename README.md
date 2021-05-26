@@ -41,6 +41,8 @@ Through examining the data from each payer and each drug, we find the following:
 * Payer 417740: Drug A is on formulary and only requires a PA if patient is over refills (Code 76), Drug B is not covered (Code 70), Drug C is on formulary but requires a PA (Code 75). 
 * Payer 999001: All drugs are on formulary and only require a PA if patient is over refills (Code 76). 
 
+> add link to notebook where this is easily seen 
+
 ## Predicting the Number of Refills
 
 
