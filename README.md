@@ -3,12 +3,12 @@ Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Lee
 
 ## Overview 
 [Project Description](#project-description)  
-[Main Takeaways](#main-takeaways)
-[Data](#data)
-[Predicting PA Acceptance](#predicting-pa-acceptance)
-[Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
-[Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)
-[Predicting the Number of Refills](#predicting-the-number-of-refills)
+[Main Takeaways](#main-takeaways)  
+[Data](#data)  
+[Predicting PA Acceptance](#predicting-pa-acceptance)  
+[Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)  
+[Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)  
+[Predicting the Number of Refills](#predicting-the-number-of-refills)  
 
 ## Project Description
 
