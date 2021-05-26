@@ -2,10 +2,13 @@
 Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Lee
 
 ## Overview 
-include links to sections of MD file as a table of contents (How to generate this?) 
-
 [Project Description](#project-description)  
-[Predicting PA Acceptance](#predicting-pa-acceptance)  
+[Main Takeaways](#main-takeaways)
+[Data](#data)
+[Predicting PA Acceptance](#predicting-pa-acceptance)
+[Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
+[Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)
+[Predicting the Number of Refills](#predicting-the-number-of-refills)
 
 ## Project Description
 
