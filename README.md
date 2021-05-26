@@ -1,5 +1,5 @@
 # CoverMyMeds Challenge at The Erdos Institute 2021 Boot Camp
-Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Lee
+Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 
 ## Overview 
 [Project Description](#project-description)  
