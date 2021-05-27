@@ -6,7 +6,7 @@ Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 ## Overview 
 [Project Description](#project-description)  
 [Main Takeaways](#main-takeaways)  
-[Data](#data)  
+[CoverMyMeds Data](#covermymeds-data)  
 [Predicting PA Acceptance](#predicting-pa-acceptance)  
 [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)  
 [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)  
@@ -24,7 +24,7 @@ Maybe just a sentence for each
 >  Number of fills 
 >  Highlight KPIs? 
 
-### Data 
+### CoverMyMeds Data 
 The dataset is provided by [CoverMyMeds](https://covermymeds.com/). It contains over one million entries of pharmacy claims data, spanning the years 2016, 2017, and 2018. 
 Each event in the dataset corresponds to a prescription written by a provider. For each event, there is information about the patient's insurer, the patient's medical situation, the drug prescribed, and whether or not the original prescription claim was accepted. If it was rejected, the reject code is included, as well as whether the subsequent PA was accepted or rejected. Additionally, the month, day and year of the claim is included. Roughly half of the entries require a PA. 
 
@@ -74,7 +74,7 @@ These results can be observed in [exploration.ipynb](exploration.ipynb)
 
 ## Predicting the Limitation of Fills
 
-Reject code 76 occurs if a patient fill certain drug many times, exceeding the limitation of fills. For example, if a payer decides drug X has limitation of fills to be 5 times, the a patient with this payer can fill the drug without any issue for the first 5 times. But when the patient try to fill for the sixth time, the patient gets rejected with code 76.
+Reject code 76 occurs if a patient fill certain drug many times, exceeding the limitation of fills. For example, if a payer decides drug X has limitation of fills to be 5 times, then a patient with this payer can fill the drug without any issue for the first 5 times. But when the patient try to fill for the sixth time, the patient gets rejected with code 76.
 
 Assuming that the numbers of fills for drug X obey a Poisson distribution, we can infer the relation between limitation of fills and the average number of fills from the data:
 
