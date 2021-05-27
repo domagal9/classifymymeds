@@ -1,4 +1,19 @@
 fid,model,data_type,score_func,score
+0,Baseline,train,accuracy,0.7343367850406586
+0,Baseline,train,precision,0.7343367850406586
+0,Baseline,train,recall,1.0
+0,Baseline,train,f1,0.8468214378828888
+0,Baseline,train,roc_auc,0.5
+0,Baseline,test,accuracy,0.7348952243906827
+0,Baseline,test,precision,0.7348952243906827
+0,Baseline,test,recall,1.0
+0,Baseline,test,f1,0.8471926304930457
+0,Baseline,test,roc_auc,0.5
+0,Baseline,validation,accuracy,0.7343735947477291
+0,Baseline,validation,precision,0.7343735947477291
+0,Baseline,validation,recall,1.0
+0,Baseline,validation,f1,0.846845912520418
+0,Baseline,validation,roc_auc,0.5
 1,Logistic,train,accuracy,0.7343367850406586
 1,Logistic,validation,accuracy,0.7343735947477291
 1,Logistic,test,accuracy,0.7348952243906827
@@ -215,9 +230,9 @@ fid,model,data_type,score_func,score
 3,Decision Tree,train,precision,0.8111979245226101
 3,Decision Tree,validation,precision,0.8132248053574346
 3,Decision Tree,test,precision,0.8117759568780021
-3,Decision Tree,train,recall,0.9148137060120295
+3,Decision Tree,train,recall,0.9148137060120296
 3,Decision Tree,validation,recall,0.914610250443941
-3,Decision Tree,test,recall,0.9141507471271401
+3,Decision Tree,test,recall,0.91415074712714
 3,Decision Tree,train,f1,0.8598956884339515
 3,Decision Tree,validation,f1,0.8609429938324975
 3,Decision Tree,test,f1,0.8599271287219898
@@ -230,9 +245,9 @@ fid,model,data_type,score_func,score
 3,Random Forest,train,precision,0.8111979245226101
 3,Random Forest,validation,precision,0.8132248053574346
 3,Random Forest,test,precision,0.8117759568780021
-3,Random Forest,train,recall,0.9148137060120295
+3,Random Forest,train,recall,0.9148137060120296
 3,Random Forest,validation,recall,0.914610250443941
-3,Random Forest,test,recall,0.9141507471271401
+3,Random Forest,test,recall,0.91415074712714
 3,Random Forest,train,f1,0.8598956884339515
 3,Random Forest,validation,f1,0.8609429938324975
 3,Random Forest,test,f1,0.8599271287219898
@@ -245,9 +260,9 @@ fid,model,data_type,score_func,score
 3,Voting,train,precision,0.8111979245226101
 3,Voting,validation,precision,0.8132248053574346
 3,Voting,test,precision,0.8117759568780021
-3,Voting,train,recall,0.9148137060120295
+3,Voting,train,recall,0.9148137060120296
 3,Voting,validation,recall,0.914610250443941
-3,Voting,test,recall,0.9141507471271401
+3,Voting,test,recall,0.91415074712714
 3,Voting,train,f1,0.8598956884339515
 3,Voting,validation,f1,0.8609429938324975
 3,Voting,test,f1,0.8599271287219898
@@ -266,9 +281,9 @@ fid,model,data_type,score_func,score
 3,AdaBoost,train,f1,0.8017805867428329
 3,AdaBoost,validation,f1,0.8013746457275079
 3,AdaBoost,test,f1,0.8020935879766358
-3,AdaBoost,train,roc_auc,0.47679652756448665
-3,AdaBoost,validation,roc_auc,0.47779283142375717
-3,AdaBoost,test,roc_auc,0.47711047573119336
+3,AdaBoost,train,roc_auc,0.4767965275644866
+3,AdaBoost,validation,roc_auc,0.4777928314237571
+3,AdaBoost,test,roc_auc,0.4771104757311933
 4,Logistic,train,accuracy,0.7343367850406586
 4,Logistic,validation,accuracy,0.7343735947477291
 4,Logistic,test,accuracy,0.7348952243906827
@@ -546,13 +561,13 @@ fid,model,data_type,score_func,score
 7,Logistic,validation,precision,0.7333211143695014
 7,Logistic,test,precision,0.7338333745455211
 7,Logistic,train,recall,0.9803568026562882
-7,Logistic,validation,recall,0.9799767313697875
+7,Logistic,validation,recall,0.9799767313697876
 7,Logistic,test,recall,0.980602841653103
 7,Logistic,train,f1,0.8387677969283698
 7,Logistic,validation,f1,0.8388939850609356
 7,Logistic,test,f1,0.8394585760382182
-7,Logistic,train,roc_auc,0.49642246523576206
-7,Logistic,validation,roc_auc,0.49735250992054636
+7,Logistic,train,roc_auc,0.496422465235762
+7,Logistic,validation,roc_auc,0.4973525099205463
 7,Logistic,test,roc_auc,0.4973238450895362
 7,SVC,train,accuracy,0.7343367850406586
 7,SVC,validation,accuracy,0.7343735947477291
@@ -575,9 +590,9 @@ fid,model,data_type,score_func,score
 7,Decision Tree,train,precision,0.8111979245226101
 7,Decision Tree,validation,precision,0.8132248053574346
 7,Decision Tree,test,precision,0.8117759568780021
-7,Decision Tree,train,recall,0.9148137060120295
+7,Decision Tree,train,recall,0.9148137060120296
 7,Decision Tree,validation,recall,0.914610250443941
-7,Decision Tree,test,recall,0.9141507471271401
+7,Decision Tree,test,recall,0.91415074712714
 7,Decision Tree,train,f1,0.8598956884339515
 7,Decision Tree,validation,f1,0.8609429938324975
 7,Decision Tree,test,f1,0.8599271287219898
@@ -590,9 +605,9 @@ fid,model,data_type,score_func,score
 7,Random Forest,train,precision,0.8111979245226101
 7,Random Forest,validation,precision,0.8132248053574346
 7,Random Forest,test,precision,0.8117759568780021
-7,Random Forest,train,recall,0.9148137060120295
+7,Random Forest,train,recall,0.9148137060120296
 7,Random Forest,validation,recall,0.914610250443941
-7,Random Forest,test,recall,0.9141507471271401
+7,Random Forest,test,recall,0.91415074712714
 7,Random Forest,train,f1,0.8598956884339515
 7,Random Forest,validation,f1,0.8609429938324975
 7,Random Forest,test,f1,0.8599271287219898
@@ -605,9 +620,9 @@ fid,model,data_type,score_func,score
 7,Voting,train,precision,0.8111979245226101
 7,Voting,validation,precision,0.8132248053574346
 7,Voting,test,precision,0.8117759568780021
-7,Voting,train,recall,0.9148137060120295
+7,Voting,train,recall,0.9148137060120296
 7,Voting,validation,recall,0.914610250443941
-7,Voting,test,recall,0.9141507471271401
+7,Voting,test,recall,0.91415074712714
 7,Voting,train,f1,0.8598956884339515
 7,Voting,validation,f1,0.8609429938324975
 7,Voting,test,f1,0.8599271287219898
@@ -905,9 +920,9 @@ fid,model,data_type,score_func,score
 11,Logistic,train,precision,0.7334853916071208
 11,Logistic,validation,precision,0.7347418397626113
 11,Logistic,test,precision,0.7343046030978194
-11,Logistic,train,recall,0.9474219579239583
-11,Logistic,validation,recall,0.9476149654032209
-11,Logistic,test,recall,0.9474257462092935
+11,Logistic,train,recall,0.9474219579239584
+11,Logistic,validation,recall,0.9476149654032208
+11,Logistic,test,recall,0.9474257462092937
 11,Logistic,train,f1,0.8268393448560991
 11,Logistic,validation,f1,0.8277106983834089
 11,Logistic,test,f1,0.827361041348281
@@ -920,7 +935,7 @@ fid,model,data_type,score_func,score
 11,SVC,train,precision,0.732222597176334
 11,SVC,validation,precision,0.7330897949563988
 11,SVC,test,precision,0.7329174989635548
-11,SVC,train,recall,0.9522426040334213
+11,SVC,train,recall,0.9522426040334212
 11,SVC,validation,recall,0.952329924683118
 11,SVC,test,recall,0.9519415515279086
 11,SVC,train,f1,0.8278634099019095
@@ -980,9 +995,9 @@ fid,model,data_type,score_func,score
 11,AdaBoost,train,precision,0.7334853916071208
 11,AdaBoost,validation,precision,0.7347418397626113
 11,AdaBoost,test,precision,0.7343046030978194
-11,AdaBoost,train,recall,0.9474219579239583
-11,AdaBoost,validation,recall,0.9476149654032209
-11,AdaBoost,test,recall,0.9474257462092935
+11,AdaBoost,train,recall,0.9474219579239584
+11,AdaBoost,validation,recall,0.9476149654032208
+11,AdaBoost,test,recall,0.9474257462092937
 11,AdaBoost,train,f1,0.8268393448560991
 11,AdaBoost,validation,f1,0.8277106983834089
 11,AdaBoost,test,f1,0.827361041348281
@@ -1265,9 +1280,9 @@ fid,model,data_type,score_func,score
 15,Logistic,train,precision,0.7334853916071208
 15,Logistic,validation,precision,0.7347418397626113
 15,Logistic,test,precision,0.7343046030978194
-15,Logistic,train,recall,0.9474219579239583
-15,Logistic,validation,recall,0.9476149654032209
-15,Logistic,test,recall,0.9474257462092935
+15,Logistic,train,recall,0.9474219579239584
+15,Logistic,validation,recall,0.9476149654032208
+15,Logistic,test,recall,0.9474257462092937
 15,Logistic,train,f1,0.8268393448560991
 15,Logistic,validation,f1,0.8277106983834089
 15,Logistic,test,f1,0.827361041348281
@@ -1280,13 +1295,13 @@ fid,model,data_type,score_func,score
 15,SVC,train,precision,0.7325921637558646
 15,SVC,validation,precision,0.7333254661316969
 15,SVC,test,precision,0.7332113138479537
-15,SVC,train,recall,0.9514023079225975
-15,SVC,validation,recall,0.9512889596472965
+15,SVC,train,recall,0.9514023079225976
+15,SVC,validation,recall,0.9512889596472964
 15,SVC,test,recall,0.951084894692399
 15,SVC,train,f1,0.8277816668467314
 15,SVC,validation,f1,0.8282066318370829
 15,SVC,test,f1,0.8280564922991683
-15,SVC,train,roc_auc,0.49573575961669036
+15,SVC,train,roc_auc,0.4957357596166903
 15,SVC,validation,roc_auc,0.4974406538544592
 15,SVC,test,roc_auc,0.4958803379049402
 15,Decision Tree,train,accuracy,0.7852230285921281
@@ -1340,9 +1355,9 @@ fid,model,data_type,score_func,score
 15,AdaBoost,train,precision,0.7334853916071208
 15,AdaBoost,validation,precision,0.7347418397626113
 15,AdaBoost,test,precision,0.7343046030978194
-15,AdaBoost,train,recall,0.9474219579239583
-15,AdaBoost,validation,recall,0.9476149654032209
-15,AdaBoost,test,recall,0.9474257462092935
+15,AdaBoost,train,recall,0.9474219579239584
+15,AdaBoost,validation,recall,0.9476149654032208
+15,AdaBoost,test,recall,0.9474257462092937
 15,AdaBoost,train,f1,0.8268393448560991
 15,AdaBoost,validation,f1,0.8277106983834089
 15,AdaBoost,test,f1,0.827361041348281
@@ -1536,7 +1551,7 @@ fid,model,data_type,score_func,score
 18,Logistic,validation,precision,0.7496952648851383
 18,Logistic,test,precision,0.7503986941593651
 18,Logistic,train,recall,0.979394034237814
-18,Logistic,validation,recall,0.9791806992835711
+18,Logistic,validation,recall,0.9791806992835712
 18,Logistic,test,recall,0.9789262418464626
 18,Logistic,train,f1,0.8492116635447854
 18,Logistic,validation,f1,0.8492074028836196
@@ -1551,7 +1566,7 @@ fid,model,data_type,score_func,score
 18,SVC,validation,precision,0.7496952648851383
 18,SVC,test,precision,0.7503986941593651
 18,SVC,train,recall,0.979394034237814
-18,SVC,validation,recall,0.9791806992835711
+18,SVC,validation,recall,0.9791806992835712
 18,SVC,test,recall,0.9789262418464626
 18,SVC,train,f1,0.8492116635447854
 18,SVC,validation,f1,0.8492074028836196
@@ -1566,7 +1581,7 @@ fid,model,data_type,score_func,score
 18,Decision Tree,validation,precision,0.7496952648851383
 18,Decision Tree,test,precision,0.7503986941593651
 18,Decision Tree,train,recall,0.979394034237814
-18,Decision Tree,validation,recall,0.9791806992835711
+18,Decision Tree,validation,recall,0.9791806992835712
 18,Decision Tree,test,recall,0.9789262418464626
 18,Decision Tree,train,f1,0.8492116635447854
 18,Decision Tree,validation,f1,0.8492074028836196
@@ -1581,7 +1596,7 @@ fid,model,data_type,score_func,score
 18,Random Forest,validation,precision,0.7496952648851383
 18,Random Forest,test,precision,0.7503986941593651
 18,Random Forest,train,recall,0.979394034237814
-18,Random Forest,validation,recall,0.9791806992835711
+18,Random Forest,validation,recall,0.9791806992835712
 18,Random Forest,test,recall,0.9789262418464626
 18,Random Forest,train,f1,0.8492116635447854
 18,Random Forest,validation,f1,0.8492074028836196
@@ -1596,7 +1611,7 @@ fid,model,data_type,score_func,score
 18,Voting,validation,precision,0.7496952648851383
 18,Voting,test,precision,0.7503986941593651
 18,Voting,train,recall,0.979394034237814
-18,Voting,validation,recall,0.9791806992835711
+18,Voting,validation,recall,0.9791806992835712
 18,Voting,test,recall,0.9789262418464626
 18,Voting,train,f1,0.8492116635447854
 18,Voting,validation,f1,0.8492074028836196
@@ -1611,7 +1626,7 @@ fid,model,data_type,score_func,score
 18,AdaBoost,validation,precision,0.7496952648851383
 18,AdaBoost,test,precision,0.7503986941593651
 18,AdaBoost,train,recall,0.979394034237814
-18,AdaBoost,validation,recall,0.9791806992835711
+18,AdaBoost,validation,recall,0.9791806992835712
 18,AdaBoost,test,recall,0.9789262418464626
 18,AdaBoost,train,f1,0.8492116635447854
 18,AdaBoost,validation,f1,0.8492074028836196
@@ -1626,7 +1641,7 @@ fid,model,data_type,score_func,score
 19,Logistic,validation,precision,0.7788633651551312
 19,Logistic,test,precision,0.7788300835654596
 19,Logistic,train,recall,0.957842310099883
-19,Logistic,validation,recall,0.9591880472720593
+19,Logistic,validation,recall,0.9591880472720592
 19,Logistic,test,recall,0.9580850048339922
 19,Logistic,train,f1,0.858735832713165
 19,Logistic,validation,f1,0.8596712674587712
@@ -1640,9 +1655,9 @@ fid,model,data_type,score_func,score
 19,SVC,train,precision,0.7481271338712487
 19,SVC,validation,precision,0.748631066598025
 19,SVC,test,precision,0.7486356190030423
-19,SVC,train,recall,0.9787850747081077
+19,SVC,train,recall,0.9787850747081076
 19,SVC,validation,recall,0.9794868654705774
-19,SVC,test,recall,0.9787059586601887
+19,SVC,test,recall,0.9787059586601888
 19,SVC,train,f1,0.8480519959028172
 19,SVC,validation,f1,0.848639185102658
 19,SVC,test,f1,0.8483488739670517
@@ -1701,7 +1716,7 @@ fid,model,data_type,score_func,score
 19,AdaBoost,validation,precision,0.7788633651551312
 19,AdaBoost,test,precision,0.7788300835654596
 19,AdaBoost,train,recall,0.957842310099883
-19,AdaBoost,validation,recall,0.9591880472720593
+19,AdaBoost,validation,recall,0.9591880472720592
 19,AdaBoost,test,recall,0.9580850048339922
 19,AdaBoost,train,f1,0.858735832713165
 19,AdaBoost,validation,f1,0.8596712674587712
@@ -1715,9 +1730,9 @@ fid,model,data_type,score_func,score
 20,Logistic,train,precision,0.7441538393454487
 20,Logistic,validation,precision,0.7436937359339835
 20,Logistic,test,precision,0.744500655799138
-20,Logistic,train,recall,0.9724981629153853
+20,Logistic,train,recall,0.9724981629153852
 20,Logistic,validation,recall,0.9712509950401078
-20,Logistic,test,recall,0.9725257914897263
+20,Logistic,test,recall,0.9725257914897264
 20,Logistic,train,f1,0.8431391344742915
 20,Logistic,validation,f1,0.8423749966807402
 20,Logistic,test,f1,0.8433720874700853
@@ -1790,9 +1805,9 @@ fid,model,data_type,score_func,score
 20,AdaBoost,train,precision,0.7441538393454487
 20,AdaBoost,validation,precision,0.7436937359339835
 20,AdaBoost,test,precision,0.744500655799138
-20,AdaBoost,train,recall,0.9724981629153853
+20,AdaBoost,train,recall,0.9724981629153852
 20,AdaBoost,validation,recall,0.9712509950401078
-20,AdaBoost,test,recall,0.9725257914897263
+20,AdaBoost,test,recall,0.9725257914897264
 20,AdaBoost,train,f1,0.8431391344742915
 20,AdaBoost,validation,f1,0.8423749966807402
 20,AdaBoost,test,f1,0.8433720874700853
@@ -1805,7 +1820,7 @@ fid,model,data_type,score_func,score
 21,Logistic,train,precision,0.7555483574631681
 21,Logistic,validation,precision,0.7563737342302445
 21,Logistic,test,precision,0.7557741904670934
-21,Logistic,train,recall,0.9681163759083363
+21,Logistic,train,recall,0.9681163759083364
 21,Logistic,validation,recall,0.9673626844651276
 21,Logistic,test,recall,0.96829145913135
 21,Logistic,train,f1,0.8487250722128523
@@ -1820,7 +1835,7 @@ fid,model,data_type,score_func,score
 21,SVC,train,precision,0.7555483574631681
 21,SVC,validation,precision,0.7563737342302445
 21,SVC,test,precision,0.7557741904670934
-21,SVC,train,recall,0.9681163759083363
+21,SVC,train,recall,0.9681163759083364
 21,SVC,validation,recall,0.9673626844651276
 21,SVC,test,recall,0.96829145913135
 21,SVC,train,f1,0.8487250722128523
@@ -1880,7 +1895,7 @@ fid,model,data_type,score_func,score
 21,AdaBoost,train,precision,0.7555483574631681
 21,AdaBoost,validation,precision,0.7563737342302445
 21,AdaBoost,test,precision,0.7557741904670934
-21,AdaBoost,train,recall,0.9681163759083363
+21,AdaBoost,train,recall,0.9681163759083364
 21,AdaBoost,validation,recall,0.9673626844651276
 21,AdaBoost,test,recall,0.96829145913135
 21,AdaBoost,train,f1,0.8487250722128523
@@ -1896,7 +1911,7 @@ fid,model,data_type,score_func,score
 22,Logistic,validation,precision,0.7496952648851383
 22,Logistic,test,precision,0.7503986941593651
 22,Logistic,train,recall,0.979394034237814
-22,Logistic,validation,recall,0.9791806992835711
+22,Logistic,validation,recall,0.9791806992835712
 22,Logistic,test,recall,0.9789262418464626
 22,Logistic,train,f1,0.8492116635447854
 22,Logistic,validation,f1,0.8492074028836196
@@ -1911,7 +1926,7 @@ fid,model,data_type,score_func,score
 22,SVC,validation,precision,0.7496952648851383
 22,SVC,test,precision,0.7503986941593651
 22,SVC,train,recall,0.979394034237814
-22,SVC,validation,recall,0.9791806992835711
+22,SVC,validation,recall,0.9791806992835712
 22,SVC,test,recall,0.9789262418464626
 22,SVC,train,f1,0.8492116635447854
 22,SVC,validation,f1,0.8492074028836196
@@ -1926,7 +1941,7 @@ fid,model,data_type,score_func,score
 22,Decision Tree,validation,precision,0.7496952648851383
 22,Decision Tree,test,precision,0.7503986941593651
 22,Decision Tree,train,recall,0.979394034237814
-22,Decision Tree,validation,recall,0.9791806992835711
+22,Decision Tree,validation,recall,0.9791806992835712
 22,Decision Tree,test,recall,0.9789262418464626
 22,Decision Tree,train,f1,0.8492116635447854
 22,Decision Tree,validation,f1,0.8492074028836196
@@ -1941,7 +1956,7 @@ fid,model,data_type,score_func,score
 22,Random Forest,validation,precision,0.7496952648851383
 22,Random Forest,test,precision,0.7503986941593651
 22,Random Forest,train,recall,0.979394034237814
-22,Random Forest,validation,recall,0.9791806992835711
+22,Random Forest,validation,recall,0.9791806992835712
 22,Random Forest,test,recall,0.9789262418464626
 22,Random Forest,train,f1,0.8492116635447854
 22,Random Forest,validation,f1,0.8492074028836196
@@ -1956,7 +1971,7 @@ fid,model,data_type,score_func,score
 22,Voting,validation,precision,0.7496952648851383
 22,Voting,test,precision,0.7503986941593651
 22,Voting,train,recall,0.979394034237814
-22,Voting,validation,recall,0.9791806992835711
+22,Voting,validation,recall,0.9791806992835712
 22,Voting,test,recall,0.9789262418464626
 22,Voting,train,f1,0.8492116635447854
 22,Voting,validation,f1,0.8492074028836196
@@ -1971,7 +1986,7 @@ fid,model,data_type,score_func,score
 22,AdaBoost,validation,precision,0.7496952648851383
 22,AdaBoost,test,precision,0.7503986941593651
 22,AdaBoost,train,recall,0.979394034237814
-22,AdaBoost,validation,recall,0.9791806992835711
+22,AdaBoost,validation,recall,0.9791806992835712
 22,AdaBoost,test,recall,0.9789262418464626
 22,AdaBoost,train,f1,0.8492116635447854
 22,AdaBoost,validation,f1,0.8492074028836196
@@ -1986,7 +2001,7 @@ fid,model,data_type,score_func,score
 23,Logistic,validation,precision,0.7809868536812207
 23,Logistic,test,precision,0.7812123039806996
 23,Logistic,train,recall,0.9506164439485072
-23,Logistic,validation,recall,0.9512583430285959
+23,Logistic,validation,recall,0.951258343028596
 23,Logistic,test,recall,0.951072656737606
 23,Logistic,train,f1,0.8573422904454573
 23,Logistic,validation,f1,0.8577541583270066
@@ -2001,7 +2016,7 @@ fid,model,data_type,score_func,score
 23,SVC,validation,precision,0.7495772266065389
 23,SVC,test,precision,0.749403565457517
 23,SVC,train,recall,0.9765431510763956
-23,SVC,validation,recall,0.9770987692119283
+23,SVC,validation,recall,0.9770987692119284
 23,SVC,test,recall,0.9764174611138986
 23,SVC,train,f1,0.8478388967570529
 23,SVC,validation,f1,0.848347909301151
@@ -2077,7 +2092,7 @@ fid,model,data_type,score_func,score
 24,Logistic,test,precision,0.7636425409451101
 24,Logistic,train,recall,0.9352291592956482
 24,Logistic,validation,recall,0.9349703018798604
-24,Logistic,test,recall,0.9352245052806775
+24,Logistic,test,recall,0.9352245052806776
 24,Logistic,train,f1,0.840591675266598
 24,Logistic,validation,f1,0.8399944986934397
 24,Logistic,test,f1,0.8407688160804463
@@ -2092,7 +2107,7 @@ fid,model,data_type,score_func,score
 24,SVC,test,precision,0.7636425409451101
 24,SVC,train,recall,0.9352291592956482
 24,SVC,validation,recall,0.9349703018798604
-24,SVC,test,recall,0.9352245052806775
+24,SVC,test,recall,0.9352245052806776
 24,SVC,train,f1,0.840591675266598
 24,SVC,validation,f1,0.8399944986934397
 24,SVC,test,f1,0.8407688160804463
@@ -2107,7 +2122,7 @@ fid,model,data_type,score_func,score
 24,Decision Tree,test,precision,0.7636425409451101
 24,Decision Tree,train,recall,0.9352291592956482
 24,Decision Tree,validation,recall,0.9349703018798604
-24,Decision Tree,test,recall,0.9352245052806775
+24,Decision Tree,test,recall,0.9352245052806776
 24,Decision Tree,train,f1,0.840591675266598
 24,Decision Tree,validation,f1,0.8399944986934397
 24,Decision Tree,test,f1,0.8407688160804463
@@ -2122,7 +2137,7 @@ fid,model,data_type,score_func,score
 24,Random Forest,test,precision,0.7636425409451101
 24,Random Forest,train,recall,0.9352291592956482
 24,Random Forest,validation,recall,0.9349703018798604
-24,Random Forest,test,recall,0.9352245052806775
+24,Random Forest,test,recall,0.9352245052806776
 24,Random Forest,train,f1,0.840591675266598
 24,Random Forest,validation,f1,0.8399944986934397
 24,Random Forest,test,f1,0.8407688160804463
@@ -2137,7 +2152,7 @@ fid,model,data_type,score_func,score
 24,Voting,test,precision,0.7636425409451101
 24,Voting,train,recall,0.9352291592956482
 24,Voting,validation,recall,0.9349703018798604
-24,Voting,test,recall,0.9352245052806775
+24,Voting,test,recall,0.9352245052806776
 24,Voting,train,f1,0.840591675266598
 24,Voting,validation,f1,0.8399944986934397
 24,Voting,test,f1,0.8407688160804463
@@ -2152,7 +2167,7 @@ fid,model,data_type,score_func,score
 24,AdaBoost,test,precision,0.7636425409451101
 24,AdaBoost,train,recall,0.9352291592956482
 24,AdaBoost,validation,recall,0.9349703018798604
-24,AdaBoost,test,recall,0.9352245052806775
+24,AdaBoost,test,recall,0.9352245052806776
 24,AdaBoost,train,f1,0.840591675266598
 24,AdaBoost,validation,f1,0.8399944986934397
 24,AdaBoost,test,f1,0.8407688160804463
@@ -2165,9 +2180,9 @@ fid,model,data_type,score_func,score
 25,Logistic,train,precision,0.7664574961275676
 25,Logistic,validation,precision,0.7672044862019775
 25,Logistic,test,precision,0.7664567718105642
-25,Logistic,train,recall,0.9544709196309501
-25,Logistic,validation,recall,0.9550241871287735
-25,Logistic,test,recall,0.9548419468138485
+25,Logistic,train,recall,0.95447091963095
+25,Logistic,validation,recall,0.9550241871287736
+25,Logistic,test,recall,0.9548419468138484
 25,Logistic,train,f1,0.850193865692515
 25,Logistic,validation,f1,0.8508728859792689
 25,Logistic,test,f1,0.8503405808947742
@@ -2180,9 +2195,9 @@ fid,model,data_type,score_func,score
 25,SVC,train,precision,0.7664574961275676
 25,SVC,validation,precision,0.7672044862019775
 25,SVC,test,precision,0.7664567718105642
-25,SVC,train,recall,0.9544709196309501
-25,SVC,validation,recall,0.9550241871287735
-25,SVC,test,recall,0.9548419468138485
+25,SVC,train,recall,0.95447091963095
+25,SVC,validation,recall,0.9550241871287736
+25,SVC,test,recall,0.9548419468138484
 25,SVC,train,f1,0.850193865692515
 25,SVC,validation,f1,0.8508728859792689
 25,SVC,test,f1,0.8503405808947742
@@ -2195,9 +2210,9 @@ fid,model,data_type,score_func,score
 25,Decision Tree,train,precision,0.7664574961275676
 25,Decision Tree,validation,precision,0.7672044862019775
 25,Decision Tree,test,precision,0.7664567718105642
-25,Decision Tree,train,recall,0.9544709196309501
-25,Decision Tree,validation,recall,0.9550241871287735
-25,Decision Tree,test,recall,0.9548419468138485
+25,Decision Tree,train,recall,0.95447091963095
+25,Decision Tree,validation,recall,0.9550241871287736
+25,Decision Tree,test,recall,0.9548419468138484
 25,Decision Tree,train,f1,0.850193865692515
 25,Decision Tree,validation,f1,0.8508728859792689
 25,Decision Tree,test,f1,0.8503405808947742
@@ -2210,9 +2225,9 @@ fid,model,data_type,score_func,score
 25,Random Forest,train,precision,0.7664574961275676
 25,Random Forest,validation,precision,0.7672044862019775
 25,Random Forest,test,precision,0.7664567718105642
-25,Random Forest,train,recall,0.9544709196309501
-25,Random Forest,validation,recall,0.9550241871287735
-25,Random Forest,test,recall,0.9548419468138485
+25,Random Forest,train,recall,0.95447091963095
+25,Random Forest,validation,recall,0.9550241871287736
+25,Random Forest,test,recall,0.9548419468138484
 25,Random Forest,train,f1,0.850193865692515
 25,Random Forest,validation,f1,0.8508728859792689
 25,Random Forest,test,f1,0.8503405808947742
@@ -2225,9 +2240,9 @@ fid,model,data_type,score_func,score
 25,Voting,train,precision,0.7664574961275676
 25,Voting,validation,precision,0.7672044862019775
 25,Voting,test,precision,0.7664567718105642
-25,Voting,train,recall,0.9544709196309501
-25,Voting,validation,recall,0.9550241871287735
-25,Voting,test,recall,0.9548419468138485
+25,Voting,train,recall,0.95447091963095
+25,Voting,validation,recall,0.9550241871287736
+25,Voting,test,recall,0.9548419468138484
 25,Voting,train,f1,0.850193865692515
 25,Voting,validation,f1,0.8508728859792689
 25,Voting,test,f1,0.8503405808947742
@@ -2240,9 +2255,9 @@ fid,model,data_type,score_func,score
 25,AdaBoost,train,precision,0.7664574961275676
 25,AdaBoost,validation,precision,0.7672044862019775
 25,AdaBoost,test,precision,0.7664567718105642
-25,AdaBoost,train,recall,0.9544709196309501
-25,AdaBoost,validation,recall,0.9550241871287735
-25,AdaBoost,test,recall,0.9548419468138485
+25,AdaBoost,train,recall,0.95447091963095
+25,AdaBoost,validation,recall,0.9550241871287736
+25,AdaBoost,test,recall,0.9548419468138484
 25,AdaBoost,train,f1,0.850193865692515
 25,AdaBoost,validation,f1,0.8508728859792689
 25,AdaBoost,test,f1,0.8503405808947742
@@ -2255,7 +2270,7 @@ fid,model,data_type,score_func,score
 26,Logistic,train,precision,0.7704122648289498
 26,Logistic,validation,precision,0.7698361996269133
 26,Logistic,test,precision,0.77109678739513
-26,Logistic,train,recall,0.9226553357102033
+26,Logistic,train,recall,0.9226553357102032
 26,Logistic,validation,recall,0.9223562549752006
 26,Logistic,test,recall,0.9223379388836538
 26,Logistic,train,f1,0.8396888424474631
@@ -2271,7 +2286,7 @@ fid,model,data_type,score_func,score
 26,SVC,validation,precision,0.7496952648851383
 26,SVC,test,precision,0.7503986941593651
 26,SVC,train,recall,0.979394034237814
-26,SVC,validation,recall,0.9791806992835711
+26,SVC,validation,recall,0.9791806992835712
 26,SVC,test,recall,0.9789262418464626
 26,SVC,train,f1,0.8492116635447854
 26,SVC,validation,f1,0.8492074028836196
@@ -2286,7 +2301,7 @@ fid,model,data_type,score_func,score
 26,Decision Tree,validation,precision,0.7496952648851383
 26,Decision Tree,test,precision,0.7503986941593651
 26,Decision Tree,train,recall,0.979394034237814
-26,Decision Tree,validation,recall,0.9791806992835711
+26,Decision Tree,validation,recall,0.9791806992835712
 26,Decision Tree,test,recall,0.9789262418464626
 26,Decision Tree,train,f1,0.8492116635447854
 26,Decision Tree,validation,f1,0.8492074028836196
@@ -2301,7 +2316,7 @@ fid,model,data_type,score_func,score
 26,Random Forest,validation,precision,0.7496952648851383
 26,Random Forest,test,precision,0.7503986941593651
 26,Random Forest,train,recall,0.979394034237814
-26,Random Forest,validation,recall,0.9791806992835711
+26,Random Forest,validation,recall,0.9791806992835712
 26,Random Forest,test,recall,0.9789262418464626
 26,Random Forest,train,f1,0.8492116635447854
 26,Random Forest,validation,f1,0.8492074028836196
@@ -2316,7 +2331,7 @@ fid,model,data_type,score_func,score
 26,Voting,validation,precision,0.7496952648851383
 26,Voting,test,precision,0.7503986941593651
 26,Voting,train,recall,0.979394034237814
-26,Voting,validation,recall,0.9791806992835711
+26,Voting,validation,recall,0.9791806992835712
 26,Voting,test,recall,0.9789262418464626
 26,Voting,train,f1,0.8492116635447854
 26,Voting,validation,f1,0.8492074028836196
@@ -2330,7 +2345,7 @@ fid,model,data_type,score_func,score
 26,AdaBoost,train,precision,0.7704122648289498
 26,AdaBoost,validation,precision,0.7698361996269133
 26,AdaBoost,test,precision,0.77109678739513
-26,AdaBoost,train,recall,0.9226553357102033
+26,AdaBoost,train,recall,0.9226553357102032
 26,AdaBoost,validation,recall,0.9223562549752006
 26,AdaBoost,test,recall,0.9223379388836538
 26,AdaBoost,train,f1,0.8396888424474631
@@ -2345,9 +2360,9 @@ fid,model,data_type,score_func,score
 27,Logistic,train,precision,0.7631373104718719
 27,Logistic,validation,precision,0.7634732065466783
 27,Logistic,test,precision,0.7635135824382083
-27,Logistic,train,recall,0.9160690471654465
-27,Logistic,validation,recall,0.9169064968464883
-27,Logistic,test,recall,0.9159864403460893
+27,Logistic,train,recall,0.9160690471654463
+27,Logistic,validation,recall,0.9169064968464884
+27,Logistic,test,recall,0.9159864403460892
 27,Logistic,train,f1,0.8326391401280778
 27,Logistic,validation,f1,0.8331849543734698
 27,Logistic,test,f1,0.8328289122307282
@@ -2375,8 +2390,8 @@ fid,model,data_type,score_func,score
 27,Decision Tree,train,precision,0.8439149042908429
 27,Decision Tree,validation,precision,0.847033190911406
 27,Decision Tree,test,precision,0.8440414566205411
-27,Decision Tree,train,recall,0.9156642081484909
-27,Decision Tree,validation,recall,0.9165084808033801
+27,Decision Tree,train,recall,0.9156642081484908
+27,Decision Tree,validation,recall,0.91650848080338
 27,Decision Tree,test,recall,0.9159130126173314
 27,Decision Tree,train,f1,0.8783267170191833
 27,Decision Tree,validation,f1,0.8804023351910946
@@ -2390,8 +2405,8 @@ fid,model,data_type,score_func,score
 27,Random Forest,train,precision,0.8439149042908429
 27,Random Forest,validation,precision,0.847033190911406
 27,Random Forest,test,precision,0.8440414566205411
-27,Random Forest,train,recall,0.9156642081484909
-27,Random Forest,validation,recall,0.9165084808033801
+27,Random Forest,train,recall,0.9156642081484908
+27,Random Forest,validation,recall,0.91650848080338
 27,Random Forest,test,recall,0.9159130126173314
 27,Random Forest,train,f1,0.8783267170191833
 27,Random Forest,validation,f1,0.8804023351910946
@@ -2420,9 +2435,9 @@ fid,model,data_type,score_func,score
 27,AdaBoost,train,precision,0.7638702798857423
 27,AdaBoost,validation,precision,0.7641990820277443
 27,AdaBoost,test,precision,0.7643649271110108
-27,AdaBoost,train,recall,0.9115851999020221
+27,AdaBoost,train,recall,0.911585199902022
 27,AdaBoost,validation,recall,0.9124670871348968
-27,AdaBoost,test,recall,0.9118255357164711
+27,AdaBoost,test,recall,0.9118255357164712
 27,AdaBoost,train,f1,0.8312161680083135
 27,AdaBoost,validation,f1,0.8317773963522697
 27,AdaBoost,test,f1,0.8316089067470284
@@ -2437,7 +2452,7 @@ fid,model,data_type,score_func,score
 28,Logistic,test,precision,0.7636425409451101
 28,Logistic,train,recall,0.9352291592956482
 28,Logistic,validation,recall,0.9349703018798604
-28,Logistic,test,recall,0.9352245052806775
+28,Logistic,test,recall,0.9352245052806776
 28,Logistic,train,f1,0.840591675266598
 28,Logistic,validation,f1,0.8399944986934397
 28,Logistic,test,f1,0.8407688160804463
@@ -2452,7 +2467,7 @@ fid,model,data_type,score_func,score
 28,SVC,test,precision,0.7636425409451101
 28,SVC,train,recall,0.9352291592956482
 28,SVC,validation,recall,0.9349703018798604
-28,SVC,test,recall,0.9352245052806775
+28,SVC,test,recall,0.9352245052806776
 28,SVC,train,f1,0.840591675266598
 28,SVC,validation,f1,0.8399944986934397
 28,SVC,test,f1,0.8407688160804463
@@ -2467,7 +2482,7 @@ fid,model,data_type,score_func,score
 28,Decision Tree,test,precision,0.7636425409451101
 28,Decision Tree,train,recall,0.9352291592956482
 28,Decision Tree,validation,recall,0.9349703018798604
-28,Decision Tree,test,recall,0.9352245052806775
+28,Decision Tree,test,recall,0.9352245052806776
 28,Decision Tree,train,f1,0.840591675266598
 28,Decision Tree,validation,f1,0.8399944986934397
 28,Decision Tree,test,f1,0.8407688160804463
@@ -2482,7 +2497,7 @@ fid,model,data_type,score_func,score
 28,Random Forest,test,precision,0.7636425409451101
 28,Random Forest,train,recall,0.9352291592956482
 28,Random Forest,validation,recall,0.9349703018798604
-28,Random Forest,test,recall,0.9352245052806775
+28,Random Forest,test,recall,0.9352245052806776
 28,Random Forest,train,f1,0.840591675266598
 28,Random Forest,validation,f1,0.8399944986934397
 28,Random Forest,test,f1,0.8407688160804463
@@ -2497,7 +2512,7 @@ fid,model,data_type,score_func,score
 28,Voting,test,precision,0.7636425409451101
 28,Voting,train,recall,0.9352291592956482
 28,Voting,validation,recall,0.9349703018798604
-28,Voting,test,recall,0.9352245052806775
+28,Voting,test,recall,0.9352245052806776
 28,Voting,train,f1,0.840591675266598
 28,Voting,validation,f1,0.8399944986934397
 28,Voting,test,f1,0.8407688160804463
@@ -2512,7 +2527,7 @@ fid,model,data_type,score_func,score
 28,AdaBoost,test,precision,0.7636425409451101
 28,AdaBoost,train,recall,0.9352291592956482
 28,AdaBoost,validation,recall,0.9349703018798604
-28,AdaBoost,test,recall,0.9352245052806775
+28,AdaBoost,test,recall,0.9352245052806776
 28,AdaBoost,train,f1,0.840591675266598
 28,AdaBoost,validation,f1,0.8399944986934397
 28,AdaBoost,test,f1,0.8407688160804463
@@ -2526,7 +2541,7 @@ fid,model,data_type,score_func,score
 29,Logistic,validation,precision,0.7675137192861027
 29,Logistic,test,precision,0.766981663062476
 29,Logistic,train,recall,0.9500891326239012
-29,Logistic,validation,recall,0.9506153940358827
+29,Logistic,validation,recall,0.9506153940358828
 29,Logistic,test,recall,0.9505586626363002
 29,Logistic,train,f1,0.8488953870097027
 29,Logistic,validation,f1,0.849307949012528
@@ -2541,7 +2556,7 @@ fid,model,data_type,score_func,score
 29,SVC,validation,precision,0.7675137192861027
 29,SVC,test,precision,0.766981663062476
 29,SVC,train,recall,0.9500891326239012
-29,SVC,validation,recall,0.9506153940358827
+29,SVC,validation,recall,0.9506153940358828
 29,SVC,test,recall,0.9505586626363002
 29,SVC,train,f1,0.8488953870097027
 29,SVC,validation,f1,0.849307949012528
@@ -2555,9 +2570,9 @@ fid,model,data_type,score_func,score
 29,Decision Tree,train,precision,0.7664574961275676
 29,Decision Tree,validation,precision,0.7672044862019775
 29,Decision Tree,test,precision,0.7664567718105642
-29,Decision Tree,train,recall,0.9544709196309501
-29,Decision Tree,validation,recall,0.9550241871287735
-29,Decision Tree,test,recall,0.9548419468138485
+29,Decision Tree,train,recall,0.95447091963095
+29,Decision Tree,validation,recall,0.9550241871287736
+29,Decision Tree,test,recall,0.9548419468138484
 29,Decision Tree,train,f1,0.850193865692515
 29,Decision Tree,validation,f1,0.8508728859792689
 29,Decision Tree,test,f1,0.8503405808947742
@@ -2570,9 +2585,9 @@ fid,model,data_type,score_func,score
 29,Random Forest,train,precision,0.7664574961275676
 29,Random Forest,validation,precision,0.7672044862019775
 29,Random Forest,test,precision,0.7664567718105642
-29,Random Forest,train,recall,0.9544709196309501
-29,Random Forest,validation,recall,0.9550241871287735
-29,Random Forest,test,recall,0.9548419468138485
+29,Random Forest,train,recall,0.95447091963095
+29,Random Forest,validation,recall,0.9550241871287736
+29,Random Forest,test,recall,0.9548419468138484
 29,Random Forest,train,f1,0.850193865692515
 29,Random Forest,validation,f1,0.8508728859792689
 29,Random Forest,test,f1,0.8503405808947742
@@ -2586,7 +2601,7 @@ fid,model,data_type,score_func,score
 29,Voting,validation,precision,0.7675137192861027
 29,Voting,test,precision,0.766981663062476
 29,Voting,train,recall,0.9500891326239012
-29,Voting,validation,recall,0.9506153940358827
+29,Voting,validation,recall,0.9506153940358828
 29,Voting,test,recall,0.9505586626363002
 29,Voting,train,f1,0.8488953870097027
 29,Voting,validation,f1,0.849307949012528
@@ -2601,7 +2616,7 @@ fid,model,data_type,score_func,score
 29,AdaBoost,validation,precision,0.7675137192861027
 29,AdaBoost,test,precision,0.766981663062476
 29,AdaBoost,train,recall,0.9500891326239012
-29,AdaBoost,validation,recall,0.9506153940358827
+29,AdaBoost,validation,recall,0.9506153940358828
 29,AdaBoost,test,recall,0.9505586626363002
 29,AdaBoost,train,f1,0.8488953870097027
 29,AdaBoost,validation,f1,0.849307949012528
@@ -2617,7 +2632,7 @@ fid,model,data_type,score_func,score
 30,Logistic,test,precision,0.7546196041020748
 30,Logistic,train,recall,0.9686777073184007
 30,Logistic,validation,recall,0.9675157675586308
-30,Logistic,test,recall,0.9680589379902831
+30,Logistic,test,recall,0.9680589379902832
 30,Logistic,train,f1,0.8480751761009099
 30,Logistic,validation,f1,0.8475071740821197
 30,Logistic,test,f1,0.848116737608423
@@ -2632,7 +2647,7 @@ fid,model,data_type,score_func,score
 30,SVC,test,precision,0.7546196041020748
 30,SVC,train,recall,0.9686777073184007
 30,SVC,validation,recall,0.9675157675586308
-30,SVC,test,recall,0.9680589379902831
+30,SVC,test,recall,0.9680589379902832
 30,SVC,train,f1,0.8480751761009099
 30,SVC,validation,f1,0.8475071740821197
 30,SVC,test,f1,0.848116737608423
@@ -2677,7 +2692,7 @@ fid,model,data_type,score_func,score
 30,Voting,test,precision,0.7546196041020748
 30,Voting,train,recall,0.9686777073184007
 30,Voting,validation,recall,0.9675157675586308
-30,Voting,test,recall,0.9680589379902831
+30,Voting,test,recall,0.9680589379902832
 30,Voting,train,f1,0.8480751761009099
 30,Voting,validation,f1,0.8475071740821197
 30,Voting,test,f1,0.848116737608423
@@ -2690,9 +2705,9 @@ fid,model,data_type,score_func,score
 30,AdaBoost,train,precision,0.7586271425471903
 30,AdaBoost,validation,precision,0.7589643380556913
 30,AdaBoost,test,precision,0.7592455115556684
-30,AdaBoost,train,recall,0.9516132324524399
+30,AdaBoost,train,recall,0.95161323245244
 30,AdaBoost,validation,recall,0.9513195762659972
-30,AdaBoost,test,recall,0.9512195121951219
+30,AdaBoost,test,recall,0.951219512195122
 30,AdaBoost,train,f1,0.8442317675322637
 30,AdaBoost,validation,f1,0.8443248824760197
 30,AdaBoost,test,f1,0.8444594132122312
@@ -2706,8 +2721,8 @@ fid,model,data_type,score_func,score
 31,Logistic,validation,precision,0.7659590242937993
 31,Logistic,test,precision,0.766664689248779
 31,Logistic,train,recall,0.9488031733935716
-31,Logistic,validation,recall,0.9489008633886473
-31,Logistic,test,recall,0.9489554905584179
+31,Logistic,validation,recall,0.9489008633886472
+31,Logistic,test,recall,0.948955490558418
 31,Logistic,train,f1,0.847848193236245
 31,Logistic,validation,f1,0.8476717948717949
 31,Logistic,test,f1,0.8481255639714528
@@ -2722,7 +2737,7 @@ fid,model,data_type,score_func,score
 31,SVC,test,precision,0.7664684851956466
 31,SVC,train,recall,0.9496026454018452
 31,SVC,validation,recall,0.949849978568367
-31,SVC,test,recall,0.9497631955747555
+31,SVC,test,recall,0.9497631955747556
 31,SVC,train,f1,0.8480250825603899
 31,SVC,validation,f1,0.8480441735232211
 31,SVC,test,f1,0.8483278405395508
@@ -2736,7 +2751,7 @@ fid,model,data_type,score_func,score
 31,Decision Tree,validation,precision,0.8367621981407118
 31,Decision Tree,test,precision,0.8347101997827733
 31,Decision Tree,train,recall,0.931711482459244
-31,Decision Tree,validation,recall,0.9314493907292879
+31,Decision Tree,validation,recall,0.931449390729288
 31,Decision Tree,test,recall,0.9311003145154382
 31,Decision Tree,train,f1,0.8803409874428031
 31,Decision Tree,validation,f1,0.8815705592581861
@@ -2751,7 +2766,7 @@ fid,model,data_type,score_func,score
 31,Random Forest,validation,precision,0.8367621981407118
 31,Random Forest,test,precision,0.8347101997827733
 31,Random Forest,train,recall,0.931711482459244
-31,Random Forest,validation,recall,0.9314493907292879
+31,Random Forest,validation,recall,0.931449390729288
 31,Random Forest,test,recall,0.9311003145154382
 31,Random Forest,train,f1,0.8803409874428031
 31,Random Forest,validation,f1,0.8815705592581861
@@ -2828,28 +2843,28 @@ fid,model,data_type,score_func,score
 32,Decision Tree,train,recall,0.976070271888523
 32,Decision Tree,validation,recall,0.7280019594635968
 32,Decision Tree,test,recall,0.7250253937561955
-32,Decision Tree,train,f1,0.9872053153768471
+32,Decision Tree,train,f1,0.9872053153768472
 32,Decision Tree,validation,f1,0.7322616407982261
 32,Decision Tree,test,f1,0.7289774824658546
 32,Decision Tree,train,roc_auc,0.9861402882373564
 32,Decision Tree,validation,roc_auc,0.5040890108812821
-32,Decision Tree,test,roc_auc,0.49641370444331806
+32,Decision Tree,test,roc_auc,0.496413704443318
 32,Random Forest,train,accuracy,0.9812033925827848
 32,Random Forest,validation,accuracy,0.6152082021764547
 32,Random Forest,test,accuracy,0.611026171418293
 32,Random Forest,train,precision,0.981676061833201
 32,Random Forest,validation,precision,0.7361338922301197
 32,Random Forest,test,precision,0.7336500261210803
-32,Random Forest,train,recall,0.9929374302588249
+32,Random Forest,train,recall,0.9929374302588247
 32,Random Forest,validation,recall,0.7419937542097851
 32,Random Forest,test,recall,0.7390011381297957
-32,Random Forest,train,f1,0.9872746338328315
+32,Random Forest,train,f1,0.9872746338328316
 32,Random Forest,validation,f1,0.7390522078555746
 32,Random Forest,test,f1,0.736315860067552
 32,Random Forest,train,roc_auc,0.9708530071710522
 32,Random Forest,validation,roc_auc,0.5033398600065346
 32,Random Forest,test,roc_auc,0.4976343682981984
-32,Voting,train,accuracy,0.9812933285034413
+32,Voting,train,accuracy,0.9812933285034412
 32,Voting,validation,accuracy,0.6156129148304703
 32,Voting,test,accuracy,0.6109542225020236
 32,Voting,train,precision,0.9817139205596476
@@ -2858,12 +2873,12 @@ fid,model,data_type,score_func,score
 32,Voting,train,recall,0.993022480472471
 32,Voting,validation,recall,0.7421468373032882
 32,Voting,test,recall,0.7389766622202097
-32,Voting,train,f1,0.9873358206178523
+32,Voting,train,f1,0.9873358206178524
 32,Voting,validation,f1,0.7392948639746247
 32,Voting,test,f1,0.7362735176130613
-32,Voting,train,roc_auc,0.9709472526867485
+32,Voting,train,roc_auc,0.9709472526867484
 32,Voting,validation,roc_auc,0.5039665962375591
-32,Voting,test,roc_auc,0.49752035607872447
+32,Voting,test,roc_auc,0.4975203560787244
 32,AdaBoost,train,accuracy,0.7343467779207314
 32,AdaBoost,validation,accuracy,0.7343511107113949
 32,AdaBoost,test,accuracy,0.7348952243906827
@@ -2915,10 +2930,10 @@ fid,model,data_type,score_func,score
 33,Decision Tree,train,precision,0.9998285628077298
 33,Decision Tree,validation,precision,0.7460366134126521
 33,Decision Tree,test,precision,0.7426556414257455
-33,Decision Tree,train,recall,0.9920324959856299
+33,Decision Tree,train,recall,0.99203249598563
 33,Decision Tree,validation,recall,0.7448717163676444
 33,Decision Tree,test,recall,0.7397109395077894
-33,Decision Tree,train,f1,0.9959152726453051
+33,Decision Tree,train,f1,0.9959152726453052
 33,Decision Tree,validation,f1,0.745453709803441
 33,Decision Tree,test,f1,0.7411803656607522
 33,Decision Tree,train,roc_auc,0.9957811552252088
@@ -2930,13 +2945,13 @@ fid,model,data_type,score_func,score
 33,Random Forest,train,precision,0.9939026456891468
 33,Random Forest,validation,precision,0.7455343534719259
 33,Random Forest,test,precision,0.7424854961832061
-33,Random Forest,train,recall,0.9976288000435457
+33,Random Forest,train,recall,0.9976288000435456
 33,Random Forest,validation,recall,0.7488212601800257
 33,Random Forest,test,recall,0.7439575098209588
-33,Random Forest,train,f1,0.9957622370498651
+33,Random Forest,train,f1,0.9957622370498652
 33,Random Forest,validation,f1,0.7471741919716502
 33,Random Forest,test,f1,0.7432207741399125
-33,Random Forest,train,roc_auc,0.9903557622433055
+33,Random Forest,train,roc_auc,0.9903557622433056
 33,Random Forest,validation,roc_auc,0.5211009974507712
 33,Random Forest,test,roc_auc,0.5143439888216643
 33,Voting,train,accuracy,0.9938393894350276
@@ -2999,13 +3014,13 @@ fid,model,data_type,score_func,score
 34,SVC,train,roc_auc,0.5
 34,SVC,validation,roc_auc,0.5
 34,SVC,test,roc_auc,0.5
-34,Decision Tree,train,accuracy,0.9928126210075321
+34,Decision Tree,train,accuracy,0.992812621007532
 34,Decision Tree,validation,accuracy,0.6197724615522978
 34,Decision Tree,test,accuracy,0.6138321791528015
 34,Decision Tree,train,precision,0.9997218683578902
 34,Decision Tree,validation,precision,0.7412615262077628
 34,Decision Tree,test,precision,0.7377696562381192
-34,Decision Tree,train,recall,0.9904879841058161
+34,Decision Tree,train,recall,0.990487984105816
 34,Decision Tree,validation,recall,0.7408303226991612
 34,Decision Tree,test,recall,0.7361986464821999
 34,Decision Tree,train,f1,0.9950835052198238
@@ -3020,19 +3035,19 @@ fid,model,data_type,score_func,score
 34,Random Forest,train,precision,0.9926579157692256
 34,Random Forest,validation,precision,0.7414527314758487
 34,Random Forest,test,precision,0.7380700281134762
-34,Random Forest,train,recall,0.9971831369240399
+34,Random Forest,train,recall,0.99718313692404
 34,Random Forest,validation,recall,0.746310697446574
 34,Random Forest,test,recall,0.7421707684211815
-34,Random Forest,train,f1,0.9949153808033563
+34,Random Forest,train,f1,0.9949153808033564
 34,Random Forest,validation,f1,0.7438737831487076
 34,Random Forest,test,f1,0.7401147180864047
-34,Random Forest,train,roc_auc,0.9883979460586195
+34,Random Forest,train,roc_auc,0.9883979460586196
 34,Random Forest,validation,roc_auc,0.5134126705448546
 34,Random Forest,test,roc_auc,0.5060210968000673
 34,Voting,train,accuracy,0.992600272305982
 34,Voting,validation,accuracy,0.6223806097670653
 34,Voting,test,accuracy,0.6169439697814552
-34,Voting,train,precision,0.9927121502543297
+34,Voting,train,precision,0.9927121502543296
 34,Voting,validation,precision,0.7413085135505064
 34,Voting,test,precision,0.7380173032696122
 34,Voting,train,recall,0.9972443730778652
@@ -3089,22 +3104,22 @@ fid,model,data_type,score_func,score
 35,SVC,train,roc_auc,0.5
 35,SVC,validation,roc_auc,0.5
 35,SVC,test,roc_auc,0.5
-35,Decision Tree,train,accuracy,0.9974118440611065
+35,Decision Tree,train,accuracy,0.9974118440611064
 35,Decision Tree,validation,accuracy,0.723041640435291
 35,Decision Tree,test,accuracy,0.7197769583595647
-35,Decision Tree,train,precision,0.9999556214027733
+35,Decision Tree,train,precision,0.9999556214027732
 35,Decision Tree,validation,precision,0.8124270532587997
 35,Decision Tree,test,precision,0.8087479082947564
-35,Decision Tree,train,recall,0.9965197452576001
+35,Decision Tree,train,recall,0.9965197452576
 35,Decision Tree,validation,recall,0.8098401812503827
 35,Decision Tree,test,recall,0.8103117007085776
-35,Decision Tree,train,f1,0.9982347268086383
+35,Decision Tree,train,f1,0.9982347268086385
 35,Decision Tree,validation,f1,0.8111315547378105
 35,Decision Tree,test,f1,0.8095290492957746
-35,Decision Tree,train,roc_auc,0.9981987485092225
+35,Decision Tree,train,roc_auc,0.9981987485092224
 35,Decision Tree,validation,roc_auc,0.6464555570209929
 35,Decision Tree,test,roc_auc,0.6395589442919352
-35,Random Forest,train,accuracy,0.9972369686598299
+35,Random Forest,train,accuracy,0.99723696865983
 35,Random Forest,validation,accuracy,0.7229741883262883
 35,Random Forest,test,accuracy,0.7200467667955751
 35,Random Forest,train,precision,0.9979323525610942
@@ -3113,10 +3128,10 @@ fid,model,data_type,score_func,score
 35,Random Forest,train,recall,0.998305799744169
 35,Random Forest,validation,recall,0.8106362133365991
 35,Random Forest,test,recall,0.8114865443687052
-35,Random Forest,train,f1,0.9981190412212287
+35,Random Forest,train,f1,0.9981190412212289
 35,Random Forest,validation,f1,0.8112447338184603
 35,Random Forest,test,f1,0.8099006998644241
-35,Random Forest,train,roc_auc,0.9962941718179943
+35,Random Forest,train,roc_auc,0.9962941718179944
 35,Random Forest,validation,roc_auc,0.6456262156914925
 35,Random Forest,test,roc_auc,0.6390268492105086
 35,Voting,train,accuracy,0.9973294028005046
@@ -3125,13 +3140,13 @@ fid,model,data_type,score_func,score
 35,Voting,train,precision,0.9979122960323424
 35,Voting,validation,precision,0.8119136673002637
 35,Voting,test,precision,0.8082233514910003
-35,Voting,train,recall,0.9984520861116403
+35,Voting,train,recall,0.9984520861116404
 35,Voting,validation,recall,0.8108199130488029
 35,Voting,test,recall,0.8116456377810141
 35,Voting,train,f1,0.9981821180960024
 35,Voting,validation,f1,0.8113664215686275
 35,Voting,test,f1,0.8099308795154239
-35,Voting,train,roc_auc,0.9963391038696173
+35,Voting,train,roc_auc,0.9963391038696172
 35,Voting,validation,roc_auc,0.6457603882156152
 35,Voting,test,roc_auc,0.6388858850098543
 35,AdaBoost,train,accuracy,0.6741321808211649
@@ -3146,8 +3161,8 @@ fid,model,data_type,score_func,score
 35,AdaBoost,train,f1,0.8018370031872581
 35,AdaBoost,validation,f1,0.8014731048834249
 35,AdaBoost,test,f1,0.8021525487686829
-35,AdaBoost,train,roc_auc,0.47683855513943674
-35,AdaBoost,validation,roc_auc,0.47788468127985906
+35,AdaBoost,train,roc_auc,0.4768385551394367
+35,AdaBoost,validation,roc_auc,0.477884681279859
 35,AdaBoost,test,roc_auc,0.4771655465277619
 36,Logistic,train,accuracy,0.7343367850406586
 36,Logistic,validation,accuracy,0.7343735947477291
@@ -3185,25 +3200,25 @@ fid,model,data_type,score_func,score
 36,Decision Tree,train,precision,0.9992256931601744
 36,Decision Tree,validation,precision,0.7359488377813307
 36,Decision Tree,test,precision,0.7346369748935908
-36,Decision Tree,train,recall,0.9834084043219117
+36,Decision Tree,train,recall,0.9834084043219116
 36,Decision Tree,validation,recall,0.7328393852182965
 36,Decision Tree,test,recall,0.72872125610368
-36,Decision Tree,train,f1,0.9912539542380001
+36,Decision Tree,train,f1,0.991253954238
 36,Decision Tree,validation,f1,0.7343908201147485
 36,Decision Tree,test,f1,0.7316671581637668
 36,Decision Tree,train,roc_auc,0.9906509865620806
 36,Decision Tree,validation,roc_auc,0.5029526196448686
-36,Decision Tree,test,roc_auc,0.49951685154812525
+36,Decision Tree,test,roc_auc,0.4995168515481252
 36,Random Forest,train,accuracy,0.987024245225277
 36,Random Forest,validation,accuracy,0.6146685853044338
 36,Random Forest,test,accuracy,0.6117996222681896
-36,Random Forest,train,precision,0.9872463787680387
+36,Random Forest,train,precision,0.9872463787680388
 36,Random Forest,validation,precision,0.7354547109142753
 36,Random Forest,test,precision,0.7348229188240885
-36,Random Forest,train,recall,0.9951861579076287
+36,Random Forest,train,recall,0.9951861579076288
 36,Random Forest,validation,recall,0.7422999203967914
 36,Random Forest,test,recall,0.7381322433394931
-36,Random Forest,train,f1,0.9912003686560995
+36,Random Forest,train,f1,0.9912003686560996
 36,Random Forest,validation,f1,0.7388614615712805
 36,Random Forest,test,f1,0.736473863511484
 36,Random Forest,train,roc_auc,0.9798247675781456
@@ -3218,12 +3233,12 @@ fid,model,data_type,score_func,score
 36,Voting,train,recall,0.9952644041041832
 36,Voting,validation,recall,0.7432184189578103
 36,Voting,test,recall,0.7381689572038721
-36,Voting,train,f1,0.9912463936056489
+36,Voting,train,f1,0.9912463936056488
 36,Voting,validation,f1,0.7396066602684216
 36,Voting,test,f1,0.7364880127473306
 36,Voting,train,roc_auc,0.9798826980978312
 36,Voting,validation,roc_auc,0.5031480616881484
-36,Voting,test,roc_auc,0.49984744633949413
+36,Voting,test,roc_auc,0.4998474463394941
 36,AdaBoost,train,accuracy,0.7343392832606768
 36,AdaBoost,validation,accuracy,0.7343511107113949
 36,AdaBoost,test,accuracy,0.7348952243906827
@@ -3269,7 +3284,7 @@ fid,model,data_type,score_func,score
 37,SVC,train,roc_auc,0.5
 37,SVC,validation,roc_auc,0.5
 37,SVC,test,roc_auc,0.5
-37,Decision Tree,train,accuracy,0.9959803639906567
+37,Decision Tree,train,accuracy,0.9959803639906568
 37,Decision Tree,validation,accuracy,0.6282714272866265
 37,Decision Tree,test,accuracy,0.6214227898192284
 37,Decision Tree,train,precision,0.9999110767578586
@@ -3278,40 +3293,40 @@ fid,model,data_type,score_func,score
 37,Decision Tree,train,recall,0.9946146204719266
 37,Decision Tree,validation,recall,0.7465250137774784
 37,Decision Tree,test,recall,0.7416200604554967
-37,Decision Tree,train,f1,0.9972558162539589
+37,Decision Tree,train,f1,0.9972558162539588
 37,Decision Tree,validation,f1,0.7468108240554986
 37,Decision Tree,test,f1,0.742219554913224
-37,Decision Tree,train,roc_auc,0.9971850619968081
+37,Decision Tree,train,roc_auc,0.997185061996808
 37,Decision Tree,validation,roc_auc,0.5239312050434708
 37,Decision Tree,test,roc_auc,0.5149223890159561
 37,Random Forest,train,accuracy,0.9957255455487964
 37,Random Forest,validation,accuracy,0.6294181131396709
 37,Random Forest,test,accuracy,0.6226099469376742
-37,Random Forest,train,precision,0.9958295299143849
+37,Random Forest,train,precision,0.9958295299143848
 37,Random Forest,validation,precision,0.7468269465462534
 37,Random Forest,test,precision,0.7427186244458828
-37,Random Forest,train,recall,0.9983602318809025
+37,Random Forest,train,recall,0.9983602318809024
 37,Random Forest,validation,recall,0.7494335925540383
 37,Random Forest,test,recall,0.7443001725551626
 37,Random Forest,train,f1,0.9970932751195564
 37,Random Forest,validation,f1,0.748127999021975
 37,Random Forest,test,f1,0.7435085574572127
-37,Random Forest,train,roc_auc,0.9934015357126933
+37,Random Forest,train,roc_auc,0.9934015357126932
 37,Random Forest,validation,roc_auc,0.5235232970388272
 37,Random Forest,test,roc_auc,0.5147867182279154
-37,Voting,train,accuracy,0.9957954957093071
+37,Voting,train,accuracy,0.9957954957093073
 37,Voting,validation,accuracy,0.6295305333213419
 37,Voting,test,accuracy,0.6225829660940732
-37,Voting,train,precision,0.9958770373034807
+37,Voting,train,precision,0.9958770373034808
 37,Voting,validation,precision,0.7468354430379747
 37,Voting,test,precision,0.7427032704003126
-37,Voting,train,recall,0.9984078600005443
+37,Voting,train,recall,0.9984078600005444
 37,Voting,validation,recall,0.7496479088849427
 37,Voting,test,recall,0.7442756966455766
-37,Voting,train,f1,0.9971408427973193
+37,Voting,train,f1,0.9971408427973192
 37,Voting,validation,f1,0.7482390331107613
 37,Voting,test,f1,0.7434886521311255
-37,Voting,train,roc_auc,0.9934911757474439
+37,Voting,train,roc_auc,0.993491175747444
 37,Voting,validation,roc_auc,0.5235458098682375
 37,Voting,test,roc_auc,0.5147575178956756
 37,AdaBoost,train,accuracy,0.7343367850406586
@@ -3368,16 +3383,16 @@ fid,model,data_type,score_func,score
 38,Decision Tree,train,recall,0.9934885556432518
 38,Decision Tree,validation,recall,0.7441981507562305
 38,Decision Tree,test,recall,0.7354031794206553
-38,Decision Tree,train,f1,0.9966622071752307
+38,Decision Tree,train,f1,0.9966622071752308
 38,Decision Tree,validation,f1,0.7423571450386343
 38,Decision Tree,test,f1,0.7370809670415936
-38,Decision Tree,train,roc_auc,0.9965467998968367
+38,Decision Tree,train,roc_auc,0.9965467998968368
 38,Decision Tree,validation,roc_auc,0.511636911843326
 38,Decision Tree,test,roc_auc,0.5072680313427869
 38,Random Forest,train,accuracy,0.9948186916821764
 38,Random Forest,validation,accuracy,0.6221108013310549
 38,Random Forest,test,accuracy,0.6165842252001079
-38,Random Forest,train,precision,0.9948626653102747
+38,Random Forest,train,precision,0.9948626653102748
 38,Random Forest,validation,precision,0.7405115136069901
 38,Random Forest,test,precision,0.73896029251709
 38,Random Forest,train,recall,0.9980982772228724
@@ -3389,7 +3404,7 @@ fid,model,data_type,score_func,score
 38,Random Forest,train,roc_auc,0.9919258277529714
 38,Random Forest,validation,roc_auc,0.5116594350389522
 38,Random Forest,test,roc_auc,0.5076725381582716
-38,Voting,train,accuracy,0.9948911400627053
+38,Voting,train,accuracy,0.9948911400627052
 38,Voting,validation,accuracy,0.6221782534400575
 38,Voting,test,accuracy,0.6165032826693048
 38,Voting,train,precision,0.9950041547253642
@@ -3398,10 +3413,10 @@ fid,model,data_type,score_func,score
 38,Voting,train,recall,0.9980540511117764
 38,Voting,validation,recall,0.7472598126262936
 38,Voting,test,recall,0.7394049906379646
-38,Voting,train,f1,0.9965267693520089
+38,Voting,train,f1,0.9965267693520088
 38,Voting,validation,f1,0.7439117315370782
 38,Voting,test,f1,0.739165275050618
-38,Voting,train,roc_auc,0.9921011926222125
+38,Voting,train,roc_auc,0.9921011926222124
 38,Voting,validation,roc_auc,0.5118134174016858
 38,Voting,test,roc_auc,0.5076066239616528
 38,AdaBoost,train,accuracy,0.7343367850406586
@@ -3426,13 +3441,13 @@ fid,model,data_type,score_func,score
 39,Logistic,validation,precision,0.7333211143695014
 39,Logistic,test,precision,0.7338333745455211
 39,Logistic,train,recall,0.9803568026562882
-39,Logistic,validation,recall,0.9799767313697875
+39,Logistic,validation,recall,0.9799767313697876
 39,Logistic,test,recall,0.980602841653103
 39,Logistic,train,f1,0.8387677969283698
 39,Logistic,validation,f1,0.8388939850609356
 39,Logistic,test,f1,0.8394585760382182
-39,Logistic,train,roc_auc,0.49642246523576206
-39,Logistic,validation,roc_auc,0.49735250992054636
+39,Logistic,train,roc_auc,0.496422465235762
+39,Logistic,validation,roc_auc,0.4973525099205463
 39,Logistic,test,roc_auc,0.4973238450895362
 39,SVC,train,accuracy,0.7343367850406586
 39,SVC,validation,accuracy,0.7343735947477291
@@ -3452,37 +3467,37 @@ fid,model,data_type,score_func,score
 39,Decision Tree,train,accuracy,0.9983012103875988
 39,Decision Tree,validation,accuracy,0.7235812573073118
 39,Decision Tree,test,accuracy,0.720163683784513
-39,Decision Tree,train,precision,0.9999829510969265
+39,Decision Tree,train,precision,0.9999829510969264
 39,Decision Tree,validation,precision,0.8109998167715141
 39,Decision Tree,test,precision,0.8092031288193595
-39,Decision Tree,train,recall,0.9977036442315543
+39,Decision Tree,train,recall,0.9977036442315544
 39,Decision Tree,validation,recall,0.8130855428326496
 39,Decision Tree,test,recall,0.8102627488894056
-39,Decision Tree,train,f1,0.9988419973502175
+39,Decision Tree,train,f1,0.9988419973502176
 39,Decision Tree,validation,f1,0.8120413405088063
 39,Decision Tree,test,f1,0.8097325921985166
-39,Decision Tree,train,roc_auc,0.9988283128390165
+39,Decision Tree,train,roc_auc,0.9988283128390164
 39,Decision Tree,validation,roc_auc,0.644607779034405
 39,Decision Tree,test,roc_auc,0.6403317001223499
 39,Random Forest,train,accuracy,0.998123836766304
 39,Random Forest,validation,accuracy,0.7238960338159907
 39,Random Forest,test,accuracy,0.7204065113769224
-39,Random Forest,train,precision,0.9986360312250209
+39,Random Forest,train,precision,0.9986360312250208
 39,Random Forest,validation,precision,0.8109097565440234
 39,Random Forest,test,precision,0.8089867067052404
 39,Random Forest,train,recall,0.998809297008954
 39,Random Forest,validation,recall,0.813789725062764
 39,Random Forest,test,recall,0.8110459779961573
-39,Random Forest,train,f1,0.9987226566021303
+39,Random Forest,train,f1,0.9987226566021304
 39,Random Forest,validation,f1,0.8123471882640586
 39,Random Forest,test,f1,0.8100150335504847
-39,Random Forest,train,roc_auc,0.9975192045082761
+39,Random Forest,train,roc_auc,0.997519204508276
 39,Random Forest,validation,roc_auc,0.6445789661372733
 39,Random Forest,test,roc_auc,0.6400957067101932
-39,Voting,train,accuracy,0.9982137726869605
+39,Voting,train,accuracy,0.9982137726869604
 39,Voting,validation,accuracy,0.7238060976706538
 39,Voting,test,accuracy,0.7204424858350571
-39,Voting,train,precision,0.9986158487024007
+39,Voting,train,precision,0.9986158487024008
 39,Voting,validation,precision,0.8107160282995852
 39,Voting,test,precision,0.8089507792572342
 39,Voting,train,recall,0.9989521813678796
@@ -3491,7 +3506,7 @@ fid,model,data_type,score_func,score
 39,Voting,train,f1,0.9987839867207948
 39,Voting,validation,f1,0.8123262138295597
 39,Voting,test,f1,0.8100580507179956
-39,Voting,train,roc_auc,0.9975624355556261
+39,Voting,train,roc_auc,0.997562435555626
 39,Voting,validation,roc_auc,0.644274603671836
 39,Voting,test,roc_auc,0.6400551222194771
 39,AdaBoost,train,accuracy,0.6737274691782105
@@ -3506,9 +3521,9 @@ fid,model,data_type,score_func,score
 39,AdaBoost,train,f1,0.8012823633951286
 39,AdaBoost,validation,f1,0.8008116705056487
 39,AdaBoost,test,f1,0.8015248778564074
-39,AdaBoost,train,roc_auc,0.47785335841127896
-39,AdaBoost,validation,roc_auc,0.47855193127422757
-39,AdaBoost,test,roc_auc,0.47800814426695465
+39,AdaBoost,train,roc_auc,0.4778533584112789
+39,AdaBoost,validation,roc_auc,0.4785519312742275
+39,AdaBoost,test,roc_auc,0.4780081442669546
 40,Logistic,train,accuracy,0.7343367850406586
 40,Logistic,validation,accuracy,0.7343735947477291
 40,Logistic,test,accuracy,0.7348952243906827
@@ -3539,37 +3554,37 @@ fid,model,data_type,score_func,score
 40,SVC,train,roc_auc,0.5
 40,SVC,validation,roc_auc,0.5
 40,SVC,test,roc_auc,0.5
-40,Decision Tree,train,accuracy,0.9905592265510823
+40,Decision Tree,train,accuracy,0.9905592265510824
 40,Decision Tree,validation,accuracy,0.6201097220973109
 40,Decision Tree,test,accuracy,0.6131936325209102
 40,Decision Tree,train,precision,0.9996143104594182
 40,Decision Tree,validation,precision,0.7417949819029508
 40,Decision Tree,test,precision,0.737797984762841
-40,Decision Tree,train,recall,0.9875248346623847
+40,Decision Tree,train,recall,0.9875248346623848
 40,Decision Tree,validation,recall,0.7404323066560529
 40,Decision Tree,test,recall,0.7347912816810055
 40,Decision Tree,train,f1,0.993532797223501
 40,Decision Tree,validation,f1,0.7411130178965433
 40,Decision Tree,test,f1,0.7362915637090495
-40,Decision Tree,train,roc_auc,0.9932358095317547
+40,Decision Tree,train,roc_auc,0.9932358095317548
 40,Decision Tree,validation,roc_auc,0.5139439339273154
 40,Decision Tree,test,roc_auc,0.5054524308801948
 40,Random Forest,train,accuracy,0.9903094045492586
 40,Random Forest,validation,accuracy,0.6232125191114308
 40,Random Forest,test,accuracy,0.6166291932727763
-40,Random Forest,train,precision,0.9905928754816035
+40,Random Forest,train,precision,0.9905928754816036
 40,Random Forest,validation,precision,0.7416580562815293
 40,Random Forest,test,precision,0.7380505749366595
-40,Random Forest,train,recall,0.9962645946166617
+40,Random Forest,train,recall,0.9962645946166616
 40,Random Forest,validation,recall,0.7471985793888923
 40,Random Forest,test,recall,0.7415099188623597
-40,Random Forest,train,f1,0.9934206397533121
+40,Random Forest,train,f1,0.993420639753312
 40,Random Forest,validation,f1,0.7444180087847732
 40,Random Forest,test,f1,0.7397762027727415
 40,Random Forest,train,roc_auc,0.9850564375740798
 40,Random Forest,validation,roc_auc,0.5138142888479929
 40,Random Forest,test,roc_auc,0.5059790324372524
-40,Voting,train,accuracy,0.9903668636096781
+40,Voting,train,accuracy,0.990366863609678
 40,Voting,validation,accuracy,0.6236621998381149
 40,Voting,test,accuracy,0.6167640974907815
 40,Voting,train,precision,0.9905703771849126
@@ -3578,7 +3593,7 @@ fid,model,data_type,score_func,score
 40,Voting,train,recall,0.996366654873037
 40,Voting,validation,recall,0.7477802951442043
 40,Voting,test,recall,0.7418158677321846
-40,Voting,train,f1,0.9934600616002497
+40,Voting,train,f1,0.9934600616002496
 40,Voting,validation,f1,0.7447930960875797
 40,Voting,test,f1,0.7399233417152901
 40,Voting,train,roc_auc,0.9850745547148024
@@ -3629,16 +3644,16 @@ fid,model,data_type,score_func,score
 41,SVC,train,roc_auc,0.5
 41,SVC,validation,roc_auc,0.5
 41,SVC,test,roc_auc,0.5
-41,Decision Tree,train,accuracy,0.9969696591178785
+41,Decision Tree,train,accuracy,0.9969696591178784
 41,Decision Tree,validation,accuracy,0.632206133645112
 41,Decision Tree,test,accuracy,0.6291662919327278
 41,Decision Tree,train,precision,0.9999521790961166
 41,Decision Tree,validation,precision,0.7494950113239885
 41,Decision Tree,test,precision,0.7472091262183355
-41,Decision Tree,train,recall,0.9959209917535313
+41,Decision Tree,train,recall,0.9959209917535312
 41,Decision Tree,validation,recall,0.7497703753597452
 41,Decision Tree,test,recall,0.7486813603710548
-41,Decision Tree,train,f1,0.9979325144067783
+41,Decision Tree,train,f1,0.9979325144067784
 41,Decision Tree,validation,f1,0.7496326680543652
 41,Decision Tree,test,f1,0.7479445188187326
 41,Decision Tree,train,roc_auc,0.997894669901836
@@ -3647,13 +3662,13 @@ fid,model,data_type,score_func,score
 41,Random Forest,train,accuracy,0.9966948549158724
 41,Random Forest,validation,accuracy,0.6335102077524958
 41,Random Forest,test,accuracy,0.630146595916899
-41,Random Forest,train,precision,0.9968419015148685
+41,Random Forest,train,precision,0.9968419015148684
 41,Random Forest,validation,precision,0.7496338337605273
 41,Random Forest,test,precision,0.7470269612318179
 41,Random Forest,train,recall,0.9986630106414828
 41,Random Forest,validation,recall,0.7521584716183944
 41,Random Forest,test,recall,0.7510677615556888
-41,Random Forest,train,f1,0.9977516251009049
+41,Random Forest,train,f1,0.9977516251009048
 41,Random Forest,validation,f1,0.7508940306262798
 41,Random Forest,test,f1,0.7490419117826542
 41,Random Forest,train,roc_auc,0.994958779843268
@@ -3719,10 +3734,10 @@ fid,model,data_type,score_func,score
 42,SVC,train,roc_auc,0.5
 42,SVC,validation,roc_auc,0.5
 42,SVC,test,roc_auc,0.5
-42,Decision Tree,train,accuracy,0.9964375382539941
+42,Decision Tree,train,accuracy,0.996437538253994
 42,Decision Tree,validation,accuracy,0.6244266570734778
 42,Decision Tree,test,accuracy,0.6197499775159636
-42,Decision Tree,train,precision,0.9999042977161333
+42,Decision Tree,train,precision,0.9999042977161332
 42,Decision Tree,validation,precision,0.7439911931991927
 42,Decision Tree,test,precision,0.7411066952002445
 42,Decision Tree,train,recall,0.995243992052908
@@ -3743,7 +3758,7 @@ fid,model,data_type,score_func,score
 42,Random Forest,train,recall,0.9985949704705658
 42,Random Forest,validation,recall,0.7477802951442043
 42,Random Forest,test,recall,0.7445816455154015
-42,Random Forest,train,f1,0.9973921035954991
+42,Random Forest,train,f1,0.9973921035954992
 42,Random Forest,validation,f1,0.745907647202541
 42,Random Forest,test,f1,0.7428452822816957
 42,Random Forest,train,roc_auc,0.9940220035302022
@@ -3752,13 +3767,13 @@ fid,model,data_type,score_func,score
 42,Voting,train,accuracy,0.996267659292754
 42,Voting,validation,accuracy,0.6257307311808616
 42,Voting,test,accuracy,0.6212698983721557
-42,Voting,train,precision,0.9962061312719301
+42,Voting,train,precision,0.99620613127193
 42,Voting,validation,precision,0.7439529641138122
 42,Voting,test,precision,0.7412226201788368
 42,Voting,train,recall,0.9987208447867622
 42,Voting,validation,recall,0.7476884452881024
 42,Voting,test,recall,0.7446061214249875
-42,Voting,train,f1,0.9974619030630447
+42,Voting,train,f1,0.9974619030630448
 42,Voting,validation,f1,0.7458160273637918
 42,Voting,test,f1,0.742910518379233
 42,Voting,train,roc_auc,0.9941037481097088
@@ -3785,9 +3800,9 @@ fid,model,data_type,score_func,score
 43,Logistic,train,precision,0.7334853916071208
 43,Logistic,validation,precision,0.7347418397626113
 43,Logistic,test,precision,0.7343046030978194
-43,Logistic,train,recall,0.9474219579239583
-43,Logistic,validation,recall,0.9476149654032209
-43,Logistic,test,recall,0.9474257462092935
+43,Logistic,train,recall,0.9474219579239584
+43,Logistic,validation,recall,0.9476149654032208
+43,Logistic,test,recall,0.9474257462092937
 43,Logistic,train,f1,0.8268393448560991
 43,Logistic,validation,f1,0.8277106983834089
 43,Logistic,test,f1,0.827361041348281
@@ -3800,7 +3815,7 @@ fid,model,data_type,score_func,score
 43,SVC,train,precision,0.732222597176334
 43,SVC,validation,precision,0.7330897949563988
 43,SVC,test,precision,0.7329174989635548
-43,SVC,train,recall,0.9522426040334213
+43,SVC,train,recall,0.9522426040334212
 43,SVC,validation,recall,0.952329924683118
 43,SVC,test,recall,0.9519415515279086
 43,SVC,train,f1,0.8278634099019095
@@ -3815,19 +3830,19 @@ fid,model,data_type,score_func,score
 43,Decision Tree,train,precision,0.9999795548407322
 43,Decision Tree,validation,precision,0.8178270755238739
 43,Decision Tree,test,precision,0.8136173218374008
-43,Decision Tree,train,recall,0.9983602318809025
+43,Decision Tree,train,recall,0.9983602318809024
 43,Decision Tree,validation,recall,0.8149225399546874
 43,Decision Tree,test,recall,0.8176299976747886
-43,Decision Tree,train,f1,0.9991692372644755
+43,Decision Tree,train,f1,0.9991692372644756
 43,Decision Tree,validation,f1,0.8163722242669611
 43,Decision Tree,test,f1,0.8156187244016627
-43,Decision Tree,train,roc_auc,0.9991519048083385
+43,Decision Tree,train,roc_auc,0.9991519048083384
 43,Decision Tree,validation,roc_auc,0.6565301712808819
 43,Decision Tree,test,roc_auc,0.6492058120137691
-43,Random Forest,train,accuracy,0.9986159861098967
+43,Random Forest,train,accuracy,0.9986159861098968
 43,Random Forest,validation,accuracy,0.7310684414066013
 43,Random Forest,test,accuracy,0.7284378091554996
-43,Random Forest,train,precision,0.9989490081902533
+43,Random Forest,train,precision,0.9989490081902532
 43,Random Forest,validation,precision,0.8177046563737377
 43,Random Forest,test,precision,0.8133698296836983
 43,Random Forest,train,recall,0.9991665079062678
@@ -3839,7 +3854,7 @@ fid,model,data_type,score_func,score
 43,Random Forest,train,roc_auc,0.9981303806493282
 43,Random Forest,validation,roc_auc,0.6564590357157292
 43,Random Forest,test,roc_auc,0.6488888773407153
-43,Voting,train,accuracy,0.9636958666949799
+43,Voting,train,accuracy,0.96369586669498
 43,Voting,validation,accuracy,0.7124066912492131
 43,Voting,test,accuracy,0.7092454357406242
 43,Voting,train,precision,0.9989856418315594
@@ -3861,8 +3876,8 @@ fid,model,data_type,score_func,score
 43,AdaBoost,validation,precision,0.7347418397626113
 43,AdaBoost,test,precision,0.7343071232097126
 43,AdaBoost,train,recall,0.9474321639495958
-43,AdaBoost,validation,recall,0.9476149654032209
-43,AdaBoost,test,recall,0.9474379841640865
+43,AdaBoost,validation,recall,0.9476149654032208
+43,AdaBoost,test,recall,0.9474379841640864
 43,AdaBoost,train,f1,0.8268421146389402
 43,AdaBoost,validation,f1,0.8277106983834089
 43,AdaBoost,test,f1,0.8273673073532005
@@ -3899,10 +3914,10 @@ fid,model,data_type,score_func,score
 44,SVC,train,roc_auc,0.5
 44,SVC,validation,roc_auc,0.5
 44,SVC,test,roc_auc,0.5
-44,Decision Tree,train,accuracy,0.9935820727731491
+44,Decision Tree,train,accuracy,0.9935820727731492
 44,Decision Tree,validation,accuracy,0.6185808076265851
 44,Decision Tree,test,accuracy,0.614722546991636
-44,Decision Tree,train,precision,0.9997941645654299
+44,Decision Tree,train,precision,0.99979416456543
 44,Decision Tree,validation,precision,0.7401480846897565
 44,Decision Tree,test,precision,0.7385786178961581
 44,Decision Tree,train,recall,0.9914643605584738
@@ -3917,28 +3932,28 @@ fid,model,data_type,score_func,score
 44,Random Forest,train,accuracy,0.993327254331289
 44,Random Forest,validation,accuracy,0.6208516952963395
 44,Random Forest,test,accuracy,0.6171418293011961
-44,Random Forest,train,precision,0.9934772959071303
+44,Random Forest,train,precision,0.9934772959071304
 44,Random Forest,validation,precision,0.7401866885584846
 44,Random Forest,test,precision,0.7386855616668903
-44,Random Forest,train,recall,0.9974621016247993
+44,Random Forest,train,recall,0.9974621016247992
 44,Random Forest,validation,recall,0.7453309656481538
 44,Random Forest,test,recall,0.7412529218117069
-44,Random Forest,train,f1,0.9954657110311731
+44,Random Forest,train,f1,0.9954657110311732
 44,Random Forest,validation,f1,0.7427499199096886
 44,Random Forest,test,f1,0.7399670148433205
-44,Random Forest,train,roc_auc,0.9896799792595649
+44,Random Forest,train,roc_auc,0.9896799792595647
 44,Random Forest,validation,roc_auc,0.5110182845846999
 44,Random Forest,test,roc_auc,0.5071735993527782
-44,Voting,train,accuracy,0.9933772187316537
+44,Voting,train,accuracy,0.9933772187316536
 44,Voting,validation,accuracy,0.6208292112600053
 44,Voting,test,accuracy,0.6169349761669215
-44,Voting,train,precision,0.9934743939419607
+44,Voting,train,precision,0.9934743939419608
 44,Voting,validation,precision,0.7401349790235301
 44,Voting,test,precision,0.7384726049108775
-44,Voting,train,recall,0.9975335438042621
+44,Voting,train,recall,0.997533543804262
 44,Voting,validation,recall,0.7453921988855551
 44,Voting,test,recall,0.7412651597664999
-44,Voting,train,f1,0.9954998310951317
+44,Voting,train,f1,0.9954998310951316
 44,Voting,validation,f1,0.7427542864116176
 44,Voting,test,f1,0.739866247289828
 44,Voting,train,roc_auc,0.9897109984939442
@@ -3995,13 +4010,13 @@ fid,model,data_type,score_func,score
 45,Decision Tree,train,precision,0.9999727088201682
 45,Decision Tree,validation,precision,0.7510127670022096
 45,Decision Tree,test,precision,0.7473779318933835
-45,Decision Tree,train,recall,0.9972205590180443
+45,Decision Tree,train,recall,0.9972205590180444
 45,Decision Tree,validation,recall,0.7492192762231339
 45,Decision Tree,test,recall,0.7490974508340166
-45,Decision Tree,train,f1,0.9985947376758495
+45,Decision Tree,train,f1,0.9985947376758496
 45,Decision Tree,validation,f1,0.7501149495754529
 45,Decision Tree,test,f1,0.7482367034605839
-45,Decision Tree,train,roc_auc,0.9985726646662051
+45,Decision Tree,train,roc_auc,0.9985726646662052
 45,Decision Tree,validation,roc_auc,0.5312458324572584
 45,Decision Tree,test,roc_auc,0.5235971360422416
 45,Random Forest,train,accuracy,0.9976641642829484
@@ -4010,13 +4025,13 @@ fid,model,data_type,score_func,score
 45,Random Forest,train,precision,0.9976865927689887
 45,Random Forest,validation,precision,0.7509413169253375
 45,Random Forest,test,precision,0.7472838002436054
-45,Random Forest,train,recall,0.9991358898293553
+45,Random Forest,train,recall,0.9991358898293552
 45,Random Forest,validation,recall,0.7510562733451718
 45,Random Forest,test,recall,0.7508230024598289
 45,Random Forest,train,f1,0.9984107153480702
 45,Random Forest,validation,f1,0.7509987907361204
 45,Random Forest,test,f1,0.7490492207578154
-45,Random Forest,train,roc_auc,0.9963659814198825
+45,Random Forest,train,roc_auc,0.9963659814198824
 45,Random Forest,validation,roc_auc,0.5311909096537946
 45,Random Forest,test,roc_auc,0.5234760939632319
 45,Voting,train,accuracy,0.9977565984236232
@@ -4028,7 +4043,7 @@ fid,model,data_type,score_func,score
 45,Voting,train,recall,0.9991528998720844
 45,Voting,validation,recall,0.7510868899638724
 45,Voting,test,recall,0.750578243363969
-45,Voting,train,f1,0.9984735367711053
+45,Voting,train,f1,0.9984735367711052
 45,Voting,validation,f1,0.7510064134943595
 45,Voting,test,f1,0.7488644688644689
 45,Voting,train,roc_auc,0.996524945812515
@@ -4040,7 +4055,7 @@ fid,model,data_type,score_func,score
 45,AdaBoost,train,precision,0.7343379558962034
 45,AdaBoost,validation,precision,0.7343735947477291
 45,AdaBoost,test,precision,0.73489944958089
-45,AdaBoost,train,recall,0.9999965979914541
+45,AdaBoost,train,recall,0.999996597991454
 45,AdaBoost,validation,recall,1.0
 45,AdaBoost,test,recall,0.999987762045207
 45,AdaBoost,train,f1,0.8468209965904523
@@ -4079,31 +4094,31 @@ fid,model,data_type,score_func,score
 46,SVC,train,roc_auc,0.5
 46,SVC,validation,roc_auc,0.5
 46,SVC,test,roc_auc,0.5
-46,Decision Tree,train,accuracy,0.9975892176824013
+46,Decision Tree,train,accuracy,0.9975892176824012
 46,Decision Tree,validation,accuracy,0.6274844860149295
 46,Decision Tree,test,accuracy,0.6197229966723626
-46,Decision Tree,train,precision,0.9999522195715461
+46,Decision Tree,train,precision,0.999952219571546
 46,Decision Tree,validation,precision,0.7463116008570554
 46,Decision Tree,test,precision,0.7416113140027942
 46,Decision Tree,train,recall,0.996764689872901
 46,Decision Tree,validation,recall,0.7464943971587777
 46,Decision Tree,test,recall,0.7405675963432992
-46,Decision Tree,train,f1,0.9983559104593059
+46,Decision Tree,train,f1,0.998355910459306
 46,Decision Tree,validation,f1,0.7464029878160778
 46,Decision Tree,test,f1,0.7410890876915823
 46,Decision Tree,train,roc_auc,0.9983165189615208
 46,Decision Tree,validation,roc_auc,0.5224769260214068
 46,Decision Tree,test,roc_auc,0.5126490320828346
-46,Random Forest,train,accuracy,0.9973044206003223
+46,Random Forest,train,accuracy,0.9973044206003224
 46,Random Forest,validation,accuracy,0.6286311718679738
 46,Random Forest,test,accuracy,0.6206313517402644
-46,Random Forest,train,precision,0.9973609040177435
+46,Random Forest,train,precision,0.9973609040177436
 46,Random Forest,validation,precision,0.7464358763012486
 46,Random Forest,test,precision,0.7415700125884553
-46,Random Forest,train,recall,0.9989725934191547
+46,Random Forest,train,recall,0.9989725934191548
 46,Random Forest,validation,recall,0.7486069438491213
 46,Random Forest,test,recall,0.7425501450197644
-46,Random Forest,train,f1,0.9981660981400937
+46,Random Forest,train,f1,0.9981660981400936
 46,Random Forest,validation,f1,0.7475198336874608
 46,Random Forest,test,f1,0.7420597551579489
 46,Random Forest,train,roc_auc,0.9958329551009786
@@ -4112,16 +4127,16 @@ fid,model,data_type,score_func,score
 46,Voting,train,accuracy,0.9974093458410882
 46,Voting,validation,accuracy,0.6284063315046318
 46,Voting,test,accuracy,0.620757262343736
-46,Voting,train,precision,0.9973714149870099
+46,Voting,train,precision,0.99737141498701
 46,Voting,validation,precision,0.7463283563860645
 46,Voting,test,precision,0.7416437519095631
-46,Voting,train,recall,0.9991052717524427
+46,Voting,train,recall,0.9991052717524428
 46,Voting,validation,recall,0.7483620108995163
 46,Voting,test,recall,0.7426602866129013
-46,Voting,train,f1,0.9982375904785699
+46,Voting,train,f1,0.99823759047857
 46,Voting,validation,f1,0.7473438001620473
 46,Voting,test,f1,0.7421516711712264
-46,Voting,train,roc_auc,0.9959133998336789
+46,Voting,train,roc_auc,0.9959133998336788
 46,Voting,validation,roc_auc,0.5225642795313563
 46,Voting,test,roc_auc,0.5127454840806135
 46,AdaBoost,train,accuracy,0.7343492761407497
@@ -4145,9 +4160,9 @@ fid,model,data_type,score_func,score
 47,Logistic,train,precision,0.7334853916071208
 47,Logistic,validation,precision,0.7347418397626113
 47,Logistic,test,precision,0.7343046030978194
-47,Logistic,train,recall,0.9474219579239583
-47,Logistic,validation,recall,0.9476149654032209
-47,Logistic,test,recall,0.9474257462092935
+47,Logistic,train,recall,0.9474219579239584
+47,Logistic,validation,recall,0.9476149654032208
+47,Logistic,test,recall,0.9474257462092937
 47,Logistic,train,f1,0.8268393448560991
 47,Logistic,validation,f1,0.8277106983834089
 47,Logistic,test,f1,0.827361041348281
@@ -4160,19 +4175,19 @@ fid,model,data_type,score_func,score
 47,SVC,train,precision,0.7325921637558646
 47,SVC,validation,precision,0.7333254661316969
 47,SVC,test,precision,0.7332113138479537
-47,SVC,train,recall,0.9514023079225975
-47,SVC,validation,recall,0.9512889596472965
+47,SVC,train,recall,0.9514023079225976
+47,SVC,validation,recall,0.9512889596472964
 47,SVC,test,recall,0.951084894692399
 47,SVC,train,f1,0.8277816668467314
 47,SVC,validation,f1,0.8282066318370829
 47,SVC,test,f1,0.8280564922991683
-47,SVC,train,roc_auc,0.49573575961669036
+47,SVC,train,roc_auc,0.4957357596166903
 47,SVC,validation,roc_auc,0.4974406538544592
 47,SVC,test,roc_auc,0.4958803379049402
-47,Decision Tree,train,accuracy,0.9991955731541277
+47,Decision Tree,train,accuracy,0.9991955731541275
 47,Decision Tree,validation,accuracy,0.7335641694396978
 47,Decision Tree,test,accuracy,0.728905477111251
-47,Decision Tree,train,precision,0.9999931886140873
+47,Decision Tree,train,precision,0.9999931886140871
 47,Decision Tree,validation,precision,0.8201452128968743
 47,Decision Tree,test,precision,0.8147045182708034
 47,Decision Tree,train,recall,0.9989113572653294
@@ -4181,7 +4196,7 @@ fid,model,data_type,score_func,score
 47,Decision Tree,train,f1,0.9994519801895944
 47,Decision Tree,validation,f1,0.8181567074854986
 47,Decision Tree,test,f1,0.8158047504689974
-47,Decision Tree,train,roc_auc,0.9994462749219605
+47,Decision Tree,train,roc_auc,0.9994462749219604
 47,Decision Tree,validation,roc_auc,0.6606705934099871
 47,Decision Tree,test,roc_auc,0.6509311647733349
 47,Random Forest,train,accuracy,0.9989932173326505
@@ -4190,7 +4205,7 @@ fid,model,data_type,score_func,score
 47,Random Forest,train,precision,0.9992618419933668
 47,Random Forest,validation,precision,0.8200737780510298
 47,Random Forest,test,precision,0.8146205819938044
-47,Random Forest,train,recall,0.9993672264104727
+47,Random Forest,train,recall,0.9993672264104728
 47,Random Forest,validation,recall,0.8167595370767252
 47,Random Forest,test,recall,0.8174219524433076
 47,Random Forest,train,f1,0.9993145314235464
@@ -4199,10 +4214,10 @@ fid,model,data_type,score_func,score
 47,Random Forest,train,roc_auc,0.9986633105938258
 47,Random Forest,validation,roc_auc,0.6606651926114961
 47,Random Forest,test,roc_auc,0.650882839029945
-47,Voting,train,accuracy,0.9634935108735027
+47,Voting,train,accuracy,0.9634935108735028
 47,Voting,validation,accuracy,0.7152621638636568
 47,Voting,test,accuracy,0.7097670653835777
-47,Voting,train,precision,0.9993207274651337
+47,Voting,train,precision,0.9993207274651336
 47,Voting,validation,precision,0.823278370514064
 47,Voting,test,precision,0.8168059257740414
 47,Voting,train,recall,0.9509328307432708
@@ -4211,7 +4226,7 @@ fid,model,data_type,score_func,score
 47,Voting,train,f1,0.9745265011200112
 47,Voting,validation,f1,0.8008554535161656
 47,Voting,test,f1,0.7979842874581364
-47,Voting,train,roc_auc,0.9745730628547323
+47,Voting,train,roc_auc,0.9745730628547324
 47,Voting,validation,roc_auc,0.6584750858936876
 47,Voting,test,roc_auc,0.647528076718227
 47,AdaBoost,train,accuracy,0.7085951259727444
@@ -4221,8 +4236,8 @@ fid,model,data_type,score_func,score
 47,AdaBoost,validation,precision,0.7347418397626113
 47,AdaBoost,test,precision,0.7343046030978194
 47,AdaBoost,train,recall,0.94742876194105
-47,AdaBoost,validation,recall,0.9476149654032209
-47,AdaBoost,test,recall,0.9474257462092935
+47,AdaBoost,validation,recall,0.9476149654032208
+47,AdaBoost,test,recall,0.9474257462092937
 47,AdaBoost,train,f1,0.8268403730848081
 47,AdaBoost,validation,f1,0.8277106983834089
 47,AdaBoost,test,f1,0.827361041348281
@@ -4268,16 +4283,16 @@ fid,model,data_type,score_func,score
 48,Decision Tree,train,recall,0.9849767302615464
 48,Decision Tree,validation,recall,0.744320617231033
 48,Decision Tree,test,recall,0.7428438559347962
-48,Decision Tree,train,f1,0.9920999474015149
+48,Decision Tree,train,f1,0.9920999474015147
 48,Decision Tree,validation,f1,0.7468473035036788
 48,Decision Tree,test,f1,0.7447578616738034
 48,Decision Tree,train,roc_auc,0.9915715033371094
 48,Decision Tree,validation,roc_auc,0.5280770176048513
 48,Decision Tree,test,roc_auc,0.5221156892049732
-48,Random Forest,train,accuracy,0.9882558676942679
+48,Random Forest,train,accuracy,0.988255867694268
 48,Random Forest,validation,accuracy,0.6337125640795036
 48,Random Forest,test,accuracy,0.6305782894145157
-48,Random Forest,train,precision,0.9882117430213991
+48,Random Forest,train,precision,0.9882117430213992
 48,Random Forest,validation,precision,0.7493070995644626
 48,Random Forest,test,precision,0.7471145543217834
 48,Random Forest,train,recall,0.9958869716680728
@@ -4349,16 +4364,16 @@ fid,model,data_type,score_func,score
 49,SVC,train,roc_auc,0.5375295072231163
 49,SVC,validation,roc_auc,0.5396166425118286
 49,SVC,test,roc_auc,0.5370494771179267
-49,Decision Tree,train,accuracy,0.9963201219131369
+49,Decision Tree,train,accuracy,0.9963201219131368
 49,Decision Tree,validation,accuracy,0.6484171238420722
 49,Decision Tree,test,accuracy,0.645093983271877
 49,Decision Tree,train,precision,0.9999179540474294
 49,Decision Tree,validation,precision,0.7606319463580417
 49,Decision Tree,test,precision,0.7580970299690902
-49,Decision Tree,train,recall,0.9950704896170699
+49,Decision Tree,train,recall,0.99507048961707
 49,Decision Tree,validation,recall,0.7606086583797685
 49,Decision Tree,test,recall,0.7593773328601324
-49,Decision Tree,train,f1,0.9974883325972823
+49,Decision Tree,train,f1,0.9974883325972824
 49,Decision Tree,validation,f1,0.7606203021906526
 49,Decision Tree,test,f1,0.7587366413147149
 49,Decision Tree,train,roc_auc,0.997422400280084
@@ -4367,7 +4382,7 @@ fid,model,data_type,score_func,score
 49,Random Forest,train,accuracy,0.9960752963513496
 49,Random Forest,validation,accuracy,0.6496087777677849
 49,Random Forest,test,accuracy,0.6464520190664628
-49,Random Forest,train,precision,0.9960536004533439
+49,Random Forest,train,precision,0.996053600453344
 49,Random Forest,validation,precision,0.7604942037827944
 49,Random Forest,test,precision,0.7580955395403194
 49,Random Forest,train,recall,0.998611980513295
@@ -4376,22 +4391,22 @@ fid,model,data_type,score_func,score
 49,Random Forest,train,f1,0.9973311497800874
 49,Random Forest,validation,f1,0.7618654686592707
 49,Random Forest,test,f1,0.7600895903135051
-49,Random Forest,train,roc_auc,0.9938377324821297
+49,Random Forest,train,roc_auc,0.9938377324821296
 49,Random Forest,validation,roc_auc,0.5493455771612028
 49,Random Forest,test,roc_auc,0.54398767716627
-49,Voting,train,accuracy,0.9804039621769489
+49,Voting,train,accuracy,0.9804039621769488
 49,Voting,validation,accuracy,0.653610936235273
 49,Voting,test,accuracy,0.6498965734328627
 49,Voting,train,precision,0.9961397862142158
 49,Voting,validation,precision,0.7690700430362377
 49,Voting,test,precision,0.7659402543479071
-49,Voting,train,recall,0.9771010804779141
+49,Voting,train,recall,0.977101080477914
 49,Voting,validation,recall,0.7550364337762537
 49,Voting,test,recall,0.7540171086608006
 49,Voting,train,f1,0.9865285863946278
 49,Voting,validation,f1,0.7619886293412433
 49,Voting,test,f1,0.7599319165731342
-49,Voting,train,roc_auc,0.9833173752320453
+49,Voting,train,roc_auc,0.9833173752320452
 49,Voting,validation,roc_auc,0.5641188601926808
 49,Voting,test,roc_auc,0.5576409117616179
 49,AdaBoost,train,accuracy,0.7484042619633511
@@ -4401,8 +4416,8 @@ fid,model,data_type,score_func,score
 49,AdaBoost,validation,precision,0.775344356137078
 49,AdaBoost,test,precision,0.7741606702407403
 49,AdaBoost,train,recall,0.9292144081865934
-49,AdaBoost,validation,recall,0.9289082113771355
-49,AdaBoost,test,recall,0.9295460942567279
+49,AdaBoost,validation,recall,0.9289082113771356
+49,AdaBoost,test,recall,0.929546094256728
 49,AdaBoost,train,f1,0.8443392726868052
 49,AdaBoost,validation,f1,0.8452077500591979
 49,AdaBoost,test,f1,0.8447674709581987
@@ -4416,7 +4431,7 @@ fid,model,data_type,score_func,score
 50,Logistic,validation,precision,0.7496952648851383
 50,Logistic,test,precision,0.7503986941593651
 50,Logistic,train,recall,0.979394034237814
-50,Logistic,validation,recall,0.9791806992835711
+50,Logistic,validation,recall,0.9791806992835712
 50,Logistic,test,recall,0.9789262418464626
 50,Logistic,train,f1,0.8492116635447854
 50,Logistic,validation,f1,0.8492074028836196
@@ -4431,7 +4446,7 @@ fid,model,data_type,score_func,score
 50,SVC,validation,precision,0.7496952648851383
 50,SVC,test,precision,0.7503986941593651
 50,SVC,train,recall,0.979394034237814
-50,SVC,validation,recall,0.9791806992835711
+50,SVC,validation,recall,0.9791806992835712
 50,SVC,test,recall,0.9789262418464626
 50,SVC,train,f1,0.8492116635447854
 50,SVC,validation,f1,0.8492074028836196
@@ -4439,13 +4454,13 @@ fid,model,data_type,score_func,score
 50,SVC,train,roc_auc,0.5374772712071703
 50,SVC,validation,roc_auc,0.5376689005136325
 50,SVC,test,roc_auc,0.5381451441956131
-50,Decision Tree,train,accuracy,0.9955481719275017
+50,Decision Tree,train,accuracy,0.9955481719275016
 50,Decision Tree,validation,accuracy,0.6397158017807357
 50,Decision Tree,test,accuracy,0.6349491860778848
 50,Decision Tree,train,precision,0.9998562854581414
 50,Decision Tree,validation,precision,0.7545749433869882
 50,Decision Tree,test,precision,0.7514030347121181
-50,Decision Tree,train,recall,0.9940805051302289
+50,Decision Tree,train,recall,0.9940805051302288
 50,Decision Tree,validation,recall,0.7549445839201518
 50,Decision Tree,test,recall,0.7520835118035074
 50,Decision Tree,train,f1,0.9969600300243948
@@ -4454,22 +4469,22 @@ fid,model,data_type,score_func,score
 50,Decision Tree,train,roc_auc,0.9968427746403254
 50,Decision Tree,validation,roc_auc,0.5380444944317198
 50,Decision Tree,test,roc_auc,0.5311626976529495
-50,Random Forest,train,accuracy,0.9953058445857327
+50,Random Forest,train,accuracy,0.9953058445857328
 50,Random Forest,validation,accuracy,0.6416719129418114
 50,Random Forest,test,accuracy,0.6372695386275744
 50,Random Forest,train,precision,0.995305817191427
 50,Random Forest,validation,precision,0.7548377266493982
 50,Random Forest,test,precision,0.751742933969266
-50,Random Forest,train,recall,0.9983160057698065
+50,Random Forest,train,recall,0.9983160057698064
 50,Random Forest,validation,recall,0.7583736452146225
 50,Random Forest,test,recall,0.7561220368851957
 50,Random Forest,train,f1,0.9968086389244144
 50,Random Forest,validation,f1,0.7566015547444142
 50,Random Forest,test,f1,0.753926126587839
-50,Random Forest,train,roc_auc,0.9926506350775665
+50,Random Forest,train,roc_auc,0.9926506350775663
 50,Random Forest,validation,roc_auc,0.5387009583784302
 50,Random Forest,test,roc_auc,0.5319606690176224
-50,Voting,train,accuracy,0.9802815493960553
+50,Voting,train,accuracy,0.9802815493960552
 50,Voting,validation,accuracy,0.6454492310459574
 50,Voting,test,accuracy,0.6417303714362802
 50,Voting,train,precision,0.9951394971248948
@@ -4478,7 +4493,7 @@ fid,model,data_type,score_func,score
 50,Voting,train,recall,0.9779243665460088
 50,Voting,validation,recall,0.750627640683363
 50,Voting,test,recall,0.7486324085518828
-50,Voting,train,f1,0.9864568301810389
+50,Voting,train,f1,0.9864568301810388
 50,Voting,validation,f1,0.7566625001928924
 50,Voting,test,f1,0.7543747148265529
 50,Voting,train,roc_auc,0.9823607783586252
@@ -4490,8 +4505,8 @@ fid,model,data_type,score_func,score
 50,AdaBoost,train,precision,0.7495834027662056
 50,AdaBoost,validation,precision,0.7497011321816178
 50,AdaBoost,test,precision,0.7504033771106942
-50,AdaBoost,train,recall,0.9793974362463599
-50,AdaBoost,validation,recall,0.9792113159022717
+50,AdaBoost,train,recall,0.97939743624636
+50,AdaBoost,validation,recall,0.9792113159022716
 50,AdaBoost,test,recall,0.9789507177560486
 50,AdaBoost,train,f1,0.8492171183820839
 50,AdaBoost,validation,f1,0.849222680987215
@@ -4506,7 +4521,7 @@ fid,model,data_type,score_func,score
 51,Logistic,validation,precision,0.7788633651551312
 51,Logistic,test,precision,0.7788300835654596
 51,Logistic,train,recall,0.957842310099883
-51,Logistic,validation,recall,0.9591880472720593
+51,Logistic,validation,recall,0.9591880472720592
 51,Logistic,test,recall,0.9580850048339922
 51,Logistic,train,f1,0.858735832713165
 51,Logistic,validation,f1,0.8596712674587712
@@ -4520,28 +4535,28 @@ fid,model,data_type,score_func,score
 51,SVC,train,precision,0.7481271338712487
 51,SVC,validation,precision,0.748631066598025
 51,SVC,test,precision,0.7486356190030423
-51,SVC,train,recall,0.9787850747081077
+51,SVC,train,recall,0.9787850747081076
 51,SVC,validation,recall,0.9794868654705774
-51,SVC,test,recall,0.9787059586601887
+51,SVC,test,recall,0.9787059586601888
 51,SVC,train,f1,0.8480519959028172
 51,SVC,validation,f1,0.848639185102658
 51,SVC,test,f1,0.8483488739670517
 51,SVC,train,roc_auc,0.5339567223814657
 51,SVC,validation,roc_auc,0.5351133328537921
 51,SVC,test,roc_auc,0.5338792201280046
-51,Decision Tree,train,accuracy,0.9983986409683101
+51,Decision Tree,train,accuracy,0.99839864096831
 51,Decision Tree,validation,accuracy,0.74844860149294
 51,Decision Tree,test,accuracy,0.7452828491770843
-51,Decision Tree,train,precision,0.9999727259400175
+51,Decision Tree,train,precision,0.9999727259400176
 51,Decision Tree,validation,precision,0.8291135360470819
 51,Decision Tree,test,precision,0.8257495332576784
 51,Decision Tree,train,recall,0.9978465285904798
 51,Decision Tree,validation,recall,0.8281489192333599
 51,Decision Tree,test,recall,0.8281546387967643
-51,Decision Tree,train,f1,0.9989084958527951
+51,Decision Tree,train,f1,0.9989084958527952
 51,Decision Tree,validation,f1,0.8286309469105169
 51,Decision Tree,test,f1,0.8269503372763712
-51,Decision Tree,train,roc_auc,0.9988856494524229
+51,Decision Tree,train,roc_auc,0.9988856494524228
 51,Decision Tree,validation,roc_auc,0.6781255853996493
 51,Decision Tree,test,roc_auc,0.6718545694577506
 51,Random Forest,train,accuracy,0.99822876200707
@@ -4550,13 +4565,13 @@ fid,model,data_type,score_func,score
 51,Random Forest,train,precision,0.998571792909972
 51,Random Forest,validation,precision,0.8289038579301898
 51,Random Forest,test,precision,0.825496648385131
-51,Random Forest,train,recall,0.9990168195302507
+51,Random Forest,train,recall,0.9990168195302508
 51,Random Forest,validation,recall,0.8288531014634744
 51,Random Forest,test,recall,0.828901154039137
 51,Random Forest,train,f1,0.9987942566481696
 51,Random Forest,validation,f1,0.8288784789198127
 51,Random Forest,test,f1,0.827195398227927
-51,Random Forest,train,roc_auc,0.9975336305172341
+51,Random Forest,train,roc_auc,0.997533630517234
 51,Random Forest,validation,roc_auc,0.6779274818304336
 51,Random Forest,test,roc_auc,0.6715832567359576
 51,Voting,train,accuracy,0.982702324593727
@@ -4565,7 +4580,7 @@ fid,model,data_type,score_func,score
 51,Voting,train,precision,0.9985582768803196
 51,Voting,validation,precision,0.8350225225225225
 51,Voting,test,precision,0.8310614831136174
-51,Voting,train,recall,0.9778563263750919
+51,Voting,train,recall,0.977856326375092
 51,Voting,validation,recall,0.8172800195946359
 51,Voting,test,recall,0.8170058619803459
 51,Voting,train,f1,0.988098880359715
@@ -4595,9 +4610,9 @@ fid,model,data_type,score_func,score
 52,Logistic,train,precision,0.7441538393454487
 52,Logistic,validation,precision,0.7436937359339835
 52,Logistic,test,precision,0.744500655799138
-52,Logistic,train,recall,0.9724981629153853
+52,Logistic,train,recall,0.9724981629153852
 52,Logistic,validation,recall,0.9712509950401078
-52,Logistic,test,recall,0.9725257914897263
+52,Logistic,test,recall,0.9725257914897264
 52,Logistic,train,f1,0.8431391344742915
 52,Logistic,validation,f1,0.8423749966807402
 52,Logistic,test,f1,0.8433720874700853
@@ -4619,13 +4634,13 @@ fid,model,data_type,score_func,score
 52,SVC,train,roc_auc,0.5
 52,SVC,validation,roc_auc,0.5
 52,SVC,test,roc_auc,0.5
-52,Decision Tree,train,accuracy,0.9922605143835017
+52,Decision Tree,train,accuracy,0.9922605143835016
 52,Decision Tree,validation,accuracy,0.6317339688820938
 52,Decision Tree,test,accuracy,0.6279431603561472
-52,Decision Tree,train,precision,0.9996564117012431
+52,Decision Tree,train,precision,0.9996564117012432
 52,Decision Tree,validation,precision,0.7498542274052478
 52,Decision Tree,test,precision,0.7475699558173785
-52,Decision Tree,train,recall,0.9898007783795553
+52,Decision Tree,train,recall,0.9898007783795552
 52,Decision Tree,validation,recall,0.7480864613312106
 52,Decision Tree,test,recall,0.7454383023509111
 52,Decision Tree,train,f1,0.9947041829774866
@@ -4634,13 +4649,13 @@ fid,model,data_type,score_func,score
 52,Decision Tree,train,roc_auc,0.9944302036545654
 52,Decision Tree,validation,roc_auc,0.5290711636264991
 52,Decision Tree,test,roc_auc,0.5238369718492012
-52,Random Forest,train,accuracy,0.9920156888217145
+52,Random Forest,train,accuracy,0.9920156888217144
 52,Random Forest,validation,accuracy,0.6353988668045688
 52,Random Forest,test,accuracy,0.6310909254429355
-52,Random Forest,train,precision,0.9918561926093341
+52,Random Forest,train,precision,0.991856192609334
 52,Random Forest,validation,precision,0.7502129990262901
 52,Random Forest,test,precision,0.7477896582799523
-52,Random Forest,train,recall,0.9973158152573279
+52,Random Forest,train,recall,0.997315815257328
 52,Random Forest,validation,recall,0.75485273406405
 52,Random Forest,test,recall,0.7514593761090647
 52,Random Forest,train,f1,0.994578511499459
@@ -4649,7 +4664,7 @@ fid,model,data_type,score_func,score
 52,Random Forest,train,roc_auc,0.9873405417961064
 52,Random Forest,validation,roc_auc,0.5299995852477013
 52,Random Forest,test,roc_auc,0.5244388511308291
-52,Voting,train,accuracy,0.9920256817017875
+52,Voting,train,accuracy,0.9920256817017876
 52,Voting,validation,accuracy,0.6353314146955662
 52,Voting,test,accuracy,0.631018976526666
 52,Voting,train,precision,0.9918895874077132
@@ -4658,10 +4673,10 @@ fid,model,data_type,score_func,score
 52,Voting,train,recall,0.9972954032060528
 52,Voting,validation,recall,0.7549752005388525
 52,Voting,test,recall,0.7515083279282366
-52,Voting,train,f1,0.9945851498753159
+52,Voting,train,f1,0.994585149875316
 52,Voting,validation,f1,0.7525214764179015
 52,Voting,test,f1,0.7495956494937226
-52,Voting,train,roc_auc,0.9873773543239901
+52,Voting,train,roc_auc,0.98737735432399
 52,Voting,validation,roc_auc,0.5297645598089555
 52,Voting,test,roc_auc,0.5242597785110532
 52,AdaBoost,train,accuracy,0.7341968847196373
@@ -4670,8 +4685,8 @@ fid,model,data_type,score_func,score
 52,AdaBoost,train,precision,0.7432055667798316
 52,AdaBoost,validation,precision,0.7428484692805268
 52,AdaBoost,test,precision,0.7436033816695594
-52,AdaBoost,train,recall,0.9748795688974771
-52,AdaBoost,validation,recall,0.9739452574857633
+52,AdaBoost,train,recall,0.9748795688974772
+52,AdaBoost,validation,recall,0.9739452574857632
 52,AdaBoost,test,recall,0.9752303794989782
 52,AdaBoost,train,f1,0.8434226075285828
 52,AdaBoost,validation,f1,0.842842948930251
@@ -4685,7 +4700,7 @@ fid,model,data_type,score_func,score
 53,Logistic,train,precision,0.7555483574631681
 53,Logistic,validation,precision,0.7563737342302445
 53,Logistic,test,precision,0.7557741904670934
-53,Logistic,train,recall,0.9681163759083363
+53,Logistic,train,recall,0.9681163759083364
 53,Logistic,validation,recall,0.9673626844651276
 53,Logistic,test,recall,0.96829145913135
 53,Logistic,train,f1,0.8487250722128523
@@ -4700,7 +4715,7 @@ fid,model,data_type,score_func,score
 53,SVC,train,precision,0.7555483574631681
 53,SVC,validation,precision,0.7563737342302445
 53,SVC,test,precision,0.7557741904670934
-53,SVC,train,recall,0.9681163759083363
+53,SVC,train,recall,0.9681163759083364
 53,SVC,validation,recall,0.9673626844651276
 53,SVC,test,recall,0.96829145913135
 53,SVC,train,f1,0.8487250722128523
@@ -4712,13 +4727,13 @@ fid,model,data_type,score_func,score
 53,Decision Tree,train,accuracy,0.9975917159024196
 53,Decision Tree,validation,accuracy,0.6514075006745211
 53,Decision Tree,test,accuracy,0.6439967622987679
-53,Decision Tree,train,precision,0.9999624575941461
+53,Decision Tree,train,precision,0.999962457594146
 53,Decision Tree,validation,precision,0.7621943765281174
 53,Decision Tree,test,precision,0.7572386337269652
-53,Decision Tree,train,recall,0.9967578858558093
+53,Decision Tree,train,recall,0.9967578858558092
 53,Decision Tree,validation,recall,0.7635478537750291
 53,Decision Tree,test,recall,0.7588511008040336
-53,Decision Tree,train,f1,0.9983576001880923
+53,Decision Tree,train,f1,0.9983576001880924
 53,Decision Tree,validation,f1,0.7628705148205928
 53,Decision Tree,test,f1,0.7580440097799512
 53,Decision Tree,train,roc_auc,0.9983272225190312
@@ -4760,7 +4775,7 @@ fid,model,data_type,score_func,score
 53,AdaBoost,train,precision,0.7555449945041233
 53,AdaBoost,validation,precision,0.7563737342302445
 53,AdaBoost,test,precision,0.7557669713728974
-53,AdaBoost,train,recall,0.9681197779168821
+53,AdaBoost,train,recall,0.968119777916882
 53,AdaBoost,validation,recall,0.9673626844651276
 53,AdaBoost,test,recall,0.96829145913135
 53,AdaBoost,train,f1,0.8487242577431815
@@ -4776,7 +4791,7 @@ fid,model,data_type,score_func,score
 54,Logistic,validation,precision,0.7496952648851383
 54,Logistic,test,precision,0.7503986941593651
 54,Logistic,train,recall,0.979394034237814
-54,Logistic,validation,recall,0.9791806992835711
+54,Logistic,validation,recall,0.9791806992835712
 54,Logistic,test,recall,0.9789262418464626
 54,Logistic,train,f1,0.8492116635447854
 54,Logistic,validation,f1,0.8492074028836196
@@ -4791,7 +4806,7 @@ fid,model,data_type,score_func,score
 54,SVC,validation,precision,0.7496952648851383
 54,SVC,test,precision,0.7503986941593651
 54,SVC,train,recall,0.979394034237814
-54,SVC,validation,recall,0.9791806992835711
+54,SVC,validation,recall,0.9791806992835712
 54,SVC,test,recall,0.9789262418464626
 54,SVC,train,f1,0.8492116635447854
 54,SVC,validation,f1,0.8492074028836196
@@ -4802,22 +4817,22 @@ fid,model,data_type,score_func,score
 54,Decision Tree,train,accuracy,0.9970121288581886
 54,Decision Tree,validation,accuracy,0.6417618490871482
 54,Decision Tree,test,accuracy,0.6353988668045688
-54,Decision Tree,train,precision,0.9999282762389425
+54,Decision Tree,train,precision,0.9999282762389424
 54,Decision Tree,validation,precision,0.7554747869643567
 54,Decision Tree,test,precision,0.752078562944641
 54,Decision Tree,train,recall,0.9960026399586316
 54,Decision Tree,validation,recall,0.7573020635601004
 54,Decision Tree,test,recall,0.7516551833857525
-54,Decision Tree,train,f1,0.9979615975893675
+54,Decision Tree,train,f1,0.9979615975893676
 54,Decision Tree,validation,f1,0.7563873216824917
 54,Decision Tree,test,f1,0.7518668135634716
-54,Decision Tree,train,roc_auc,0.9979025810169213
+54,Decision Tree,train,roc_auc,0.9979025810169212
 54,Decision Tree,validation,roc_auc,0.5398157516039879
 54,Decision Tree,test,roc_auc,0.5323903355270521
 54,Random Forest,train,accuracy,0.9968022783766566
 54,Random Forest,validation,accuracy,0.6427736307221873
 54,Random Forest,test,accuracy,0.6368468387444914
-54,Random Forest,train,precision,0.9967782673936217
+54,Random Forest,train,precision,0.9967782673936216
 54,Random Forest,validation,precision,0.7554519980506823
 54,Random Forest,test,precision,0.7522457647805497
 54,Random Forest,train,recall,0.9988739351713252
@@ -4826,19 +4841,19 @@ fid,model,data_type,score_func,score
 54,Random Forest,train,f1,0.99782500093457
 54,Random Forest,validation,f1,0.7574128927840719
 54,Random Forest,test,f1,0.7532524672308961
-54,Random Forest,train,roc_auc,0.9949749068564989
+54,Random Forest,train,roc_auc,0.9949749068564988
 54,Random Forest,validation,roc_auc,0.5398832952753265
 54,Random Forest,test,roc_auc,0.5328116340852713
-54,Voting,train,accuracy,0.9816980401463957
+54,Voting,train,accuracy,0.9816980401463956
 54,Voting,validation,accuracy,0.6460787840633151
 54,Voting,test,accuracy,0.640723086608508
-54,Voting,train,precision,0.9965937127491475
+54,Voting,train,precision,0.9965937127491477
 54,Voting,validation,precision,0.7632471452129811
 54,Voting,test,precision,0.7602537419459365
 54,Voting,train,recall,0.9784210597937022
 54,Voting,validation,recall,0.7510256567264711
 54,Voting,test,recall,0.7465397182822807
-54,Voting,train,f1,0.9874237804878049
+54,Voting,train,f1,0.9874237804878048
 54,Voting,validation,f1,0.7570870819894755
 54,Voting,test,f1,0.7533343212803792
 54,Voting,train,roc_auc,0.9845886060857152
@@ -4850,8 +4865,8 @@ fid,model,data_type,score_func,score
 54,AdaBoost,train,precision,0.749577543267641
 54,AdaBoost,validation,precision,0.7497011321816178
 54,AdaBoost,test,precision,0.7504104166080358
-54,AdaBoost,train,recall,0.9793872302207223
-54,AdaBoost,validation,recall,0.9792113159022717
+54,AdaBoost,train,recall,0.9793872302207224
+54,AdaBoost,validation,recall,0.9792113159022716
 54,AdaBoost,test,recall,0.9789507177560486
 54,AdaBoost,train,f1,0.8492095214356193
 54,AdaBoost,validation,f1,0.849222680987215
@@ -4866,7 +4881,7 @@ fid,model,data_type,score_func,score
 55,Logistic,validation,precision,0.7809868536812207
 55,Logistic,test,precision,0.7812123039806996
 55,Logistic,train,recall,0.9506164439485072
-55,Logistic,validation,recall,0.9512583430285959
+55,Logistic,validation,recall,0.951258343028596
 55,Logistic,test,recall,0.951072656737606
 55,Logistic,train,f1,0.8573422904454573
 55,Logistic,validation,f1,0.8577541583270066
@@ -4881,7 +4896,7 @@ fid,model,data_type,score_func,score
 55,SVC,validation,precision,0.7495772266065389
 55,SVC,test,precision,0.749403565457517
 55,SVC,train,recall,0.9765431510763956
-55,SVC,validation,recall,0.9770987692119283
+55,SVC,validation,recall,0.9770987692119284
 55,SVC,test,recall,0.9764174611138986
 55,SVC,train,f1,0.8478388967570529
 55,SVC,validation,f1,0.848347909301151
@@ -4892,25 +4907,25 @@ fid,model,data_type,score_func,score
 55,Decision Tree,train,accuracy,0.9989632386924316
 55,Decision Tree,validation,accuracy,0.751776238870402
 55,Decision Tree,test,accuracy,0.7456785682165662
-55,Decision Tree,train,precision,0.9999897797536921
+55,Decision Tree,train,precision,0.999989779753692
 55,Decision Tree,validation,precision,0.8302682226431234
 55,Decision Tree,test,precision,0.8262966988678693
 55,Decision Tree,train,recall,0.9985983724791117
 55,Decision Tree,validation,recall,0.8320984630457412
 55,Decision Tree,test,recall,0.8279955453844553
-55,Decision Tree,train,f1,0.9992935917709399
+55,Decision Tree,train,f1,0.99929359177094
 55,Decision Tree,validation,f1,0.8311823353110283
 55,Decision Tree,test,f1,0.8271452498257883
-55,Decision Tree,train,roc_auc,0.9992850806734995
+55,Decision Tree,train,roc_auc,0.9992850806734996
 55,Decision Tree,validation,roc_auc,0.6809044879982388
 55,Decision Tree,test,roc_auc,0.6727418782660649
-55,Random Forest,train,accuracy,0.9987933597311915
+55,Random Forest,train,accuracy,0.9987933597311917
 55,Random Forest,validation,accuracy,0.7515738825433942
 55,Random Forest,test,accuracy,0.7459753574961777
-55,Random Forest,train,precision,0.9990239257231281
+55,Random Forest,train,precision,0.999023925723128
 55,Random Forest,validation,precision,0.829878811929546
 55,Random Forest,test,precision,0.826159627162482
-55,Random Forest,train,recall,0.9993332063250143
+55,Random Forest,train,recall,0.9993332063250144
 55,Random Forest,validation,recall,0.8323433959953462
 55,Random Forest,test,recall,0.8287175847172421
 55,Random Forest,train,f1,0.9991785420907888
@@ -4919,19 +4934,19 @@ fid,model,data_type,score_func,score
 55,Random Forest,train,roc_auc,0.9983171706764482
 55,Random Forest,validation,roc_auc,0.6803074691166844
 55,Random Forest,test,roc_auc,0.6726618761188409
-55,Voting,train,accuracy,0.9816330864259215
+55,Voting,train,accuracy,0.9816330864259216
 55,Voting,validation,accuracy,0.7506070689810235
 55,Voting,test,accuracy,0.744896123752136
 55,Voting,train,precision,0.9990249066696384
 55,Voting,validation,precision,0.8367576344220321
 55,Voting,test,precision,0.832958857599361
-55,Voting,train,recall,0.9759409955637809
+55,Voting,train,recall,0.9759409955637808
 55,Voting,validation,recall,0.8204641479395015
 55,Voting,test,recall,0.816638723336556
-55,Voting,train,f1,0.9873480457618019
+55,Voting,train,f1,0.987348045761802
 55,Voting,validation,f1,0.8285307939648775
 55,Voting,test,f1,0.8247180596323189
-55,Voting,train,roc_auc,0.9866539782832963
+55,Voting,train,roc_auc,0.9866539782832964
 55,Voting,validation,roc_auc,0.6889691655560043
 55,Voting,test,roc_auc,0.6813288266748934
 55,AdaBoost,train,accuracy,0.7284334911375645
@@ -4940,7 +4955,7 @@ fid,model,data_type,score_func,score
 55,AdaBoost,train,precision,0.7466262634869577
 55,AdaBoost,validation,precision,0.7468691521520081
 55,AdaBoost,test,precision,0.747118949314583
-55,AdaBoost,train,recall,0.9539027842037939
+55,AdaBoost,train,recall,0.953902784203794
 55,AdaBoost,validation,recall,0.9531259567693344
 55,AdaBoost,test,recall,0.9544503322604726
 55,AdaBoost,train,f1,0.8376321150962222
@@ -4957,7 +4972,7 @@ fid,model,data_type,score_func,score
 56,Logistic,test,precision,0.7636425409451101
 56,Logistic,train,recall,0.9352291592956482
 56,Logistic,validation,recall,0.9349703018798604
-56,Logistic,test,recall,0.9352245052806775
+56,Logistic,test,recall,0.9352245052806776
 56,Logistic,train,f1,0.840591675266598
 56,Logistic,validation,f1,0.8399944986934397
 56,Logistic,test,f1,0.8407688160804463
@@ -4972,7 +4987,7 @@ fid,model,data_type,score_func,score
 56,SVC,test,precision,0.7636425409451101
 56,SVC,train,recall,0.9352291592956482
 56,SVC,validation,recall,0.9349703018798604
-56,SVC,test,recall,0.9352245052806775
+56,SVC,test,recall,0.9352245052806776
 56,SVC,train,f1,0.840591675266598
 56,SVC,validation,f1,0.8399944986934397
 56,SVC,test,f1,0.8407688160804463
@@ -4982,13 +4997,13 @@ fid,model,data_type,score_func,score
 56,Decision Tree,train,accuracy,0.9940892114368512
 56,Decision Tree,validation,accuracy,0.6384566957460204
 56,Decision Tree,test,accuracy,0.6343735947477291
-56,Decision Tree,train,precision,0.9998148694143703
+56,Decision Tree,train,precision,0.9998148694143704
 56,Decision Tree,validation,precision,0.7545437799336854
 56,Decision Tree,test,precision,0.7515900930158458
-56,Decision Tree,train,recall,0.9921345562420053
+56,Decision Tree,train,recall,0.9921345562420052
 56,Decision Tree,validation,recall,0.7524646378054007
 56,Decision Tree,test,recall,0.7505415294995901
-56,Decision Tree,train,f1,0.9959599064255589
+56,Decision Tree,train,f1,0.9959599064255588
 56,Decision Tree,validation,f1,0.7535027746267283
 56,Decision Tree,test,f1,0.7510654452826491
 56,Decision Tree,train,roc_auc,0.995813377931988
@@ -4997,19 +5012,19 @@ fid,model,data_type,score_func,score
 56,Random Forest,train,accuracy,0.9938493823151004
 56,Random Forest,validation,accuracy,0.6410648439607879
 56,Random Forest,test,accuracy,0.6364781005486105
-56,Random Forest,train,precision,0.9938464457802747
+56,Random Forest,train,precision,0.9938464457802748
 56,Random Forest,validation,precision,0.7546513755871409
 56,Random Forest,test,precision,0.7515932880835455
 56,Random Forest,train,recall,0.9978023024793838
 56,Random Forest,validation,recall,0.7575163798910048
 56,Random Forest,test,recall,0.7548125757223453
-56,Random Forest,train,f1,0.9958204455248889
+56,Random Forest,train,f1,0.9958204455248888
 56,Random Forest,validation,f1,0.7560811636719228
 56,Random Forest,test,f1,0.7531994919890581
-56,Random Forest,train,roc_auc,0.9903625819202385
+56,Random Forest,train,roc_auc,0.9903625819202384
 56,Random Forest,validation,roc_auc,0.5383146483846424
 56,Random Forest,test,roc_auc,0.5316282236076868
-56,Voting,train,accuracy,0.9465780631300199
+56,Voting,train,accuracy,0.94657806313002
 56,Voting,validation,accuracy,0.6433806997032108
 56,Voting,test,accuracy,0.6389603381599065
 56,Voting,train,precision,0.99355710239825
@@ -5021,7 +5036,7 @@ fid,model,data_type,score_func,score
 56,Voting,train,f1,0.9624882907473222
 56,Voting,validation,f1,0.7496646096055809
 56,Voting,test,f1,0.7467638969493577
-56,Voting,train,roc_auc,0.9582872105579249
+56,Voting,train,roc_auc,0.9582872105579248
 56,Voting,validation,roc_auc,0.5694991413507866
 56,Voting,test,roc_auc,0.5632882191082198
 56,AdaBoost,train,accuracy,0.7395580648787738
@@ -5030,8 +5045,8 @@ fid,model,data_type,score_func,score
 56,AdaBoost,train,precision,0.7633344901783855
 56,AdaBoost,validation,precision,0.7625205971937884
 56,AdaBoost,test,precision,0.7635880425225802
-56,AdaBoost,train,recall,0.9353278175434777
-56,AdaBoost,validation,recall,0.9350927683546629
+56,AdaBoost,train,recall,0.9353278175434776
+56,AdaBoost,validation,recall,0.9350927683546628
 56,AdaBoost,test,recall,0.9352979330094354
 56,AdaBoost,train,f1,0.8406238008680379
 56,AdaBoost,validation,f1,0.8400352054568457
@@ -5045,9 +5060,9 @@ fid,model,data_type,score_func,score
 57,Logistic,train,precision,0.7664574961275676
 57,Logistic,validation,precision,0.7672044862019775
 57,Logistic,test,precision,0.7664567718105642
-57,Logistic,train,recall,0.9544709196309501
-57,Logistic,validation,recall,0.9550241871287735
-57,Logistic,test,recall,0.9548419468138485
+57,Logistic,train,recall,0.95447091963095
+57,Logistic,validation,recall,0.9550241871287736
+57,Logistic,test,recall,0.9548419468138484
 57,Logistic,train,f1,0.850193865692515
 57,Logistic,validation,f1,0.8508728859792689
 57,Logistic,test,f1,0.8503405808947742
@@ -5060,9 +5075,9 @@ fid,model,data_type,score_func,score
 57,SVC,train,precision,0.7664574961275676
 57,SVC,validation,precision,0.7672044862019775
 57,SVC,test,precision,0.7664567718105642
-57,SVC,train,recall,0.9544709196309501
-57,SVC,validation,recall,0.9550241871287735
-57,SVC,test,recall,0.9548419468138485
+57,SVC,train,recall,0.95447091963095
+57,SVC,validation,recall,0.9550241871287736
+57,SVC,test,recall,0.9548419468138484
 57,SVC,train,f1,0.850193865692515
 57,SVC,validation,f1,0.8508728859792689
 57,SVC,test,f1,0.8503405808947742
@@ -5072,46 +5087,46 @@ fid,model,data_type,score_func,score
 57,Decision Tree,train,accuracy,0.9980963563461034
 57,Decision Tree,validation,accuracy,0.6543529094343017
 57,Decision Tree,test,accuracy,0.652819498156309
-57,Decision Tree,train,precision,0.9999795357340191
+57,Decision Tree,train,precision,0.9999795357340192
 57,Decision Tree,validation,precision,0.7650630116824579
 57,Decision Tree,test,precision,0.7628466209789527
 57,Decision Tree,train,recall,0.9974280815393408
 57,Decision Tree,validation,recall,0.7639152531994367
 57,Decision Tree,test,recall,0.7655819759401808
-57,Decision Tree,train,f1,0.9987021790447901
+57,Decision Tree,train,f1,0.99870217904479
 57,Decision Tree,validation,f1,0.7644887016468787
 57,Decision Tree,test,f1,0.7642118507931273
 57,Decision Tree,train,roc_auc,0.9986858296375578
 57,Decision Tree,validation,roc_auc,0.5576813442228773
 57,Decision Tree,test,roc_auc,0.5529066713842777
-57,Random Forest,train,accuracy,0.9978765129844985
+57,Random Forest,train,accuracy,0.9978765129844984
 57,Random Forest,validation,accuracy,0.6550948826333304
 57,Random Forest,test,accuracy,0.6533950894864646
-57,Random Forest,train,precision,0.9979104660170425
+57,Random Forest,train,precision,0.9979104660170424
 57,Random Forest,validation,precision,0.7649920450373271
 57,Random Forest,test,precision,0.7627306362883988
-57,Random Forest,train,recall,0.9992005279917263
+57,Random Forest,train,recall,0.9992005279917264
 57,Random Forest,validation,recall,0.7655073173718695
 57,Random Forest,test,recall,0.7669403889222033
-57,Random Forest,train,f1,0.9985550803375333
+57,Random Forest,train,f1,0.9985550803375332
 57,Random Forest,validation,f1,0.765249594466379
 57,Random Forest,test,f1,0.7648297198508637
-57,Random Forest,train,roc_auc,0.9967086229543083
+57,Random Forest,train,roc_auc,0.9967086229543084
 57,Random Forest,validation,roc_auc,0.5576732456166948
 57,Random Forest,test,roc_auc,0.5527886461352882
 57,Voting,train,accuracy,0.9645227775210162
 57,Voting,validation,accuracy,0.6620874179332674
 57,Voting,test,accuracy,0.6594477920676319
-57,Voting,train,precision,0.9978076341311505
+57,Voting,train,precision,0.9978076341311504
 57,Voting,validation,precision,0.7823177175061642
 57,Voting,test,precision,0.7790847177137038
-57,Voting,train,recall,0.9537837139046893
+57,Voting,train,recall,0.9537837139046892
 57,Voting,validation,recall,0.7479946114751087
 57,Voting,test,recall,0.7489750712860866
 57,Voting,train,f1,0.9752991290947072
 57,Voting,validation,f1,0.7647712510369223
 57,Voting,test,f1,0.7637332468115906
-57,Voting,train,roc_auc,0.9739955140554375
+57,Voting,train,roc_auc,0.9739955140554376
 57,Voting,validation,roc_auc,0.5862878085308505
 57,Voting,test,roc_auc,0.5801224374308779
 57,AdaBoost,train,accuracy,0.752988495696816
@@ -5121,8 +5136,8 @@ fid,model,data_type,score_func,score
 57,AdaBoost,validation,precision,0.7672159370388588
 57,AdaBoost,test,precision,0.7664515368520319
 57,AdaBoost,train,recall,0.954474321639496
-57,AdaBoost,validation,recall,0.9550854203661747
-57,AdaBoost,test,recall,0.9548541847686415
+57,AdaBoost,validation,recall,0.9550854203661748
+57,AdaBoost,test,recall,0.9548541847686416
 57,AdaBoost,train,f1,0.8501891669532832
 57,AdaBoost,validation,f1,0.8509042306538284
 57,AdaBoost,test,f1,0.8503422119534417
@@ -5135,7 +5150,7 @@ fid,model,data_type,score_func,score
 58,Logistic,train,precision,0.7704122648289498
 58,Logistic,validation,precision,0.7698361996269133
 58,Logistic,test,precision,0.77109678739513
-58,Logistic,train,recall,0.9226553357102033
+58,Logistic,train,recall,0.9226553357102032
 58,Logistic,validation,recall,0.9223562549752006
 58,Logistic,test,recall,0.9223379388836538
 58,Logistic,train,f1,0.8396888424474631
@@ -5151,7 +5166,7 @@ fid,model,data_type,score_func,score
 58,SVC,validation,precision,0.7496952648851383
 58,SVC,test,precision,0.7503986941593651
 58,SVC,train,recall,0.979394034237814
-58,SVC,validation,recall,0.9791806992835711
+58,SVC,validation,recall,0.9791806992835712
 58,SVC,test,recall,0.9789262418464626
 58,SVC,train,f1,0.8492116635447854
 58,SVC,validation,f1,0.8492074028836196
@@ -5162,25 +5177,25 @@ fid,model,data_type,score_func,score
 58,Decision Tree,train,accuracy,0.997744107323532
 58,Decision Tree,validation,accuracy,0.6446398057379261
 58,Decision Tree,test,accuracy,0.6410738375753215
-58,Decision Tree,train,precision,0.9999556415427189
+58,Decision Tree,train,precision,0.9999556415427188
 58,Decision Tree,validation,precision,0.7582656656963382
 58,Decision Tree,test,precision,0.7558071227511932
-58,Decision Tree,train,recall,0.9969722123941975
+58,Decision Tree,train,recall,0.9969722123941976
 58,Decision Tree,validation,recall,0.7576388463658074
 58,Decision Tree,test,recall,0.7557793741509918
-58,Decision Tree,train,f1,0.9984616983327399
+58,Decision Tree,train,f1,0.99846169833274
 58,Decision Tree,validation,f1,0.7579521264376619
 58,Decision Tree,test,f1,0.7557932481963983
 58,Decision Tree,train,roc_auc,0.9984249820775212
 58,Decision Tree,validation,roc_auc,0.5449358951652974
 58,Decision Tree,test,roc_auc,0.5394393698790376
-58,Random Forest,train,accuracy,0.9974942853217083
+58,Random Forest,train,accuracy,0.9974942853217084
 58,Random Forest,validation,accuracy,0.6455391671912942
 58,Random Forest,test,accuracy,0.6420361543304254
-58,Random Forest,train,precision,0.9975812341820529
+58,Random Forest,train,precision,0.9975812341820528
 58,Random Forest,validation,precision,0.7583086189500718
 58,Random Forest,test,precision,0.755870035043163
-58,Random Forest,train,recall,0.9990100155131589
+58,Random Forest,train,recall,0.9990100155131588
 58,Random Forest,validation,recall,0.7593533770130427
 58,Random Forest,test,recall,0.7575905914603551
 58,Random Forest,train,f1,0.9982951136222632
@@ -5210,8 +5225,8 @@ fid,model,data_type,score_func,score
 58,AdaBoost,train,precision,0.7684674472116947
 58,AdaBoost,validation,precision,0.768303514782388
 58,AdaBoost,test,precision,0.7693901386279388
-58,AdaBoost,train,recall,0.9271051628881691
-58,AdaBoost,validation,recall,0.9269181311615945
+58,AdaBoost,train,recall,0.9271051628881692
+58,AdaBoost,validation,recall,0.9269181311615944
 58,AdaBoost,test,recall,0.9271229792077148
 58,AdaBoost,train,f1,0.8403652354109361
 58,AdaBoost,validation,f1,0.8401903783978797
@@ -5225,9 +5240,9 @@ fid,model,data_type,score_func,score
 59,Logistic,train,precision,0.7631373104718719
 59,Logistic,validation,precision,0.7634732065466783
 59,Logistic,test,precision,0.7635135824382083
-59,Logistic,train,recall,0.9160690471654465
-59,Logistic,validation,recall,0.9169064968464883
-59,Logistic,test,recall,0.9159864403460893
+59,Logistic,train,recall,0.9160690471654463
+59,Logistic,validation,recall,0.9169064968464884
+59,Logistic,test,recall,0.9159864403460892
 59,Logistic,train,f1,0.8326391401280778
 59,Logistic,validation,f1,0.8331849543734698
 59,Logistic,test,f1,0.8328289122307282
@@ -5249,49 +5264,49 @@ fid,model,data_type,score_func,score
 59,SVC,train,roc_auc,0.5757422736525509
 59,SVC,validation,roc_auc,0.5750640551805283
 59,SVC,test,roc_auc,0.5749572333466406
-59,Decision Tree,train,accuracy,0.9992205553543101
+59,Decision Tree,train,accuracy,0.99922055535431
 59,Decision Tree,validation,accuracy,0.7584539976616602
 59,Decision Tree,test,accuracy,0.7547171508229157
-59,Decision Tree,train,precision,0.9999897833386687
+59,Decision Tree,train,precision,0.9999897833386688
 59,Decision Tree,validation,precision,0.8355736550414893
 59,Decision Tree,test,precision,0.83204030349606
 59,Decision Tree,train,recall,0.9989487793593338
 59,Decision Tree,validation,recall,0.8354969077215112
 59,Decision Tree,test,recall,0.8347386584753956
-59,Decision Tree,train,f1,0.9994690102828201
+59,Decision Tree,train,f1,0.99946901028282
 59,Decision Tree,validation,f1,0.8355352796191117
 59,Decision Tree,test,f1,0.833387296797014
-59,Decision Tree,train,roc_auc,0.9994602841136107
+59,Decision Tree,train,roc_auc,0.9994602841136108
 59,Decision Tree,validation,roc_auc,0.6904757265880284
 59,Decision Tree,test,roc_auc,0.6838143541723927
 59,Random Forest,train,accuracy,0.9990431817330152
 59,Random Forest,validation,accuracy,0.7585664178433312
 59,Random Forest,test,accuracy,0.7547621188955841
-59,Random Forest,train,precision,0.9992211387699435
+59,Random Forest,train,precision,0.9992211387699436
 59,Random Forest,validation,precision,0.8354755784061697
 59,Random Forest,test,precision,0.8318481586678532
 59,Random Forest,train,recall,0.9994760906839398
 59,Random Forest,validation,recall,0.8358336905272181
 59,Random Forest,test,recall,0.8351057971191854
-59,Random Forest,train,f1,0.9993485984662299
+59,Random Forest,train,f1,0.99934859846623
 59,Random Forest,validation,f1,0.8356545961002785
 59,Random Forest,test,f1,0.8334737947797198
 59,Random Forest,train,roc_auc,0.998661320466334
 59,Random Forest,validation,roc_auc,0.6903901819827558
 59,Random Forest,test,roc_auc,0.6835738640581169
-59,Voting,train,accuracy,0.9682875950884995
+59,Voting,train,accuracy,0.9682875950884996
 59,Voting,validation,accuracy,0.7516413346523968
 59,Voting,test,accuracy,0.7471535210000899
 59,Voting,train,precision,0.9992331778388396
 59,Voting,validation,precision,0.8448627951499681
 59,Voting,test,precision,0.8407394693010897
-59,Voting,train,recall,0.9575497373649403
+59,Voting,train,recall,0.9575497373649404
 59,Voting,validation,recall,0.8106668299552997
 59,Voting,test,recall,0.809234760686794
-59,Voting,train,f1,0.9779474867361795
+59,Voting,train,f1,0.9779474867361796
 59,Voting,validation,f1,0.8274116433861441
 59,Voting,test,f1,0.8246863385797311
-59,Voting,train,roc_auc,0.9777592679264119
+59,Voting,train,roc_auc,0.977759267926412
 59,Voting,validation,roc_auc,0.6995606030595867
 59,Voting,test,roc_auc,0.6921466404444928
 59,AdaBoost,train,accuracy,0.7282336335361055
@@ -5301,8 +5316,8 @@ fid,model,data_type,score_func,score
 59,AdaBoost,validation,precision,0.7642143040246091
 59,AdaBoost,test,precision,0.7643421187570506
 59,AdaBoost,train,recall,0.9118369485344148
-59,AdaBoost,validation,recall,0.9127426367032025
-59,AdaBoost,test,recall,0.9121070086767099
+59,AdaBoost,validation,recall,0.9127426367032024
+59,AdaBoost,test,recall,0.91210700867671
 59,AdaBoost,train,f1,0.8313013110188232
 59,AdaBoost,validation,f1,0.8319008817948431
 59,AdaBoost,test,f1,0.8317124476211202
@@ -5317,7 +5332,7 @@ fid,model,data_type,score_func,score
 60,Logistic,test,precision,0.7636425409451101
 60,Logistic,train,recall,0.9352291592956482
 60,Logistic,validation,recall,0.9349703018798604
-60,Logistic,test,recall,0.9352245052806775
+60,Logistic,test,recall,0.9352245052806776
 60,Logistic,train,f1,0.840591675266598
 60,Logistic,validation,f1,0.8399944986934397
 60,Logistic,test,f1,0.8407688160804463
@@ -5332,7 +5347,7 @@ fid,model,data_type,score_func,score
 60,SVC,test,precision,0.7636425409451101
 60,SVC,train,recall,0.9352291592956482
 60,SVC,validation,recall,0.9349703018798604
-60,SVC,test,recall,0.9352245052806775
+60,SVC,test,recall,0.9352245052806776
 60,SVC,train,f1,0.840591675266598
 60,SVC,validation,f1,0.8399944986934397
 60,SVC,test,f1,0.8407688160804463
@@ -5342,7 +5357,7 @@ fid,model,data_type,score_func,score
 60,Decision Tree,train,accuracy,0.9960927838914774
 60,Decision Tree,validation,accuracy,0.6386590520730282
 60,Decision Tree,test,accuracy,0.6342386905297239
-60,Decision Tree,train,precision,0.9999042525544051
+60,Decision Tree,train,precision,0.9999042525544052
 60,Decision Tree,validation,precision,0.7541747096853265
 60,Decision Tree,test,precision,0.7515999313439423
 60,Decision Tree,train,recall,0.9947745148735814
@@ -5351,19 +5366,19 @@ fid,model,data_type,score_func,score
 60,Decision Tree,train,f1,0.9973327876121286
 60,Decision Tree,validation,f1,0.7538859706886784
 60,Decision Tree,test,f1,0.7509232663110381
-60,Decision Tree,train,roc_auc,0.9972556054869313
+60,Decision Tree,train,roc_auc,0.9972556054869312
 60,Decision Tree,validation,roc_auc,0.5372439608162429
 60,Decision Tree,test,roc_auc,0.5314491798421994
 60,Random Forest,train,accuracy,0.9958604494297812
 60,Random Forest,validation,accuracy,0.6406151632341038
 60,Random Forest,test,accuracy,0.6356866624696466
-60,Random Forest,train,precision,0.9958504816223497
+60,Random Forest,train,precision,0.9958504816223496
 60,Random Forest,validation,precision,0.7544394947214256
 60,Random Forest,test,precision,0.7515229944696072
 60,Random Forest,train,recall,0.998523528291103
 60,Random Forest,validation,recall,0.7570265139917948
 60,Random Forest,test,recall,0.7533440211471859
-60,Random Forest,train,f1,0.9971852136230903
+60,Random Forest,train,f1,0.9971852136230904
 60,Random Forest,validation,f1,0.7557307903906106
 60,Random Forest,test,f1,0.7524324060040092
 60,Random Forest,train,roc_auc,0.9935113950499064
@@ -5372,7 +5387,7 @@ fid,model,data_type,score_func,score
 60,Voting,train,accuracy,0.9484991943240442
 60,Voting,validation,accuracy,0.641851785232485
 60,Voting,test,accuracy,0.638411727673352
-60,Voting,train,precision,0.9955724133429549
+60,Voting,train,precision,0.9955724133429548
 60,Voting,validation,precision,0.7728176867642743
 60,Voting,test,precision,0.7706219846133785
 60,Voting,train,recall,0.934021446261873
@@ -5381,7 +5396,7 @@ fid,model,data_type,score_func,score
 60,Voting,train,f1,0.9638152409538102
 60,Voting,validation,f1,0.74847226389174
 60,Voting,test,f1,0.7461853626509598
-60,Voting,train,roc_auc,0.9612697577459957
+60,Voting,train,roc_auc,0.9612697577459955
 60,Voting,validation,roc_auc,0.5679449035002223
 60,Voting,test,roc_auc,0.5632402634885432
 60,AdaBoost,train,accuracy,0.7395505702187192
@@ -5391,7 +5406,7 @@ fid,model,data_type,score_func,score
 60,AdaBoost,validation,precision,0.7625146680648142
 60,AdaBoost,test,precision,0.7636290967226219
 60,AdaBoost,train,recall,0.93527678741529
-60,AdaBoost,validation,recall,0.9350621517359623
+60,AdaBoost,validation,recall,0.9350621517359624
 60,AdaBoost,test,recall,0.9352734570998494
 60,AdaBoost,train,f1,0.8406126355313931
 60,AdaBoost,validation,f1,0.8400192532489859
@@ -5406,7 +5421,7 @@ fid,model,data_type,score_func,score
 61,Logistic,validation,precision,0.7675137192861027
 61,Logistic,test,precision,0.766981663062476
 61,Logistic,train,recall,0.9500891326239012
-61,Logistic,validation,recall,0.9506153940358827
+61,Logistic,validation,recall,0.9506153940358828
 61,Logistic,test,recall,0.9505586626363002
 61,Logistic,train,f1,0.8488953870097027
 61,Logistic,validation,f1,0.849307949012528
@@ -5421,7 +5436,7 @@ fid,model,data_type,score_func,score
 61,SVC,validation,precision,0.7675137192861027
 61,SVC,test,precision,0.766981663062476
 61,SVC,train,recall,0.9500891326239012
-61,SVC,validation,recall,0.9506153940358827
+61,SVC,validation,recall,0.9506153940358828
 61,SVC,test,recall,0.9505586626363002
 61,SVC,train,f1,0.8488953870097027
 61,SVC,validation,f1,0.849307949012528
@@ -5429,7 +5444,7 @@ fid,model,data_type,score_func,score
 61,SVC,train,roc_auc,0.5765576233642634
 61,SVC,validation,roc_auc,0.5772630042805111
 61,SVC,test,roc_auc,0.5750011483280222
-61,Decision Tree,train,accuracy,0.9987633810909727
+61,Decision Tree,train,accuracy,0.9987633810909728
 61,Decision Tree,validation,accuracy,0.6571858980124112
 61,Decision Tree,test,accuracy,0.6515603921215937
 61,Decision Tree,train,precision,0.9999897769675078
@@ -5438,13 +5453,13 @@ fid,model,data_type,score_func,score
 61,Decision Tree,train,recall,0.998326211795444
 61,Decision Tree,validation,recall,0.7666401322637928
 61,Decision Tree,test,recall,0.7641868490937794
-61,Decision Tree,train,f1,0.9991573019361627
+61,Decision Tree,train,f1,0.9991573019361628
 61,Decision Tree,validation,f1,0.7666049259877233
 61,Decision Tree,test,f1,0.763229461410124
-61,Decision Tree,train,roc_auc,0.9991490003316655
+61,Decision Tree,train,roc_auc,0.9991490003316656
 61,Decision Tree,validation,roc_auc,0.560609722471832
 61,Decision Tree,test,roc_auc,0.5517680861474596
-61,Random Forest,train,accuracy,0.9985460359493861
+61,Random Forest,train,accuracy,0.998546035949386
 61,Random Forest,validation,accuracy,0.6574557064484217
 61,Random Forest,test,accuracy,0.6520550409209461
 61,Random Forest,train,precision,0.9985486853196291
@@ -5453,22 +5468,22 @@ fid,model,data_type,score_func,score
 61,Random Forest,train,recall,0.999472688675394
 61,Random Forest,validation,recall,0.7676810972996142
 61,Random Forest,test,recall,0.76525155116077
-61,Random Forest,train,f1,0.9990104733405877
+61,Random Forest,train,f1,0.9990104733405876
 61,Random Forest,validation,f1,0.766988360888916
 61,Random Forest,test,f1,0.7637374045801526
 61,Random Forest,train,roc_auc,0.9977286521023409
 61,Random Forest,validation,roc_auc,0.560199106293281
 61,Random Forest,test,roc_auc,0.5517576411026566
-61,Voting,train,accuracy,0.9619546073422687
+61,Voting,train,accuracy,0.9619546073422688
 61,Voting,validation,accuracy,0.6635713643313248
 61,Voting,test,accuracy,0.6580537818149114
-61,Voting,train,precision,0.9984369914410081
+61,Voting,train,precision,0.998436991441008
 61,Voting,validation,precision,0.7842117095417028
 61,Voting,test,precision,0.7796824990398157
-61,Voting,train,recall,0.9496774895898539
+61,Voting,train,recall,0.949677489589854
 61,Voting,validation,recall,0.7475965954320005
 61,Voting,test,recall,0.7453036848481882
-61,Voting,train,f1,0.9734470379210961
+61,Voting,train,f1,0.973447037921096
 61,Voting,validation,f1,0.7654665433627487
 61,Voting,test,f1,0.7621055792970975
 61,Voting,train,roc_auc,0.9727840340060496
@@ -5480,7 +5495,7 @@ fid,model,data_type,score_func,score
 61,AdaBoost,train,precision,0.7668981227357559
 61,AdaBoost,validation,precision,0.7673080247980834
 61,AdaBoost,test,precision,0.7667136895895195
-61,AdaBoost,train,recall,0.9506130419399613
+61,AdaBoost,train,recall,0.9506130419399612
 61,AdaBoost,validation,recall,0.9511358765537934
 61,AdaBoost,test,recall,0.951146084466364
 61,AdaBoost,train,f1,0.8489299776395101
@@ -5497,7 +5512,7 @@ fid,model,data_type,score_func,score
 62,Logistic,test,precision,0.7546196041020748
 62,Logistic,train,recall,0.9686777073184007
 62,Logistic,validation,recall,0.9675157675586308
-62,Logistic,test,recall,0.9680589379902831
+62,Logistic,test,recall,0.9680589379902832
 62,Logistic,train,f1,0.8480751761009099
 62,Logistic,validation,f1,0.8475071740821197
 62,Logistic,test,f1,0.848116737608423
@@ -5512,14 +5527,14 @@ fid,model,data_type,score_func,score
 62,SVC,test,precision,0.7546196041020748
 62,SVC,train,recall,0.9686777073184007
 62,SVC,validation,recall,0.9675157675586308
-62,SVC,test,recall,0.9680589379902831
+62,SVC,test,recall,0.9680589379902832
 62,SVC,train,f1,0.8480751761009099
 62,SVC,validation,f1,0.8475071740821197
 62,SVC,test,f1,0.848116737608423
 62,SVC,train,roc_auc,0.5479643602841145
 62,SVC,validation,roc_auc,0.5473688538148664
 62,SVC,test,roc_auc,0.5477231963079617
-62,Decision Tree,train,accuracy,0.9985085626491125
+62,Decision Tree,train,accuracy,0.9985085626491124
 62,Decision Tree,validation,accuracy,0.6474278262433673
 62,Decision Tree,test,accuracy,0.6403723356416944
 62,Decision Tree,train,precision,0.9999727300307129
@@ -5531,10 +5546,10 @@ fid,model,data_type,score_func,score
 62,Decision Tree,train,f1,0.9989834958548086
 62,Decision Tree,validation,f1,0.7598879140061555
 62,Decision Tree,test,f1,0.7551721393278514
-62,Decision Tree,train,roc_auc,0.9989604936404315
+62,Decision Tree,train,roc_auc,0.9989604936404316
 62,Decision Tree,validation,roc_auc,0.5483739439689652
 62,Decision Tree,test,roc_auc,0.5390596802425638
-62,Random Forest,train,accuracy,0.9982737299673983
+62,Random Forest,train,accuracy,0.9982737299673984
 62,Random Forest,validation,accuracy,0.6481248313697275
 62,Random Forest,test,accuracy,0.6410378631171868
 62,Random Forest,train,precision,0.9983244913148834
@@ -5543,7 +5558,7 @@ fid,model,data_type,score_func,score
 62,Random Forest,train,recall,0.9993264023079226
 62,Random Forest,validation,recall,0.7610066744228767
 62,Random Forest,test,recall,0.7560241332468518
-62,Random Forest,train,f1,0.9988251955598851
+62,Random Forest,train,f1,0.9988251955598852
 62,Random Forest,validation,f1,0.7605642422202502
 62,Random Forest,test,f1,0.7558345109410463
 62,Random Forest,train,roc_auc,0.9973451864653652
@@ -5558,7 +5573,7 @@ fid,model,data_type,score_func,score
 62,Voting,train,recall,0.9681708080450698
 62,Voting,validation,recall,0.747229196007593
 62,Voting,test,recall,0.743125328895035
-62,Voting,train,f1,0.9829564196219637
+62,Voting,train,f1,0.9829564196219636
 62,Voting,validation,f1,0.7586689255350565
 62,Voting,test,f1,0.75464171202744
 62,Voting,train,roc_auc,0.9816733522268962
@@ -5571,8 +5586,8 @@ fid,model,data_type,score_func,score
 62,AdaBoost,validation,precision,0.7582572715102835
 62,AdaBoost,test,precision,0.7581377707322292
 62,AdaBoost,train,recall,0.9546206080069674
-62,AdaBoost,validation,recall,0.9537995223807483
-62,AdaBoost,test,recall,0.9539975279331319
+62,AdaBoost,validation,recall,0.9537995223807484
+62,AdaBoost,test,recall,0.953997527933132
 62,AdaBoost,train,f1,0.8448433409556554
 62,AdaBoost,validation,f1,0.8448614858909514
 62,AdaBoost,test,f1,0.8448649585988642
@@ -5586,8 +5601,8 @@ fid,model,data_type,score_func,score
 63,Logistic,validation,precision,0.7659590242937993
 63,Logistic,test,precision,0.766664689248779
 63,Logistic,train,recall,0.9488031733935716
-63,Logistic,validation,recall,0.9489008633886473
-63,Logistic,test,recall,0.9489554905584179
+63,Logistic,validation,recall,0.9489008633886472
+63,Logistic,test,recall,0.948955490558418
 63,Logistic,train,f1,0.847848193236245
 63,Logistic,validation,f1,0.8476717948717949
 63,Logistic,test,f1,0.8481255639714528
@@ -5602,7 +5617,7 @@ fid,model,data_type,score_func,score
 63,SVC,test,precision,0.7664684851956466
 63,SVC,train,recall,0.9496026454018452
 63,SVC,validation,recall,0.949849978568367
-63,SVC,test,recall,0.9497631955747555
+63,SVC,test,recall,0.9497631955747556
 63,SVC,train,f1,0.8480250825603899
 63,SVC,validation,f1,0.8480441735232211
 63,SVC,test,f1,0.8483278405395508
@@ -5615,10 +5630,10 @@ fid,model,data_type,score_func,score
 63,Decision Tree,train,precision,0.9999965956983244
 63,Decision Tree,validation,precision,0.8379165517029952
 63,Decision Tree,test,precision,0.8323779958690312
-63,Decision Tree,train,recall,0.9993230002993767
+63,Decision Tree,train,recall,0.9993230002993768
 63,Decision Tree,validation,recall,0.8368134223256384
 63,Decision Tree,test,recall,0.8334781491317171
-63,Decision Tree,train,f1,0.9996596845275569
+63,Decision Tree,train,f1,0.9996596845275568
 63,Decision Tree,validation,f1,0.8373646237036811
 63,Decision Tree,test,f1,0.832927709222547
 63,Decision Tree,train,roc_auc,0.9996567982943362
@@ -5633,25 +5648,25 @@ fid,model,data_type,score_func,score
 63,Random Forest,train,recall,0.9996121710257736
 63,Random Forest,validation,recall,0.8369358888004409
 63,Random Forest,test,recall,0.8341022848261599
-63,Random Forest,train,f1,0.9995237609279859
+63,Random Forest,train,f1,0.999523760927986
 63,Random Forest,validation,f1,0.8372434915773355
 63,Random Forest,test,f1,0.8332864670570832
 63,Random Forest,train,roc_auc,0.9990255775244344
 63,Random Forest,validation,roc_auc,0.6940731585529206
 63,Random Forest,test,roc_auc,0.6843951733524564
-63,Voting,train,accuracy,0.9624092833855877
+63,Voting,train,accuracy,0.9624092833855876
 63,Voting,validation,accuracy,0.7509443295260365
 63,Voting,test,accuracy,0.7442665707347783
-63,Voting,train,precision,0.9994233916746353
+63,Voting,train,precision,0.9994233916746352
 63,Voting,validation,precision,0.8477749492475751
 63,Voting,test,precision,0.8421133742583412
 63,Voting,train,recall,0.9493577007865444
 63,Voting,validation,recall,0.8054926213948932
 63,Voting,test,recall,0.8024671716862678
-63,Voting,train,f1,0.9737474331036721
+63,Voting,train,f1,0.973747433103672
 63,Voting,validation,f1,0.8260930999293509
 63,Voting,test,f1,0.8218123938613476
-63,Voting,train,roc_auc,0.9739218516815805
+63,Voting,train,roc_auc,0.9739218516815804
 63,Voting,validation,roc_auc,0.70281402696628
 63,Voting,test,roc_auc,0.6926981175118926
 63,AdaBoost,train,accuracy,0.7292379179834368
@@ -5669,3 +5684,948 @@ fid,model,data_type,score_func,score
 63,AdaBoost,train,roc_auc,0.5654968106322003
 63,AdaBoost,validation,roc_auc,0.5656871779560096
 63,AdaBoost,test,roc_auc,0.56500148835609
+1,Bayes,train,accuracy,0.7343367850406586
+1,Bayes,train,precision,0.7343367850406586
+1,Bayes,train,recall,1.0
+1,Bayes,train,f1,0.8468214378828888
+1,Bayes,train,roc_auc,0.5
+1,Bayes,test,accuracy,0.7348952243906827
+1,Bayes,test,precision,0.7348952243906827
+1,Bayes,test,recall,1.0
+1,Bayes,test,f1,0.8471926304930457
+1,Bayes,test,roc_auc,0.5
+1,Bayes,validation,accuracy,0.7343735947477291
+1,Bayes,validation,precision,0.7343735947477291
+1,Bayes,validation,recall,1.0
+1,Bayes,validation,f1,0.846845912520418
+1,Bayes,validation,roc_auc,0.5
+2,Bayes,train,accuracy,0.7343367850406586
+2,Bayes,train,precision,0.7343367850406586
+2,Bayes,train,recall,1.0
+2,Bayes,train,f1,0.8468214378828888
+2,Bayes,train,roc_auc,0.5
+2,Bayes,test,accuracy,0.7348952243906827
+2,Bayes,test,precision,0.7348952243906827
+2,Bayes,test,recall,1.0
+2,Bayes,test,f1,0.8471926304930457
+2,Bayes,test,roc_auc,0.5
+2,Bayes,validation,accuracy,0.7343735947477291
+2,Bayes,validation,precision,0.7343735947477291
+2,Bayes,validation,recall,1.0
+2,Bayes,validation,f1,0.846845912520418
+2,Bayes,validation,roc_auc,0.5
+3,Bayes,train,accuracy,0.7810909726819641
+3,Bayes,train,precision,0.8111979245226101
+3,Bayes,train,recall,0.9148137060120296
+3,Bayes,train,f1,0.8598956884339515
+3,Bayes,train,roc_auc,0.6631365339381106
+3,Bayes,test,accuracy,0.7811403903228707
+3,Bayes,test,precision,0.8117759568780021
+3,Bayes,test,recall,0.91415074712714
+3,Bayes,test,f1,0.8599271287219898
+3,Bayes,test,roc_auc,0.6632869961845965
+3,Bayes,validation,accuracy,0.7830290493749438
+3,Bayes,validation,precision,0.8132248053574346
+3,Bayes,validation,recall,0.914610250443941
+3,Bayes,validation,f1,0.8609429938324975
+3,Bayes,validation,roc_auc,0.6669292999299441
+4,Bayes,train,accuracy,0.7343367850406586
+4,Bayes,train,precision,0.7343367850406586
+4,Bayes,train,recall,1.0
+4,Bayes,train,f1,0.8468214378828888
+4,Bayes,train,roc_auc,0.5
+4,Bayes,test,accuracy,0.7348952243906827
+4,Bayes,test,precision,0.7348952243906827
+4,Bayes,test,recall,1.0
+4,Bayes,test,f1,0.8471926304930457
+4,Bayes,test,roc_auc,0.5
+4,Bayes,validation,accuracy,0.7343735947477291
+4,Bayes,validation,precision,0.7343735947477291
+4,Bayes,validation,recall,1.0
+4,Bayes,validation,f1,0.846845912520418
+4,Bayes,validation,roc_auc,0.5
+5,Bayes,train,accuracy,0.7343367850406586
+5,Bayes,train,precision,0.7343367850406586
+5,Bayes,train,recall,1.0
+5,Bayes,train,f1,0.8468214378828888
+5,Bayes,train,roc_auc,0.5
+5,Bayes,test,accuracy,0.7348952243906827
+5,Bayes,test,precision,0.7348952243906827
+5,Bayes,test,recall,1.0
+5,Bayes,test,f1,0.8471926304930457
+5,Bayes,test,roc_auc,0.5
+5,Bayes,validation,accuracy,0.7343735947477291
+5,Bayes,validation,precision,0.7343735947477291
+5,Bayes,validation,recall,1.0
+5,Bayes,validation,f1,0.846845912520418
+5,Bayes,validation,roc_auc,0.5
+6,Bayes,train,accuracy,0.7343367850406586
+6,Bayes,train,precision,0.7343367850406586
+6,Bayes,train,recall,1.0
+6,Bayes,train,f1,0.8468214378828888
+6,Bayes,train,roc_auc,0.5
+6,Bayes,test,accuracy,0.7348952243906827
+6,Bayes,test,precision,0.7348952243906827
+6,Bayes,test,recall,1.0
+6,Bayes,test,f1,0.8471926304930457
+6,Bayes,test,roc_auc,0.5
+6,Bayes,validation,accuracy,0.7343735947477291
+6,Bayes,validation,precision,0.7343735947477291
+6,Bayes,validation,recall,1.0
+6,Bayes,validation,f1,0.846845912520418
+6,Bayes,validation,roc_auc,0.5
+7,Bayes,train,accuracy,0.7810909726819641
+7,Bayes,train,precision,0.8111979245226101
+7,Bayes,train,recall,0.9148137060120296
+7,Bayes,train,f1,0.8598956884339515
+7,Bayes,train,roc_auc,0.6631365339381106
+7,Bayes,test,accuracy,0.7811403903228707
+7,Bayes,test,precision,0.8117759568780021
+7,Bayes,test,recall,0.91415074712714
+7,Bayes,test,f1,0.8599271287219898
+7,Bayes,test,roc_auc,0.6632869961845965
+7,Bayes,validation,accuracy,0.7830290493749438
+7,Bayes,validation,precision,0.8132248053574346
+7,Bayes,validation,recall,0.914610250443941
+7,Bayes,validation,f1,0.8609429938324975
+7,Bayes,validation,roc_auc,0.6669292999299441
+8,Bayes,train,accuracy,0.7343367850406586
+8,Bayes,train,precision,0.7343367850406586
+8,Bayes,train,recall,1.0
+8,Bayes,train,f1,0.8468214378828888
+8,Bayes,train,roc_auc,0.5
+8,Bayes,test,accuracy,0.7348952243906827
+8,Bayes,test,precision,0.7348952243906827
+8,Bayes,test,recall,1.0
+8,Bayes,test,f1,0.8471926304930457
+8,Bayes,test,roc_auc,0.5
+8,Bayes,validation,accuracy,0.7343735947477291
+8,Bayes,validation,precision,0.7343735947477291
+8,Bayes,validation,recall,1.0
+8,Bayes,validation,f1,0.846845912520418
+8,Bayes,validation,roc_auc,0.5
+9,Bayes,train,accuracy,0.7343367850406586
+9,Bayes,train,precision,0.7343367850406586
+9,Bayes,train,recall,1.0
+9,Bayes,train,f1,0.8468214378828888
+9,Bayes,train,roc_auc,0.5
+9,Bayes,test,accuracy,0.7348952243906827
+9,Bayes,test,precision,0.7348952243906827
+9,Bayes,test,recall,1.0
+9,Bayes,test,f1,0.8471926304930457
+9,Bayes,test,roc_auc,0.5
+9,Bayes,validation,accuracy,0.7343735947477291
+9,Bayes,validation,precision,0.7343735947477291
+9,Bayes,validation,recall,1.0
+9,Bayes,validation,f1,0.846845912520418
+9,Bayes,validation,roc_auc,0.5
+10,Bayes,train,accuracy,0.7343367850406586
+10,Bayes,train,precision,0.7343367850406586
+10,Bayes,train,recall,1.0
+10,Bayes,train,f1,0.8468214378828888
+10,Bayes,train,roc_auc,0.5
+10,Bayes,test,accuracy,0.7348952243906827
+10,Bayes,test,precision,0.7348952243906827
+10,Bayes,test,recall,1.0
+10,Bayes,test,f1,0.8471926304930457
+10,Bayes,test,roc_auc,0.5
+10,Bayes,validation,accuracy,0.7343735947477291
+10,Bayes,validation,precision,0.7343735947477291
+10,Bayes,validation,recall,1.0
+10,Bayes,validation,f1,0.846845912520418
+10,Bayes,validation,roc_auc,0.5
+11,Bayes,train,accuracy,0.7851330926714716
+11,Bayes,train,precision,0.8778785764131193
+11,Bayes,train,recall,0.8217075361293308
+11,Bayes,train,f1,0.8488648344696703
+11,Bayes,train,roc_auc,0.752871428233368
+11,Bayes,test,accuracy,0.7847738105944779
+11,Bayes,test,precision,0.878124754600424
+11,Bayes,test,recall,0.8210933388812062
+11,Bayes,test,f1,0.8486519646595286
+11,Bayes,test,roc_auc,0.7525930106557879
+11,Bayes,validation,accuracy,0.7842656713733249
+11,Bayes,validation,precision,0.8770966159882295
+11,Bayes,validation,recall,0.8213214132631192
+11,Bayes,validation,f1,0.8482931996774551
+11,Bayes,validation,roc_auc,0.7515697975406506
+12,Bayes,train,accuracy,0.7343367850406586
+12,Bayes,train,precision,0.7343367850406586
+12,Bayes,train,recall,1.0
+12,Bayes,train,f1,0.8468214378828888
+12,Bayes,train,roc_auc,0.5
+12,Bayes,test,accuracy,0.7348952243906827
+12,Bayes,test,precision,0.7348952243906827
+12,Bayes,test,recall,1.0
+12,Bayes,test,f1,0.8471926304930457
+12,Bayes,test,roc_auc,0.5
+12,Bayes,validation,accuracy,0.7343735947477291
+12,Bayes,validation,precision,0.7343735947477291
+12,Bayes,validation,recall,1.0
+12,Bayes,validation,f1,0.846845912520418
+12,Bayes,validation,roc_auc,0.5
+13,Bayes,train,accuracy,0.7343367850406586
+13,Bayes,train,precision,0.7343367850406586
+13,Bayes,train,recall,1.0
+13,Bayes,train,f1,0.8468214378828888
+13,Bayes,train,roc_auc,0.5
+13,Bayes,test,accuracy,0.7348952243906827
+13,Bayes,test,precision,0.7348952243906827
+13,Bayes,test,recall,1.0
+13,Bayes,test,f1,0.8471926304930457
+13,Bayes,test,roc_auc,0.5
+13,Bayes,validation,accuracy,0.7343735947477291
+13,Bayes,validation,precision,0.7343735947477291
+13,Bayes,validation,recall,1.0
+13,Bayes,validation,f1,0.846845912520418
+13,Bayes,validation,roc_auc,0.5
+14,Bayes,train,accuracy,0.7343367850406586
+14,Bayes,train,precision,0.7343367850406586
+14,Bayes,train,recall,1.0
+14,Bayes,train,f1,0.8468214378828888
+14,Bayes,train,roc_auc,0.5
+14,Bayes,test,accuracy,0.7348952243906827
+14,Bayes,test,precision,0.7348952243906827
+14,Bayes,test,recall,1.0
+14,Bayes,test,f1,0.8471926304930457
+14,Bayes,test,roc_auc,0.5
+14,Bayes,validation,accuracy,0.7343735947477291
+14,Bayes,validation,precision,0.7343735947477291
+14,Bayes,validation,recall,1.0
+14,Bayes,validation,f1,0.846845912520418
+14,Bayes,validation,roc_auc,0.5
+15,Bayes,train,accuracy,0.7852230285921281
+15,Bayes,train,precision,0.8786734448628216
+15,Bayes,train,recall,0.820867240018507
+15,Bayes,train,f1,0.8487872658517281
+15,Bayes,train,roc_auc,0.7537819052426066
+15,Bayes,test,accuracy,0.7847558233654106
+15,Bayes,test,precision,0.8787958252478103
+15,Bayes,test,recall,0.8202366820456966
+15,Bayes,test,f1,0.8485070989549376
+15,Bayes,test,roc_auc,0.753318123904417
+15,Bayes,validation,accuracy,0.7840857990826513
+15,Bayes,validation,precision,0.8777067977067977
+15,Bayes,validation,recall,0.8202804482272977
+15,Bayes,validation,f1,0.8480225362811971
+15,Bayes,validation,roc_auc,0.7521497043912856
+16,Bayes,train,accuracy,0.7343367850406586
+16,Bayes,train,precision,0.7343367850406586
+16,Bayes,train,recall,1.0
+16,Bayes,train,f1,0.8468214378828888
+16,Bayes,train,roc_auc,0.5
+16,Bayes,test,accuracy,0.7348952243906827
+16,Bayes,test,precision,0.7348952243906827
+16,Bayes,test,recall,1.0
+16,Bayes,test,f1,0.8471926304930457
+16,Bayes,test,roc_auc,0.5
+16,Bayes,validation,accuracy,0.7343735947477291
+16,Bayes,validation,precision,0.7343735947477291
+16,Bayes,validation,recall,1.0
+16,Bayes,validation,f1,0.846845912520418
+16,Bayes,validation,roc_auc,0.5
+17,Bayes,train,accuracy,0.7488089736063055
+17,Bayes,train,precision,0.7774357179335633
+17,Bayes,train,recall,0.9218388536592004
+17,Bayes,train,f1,0.8435016482849431
+17,Bayes,train,roc_auc,0.5961824015994444
+17,Bayes,test,accuracy,0.7495548160805828
+17,Bayes,test,precision,0.7778029912325941
+17,Bayes,test,recall,0.9228396950301666
+17,Bayes,test,f1,0.8441367266865553
+17,Bayes,test,roc_auc,0.5960163125556234
+17,Bayes,validation,accuracy,0.7502698084360104
+17,Bayes,validation,precision,0.7787693023977652
+17,Bayes,validation,recall,0.9218051558385892
+17,Bayes,validation,f1,0.8442718337703126
+17,Bayes,validation,roc_auc,0.5989167983357497
+18,Bayes,train,accuracy,0.7445919782155215
+18,Bayes,train,precision,0.7495768956377289
+18,Bayes,train,recall,0.979394034237814
+18,Bayes,train,f1,0.8492116635447854
+18,Bayes,train,roc_auc,0.5374772712071703
+18,Bayes,test,accuracy,0.7452198938753485
+18,Bayes,test,precision,0.7503986941593651
+18,Bayes,test,recall,0.9789262418464626
+18,Bayes,test,f1,0.8495626915050104
+18,Bayes,test,roc_auc,0.5381451441956131
+18,Bayes,validation,accuracy,0.7446263153161256
+18,Bayes,validation,precision,0.7496952648851383
+18,Bayes,validation,recall,0.9791806992835712
+18,Bayes,validation,f1,0.8492074028836196
+18,Bayes,validation,roc_auc,0.5376689005136325
+19,Bayes,train,accuracy,0.8085988733027718
+19,Bayes,train,precision,0.8556159532933857
+19,Bayes,train,recall,0.8894483302942057
+19,Bayes,train,f1,0.8722041797398212
+19,Bayes,train,roc_auc,0.7372830088668347
+19,Bayes,test,accuracy,0.8092184548970232
+19,Bayes,test,precision,0.8567637693124189
+19,Bayes,test,recall,0.8890262259371214
+19,Bayes,test,f1,0.8725968901461235
+19,Bayes,test,roc_auc,0.7385050388768961
+19,Bayes,validation,accuracy,0.8106844140660131
+19,Bayes,validation,precision,0.8582067498079082
+19,Bayes,validation,recall,0.8891066070663156
+19,Bayes,validation,f1,0.8733834586466166
+19,Bayes,validation,roc_auc,0.741489142368438
+20,Bayes,train,accuracy,0.7343367850406586
+20,Bayes,train,precision,0.7343367850406586
+20,Bayes,train,recall,1.0
+20,Bayes,train,f1,0.8468214378828888
+20,Bayes,train,roc_auc,0.5
+20,Bayes,test,accuracy,0.7348952243906827
+20,Bayes,test,precision,0.7348952243906827
+20,Bayes,test,recall,1.0
+20,Bayes,test,f1,0.8471926304930457
+20,Bayes,test,roc_auc,0.5
+20,Bayes,validation,accuracy,0.7343735947477291
+20,Bayes,validation,precision,0.7343735947477291
+20,Bayes,validation,recall,1.0
+20,Bayes,validation,f1,0.846845912520418
+20,Bayes,validation,roc_auc,0.5
+21,Bayes,train,accuracy,0.7488089736063055
+21,Bayes,train,precision,0.7774357179335633
+21,Bayes,train,recall,0.9218388536592004
+21,Bayes,train,f1,0.8435016482849431
+21,Bayes,train,roc_auc,0.5961824015994444
+21,Bayes,test,accuracy,0.7495548160805828
+21,Bayes,test,precision,0.7778029912325941
+21,Bayes,test,recall,0.9228396950301666
+21,Bayes,test,f1,0.8441367266865553
+21,Bayes,test,roc_auc,0.5960163125556234
+21,Bayes,validation,accuracy,0.7502698084360104
+21,Bayes,validation,precision,0.7787693023977652
+21,Bayes,validation,recall,0.9218051558385892
+21,Bayes,validation,f1,0.8442718337703126
+21,Bayes,validation,roc_auc,0.5989167983357497
+22,Bayes,train,accuracy,0.7445919782155215
+22,Bayes,train,precision,0.7495768956377289
+22,Bayes,train,recall,0.979394034237814
+22,Bayes,train,f1,0.8492116635447854
+22,Bayes,train,roc_auc,0.5374772712071703
+22,Bayes,test,accuracy,0.7452198938753485
+22,Bayes,test,precision,0.7503986941593651
+22,Bayes,test,recall,0.9789262418464626
+22,Bayes,test,f1,0.8495626915050104
+22,Bayes,test,roc_auc,0.5381451441956131
+22,Bayes,validation,accuracy,0.7446263153161256
+22,Bayes,validation,precision,0.7496952648851383
+22,Bayes,validation,recall,0.9791806992835712
+22,Bayes,validation,f1,0.8492074028836196
+22,Bayes,validation,roc_auc,0.5376689005136325
+23,Bayes,train,accuracy,0.8085988733027718
+23,Bayes,train,precision,0.8556159532933857
+23,Bayes,train,recall,0.8894483302942057
+23,Bayes,train,f1,0.8722041797398212
+23,Bayes,train,roc_auc,0.7372830088668347
+23,Bayes,test,accuracy,0.8092184548970232
+23,Bayes,test,precision,0.8567637693124189
+23,Bayes,test,recall,0.8890262259371214
+23,Bayes,test,f1,0.8725968901461235
+23,Bayes,test,roc_auc,0.7385050388768961
+23,Bayes,validation,accuracy,0.8106844140660131
+23,Bayes,validation,precision,0.8582067498079082
+23,Bayes,validation,recall,0.8891066070663156
+23,Bayes,validation,f1,0.8733834586466166
+23,Bayes,validation,roc_auc,0.741489142368438
+24,Bayes,train,accuracy,0.7395230897985186
+24,Bayes,train,precision,0.7633472264259394
+24,Bayes,train,recall,0.9352291592956482
+24,Bayes,train,f1,0.840591675266598
+24,Bayes,train,roc_auc,0.5668942554078791
+24,Bayes,test,accuracy,0.7396708337080673
+24,Bayes,test,precision,0.7636425409451101
+24,Bayes,test,recall,0.9352245052806776
+24,Bayes,test,f1,0.8407688160804463
+24,Bayes,test,roc_auc,0.5664011388906356
+24,Bayes,validation,accuracy,0.7384207212878856
+24,Bayes,validation,precision,0.7625349580503396
+24,Bayes,validation,recall,0.9349703018798604
+24,Bayes,validation,f1,0.8399944986934397
+24,Bayes,validation,roc_auc,0.5649965780602959
+25,Bayes,train,accuracy,0.752998488576889
+25,Bayes,train,precision,0.7664574961275676
+25,Bayes,train,recall,0.95447091963095
+25,Bayes,train,f1,0.850193865692515
+25,Bayes,train,roc_auc,0.575283249473274
+25,Bayes,test,accuracy,0.7529993704469826
+25,Bayes,test,precision,0.7664567718105642
+25,Bayes,test,recall,0.9548419468138484
+25,Bayes,test,f1,0.8503405808947742
+25,Bayes,test,roc_auc,0.5741574119861554
+25,Bayes,validation,accuracy,0.7541595467218275
+25,Bayes,validation,precision,0.7672044862019775
+25,Bayes,validation,recall,0.9550241871287736
+25,Bayes,validation,f1,0.8508728859792689
+25,Bayes,validation,roc_auc,0.576928040745697
+26,Bayes,train,accuracy,0.7445919782155215
+26,Bayes,train,precision,0.7495768956377289
+26,Bayes,train,recall,0.979394034237814
+26,Bayes,train,f1,0.8492116635447854
+26,Bayes,train,roc_auc,0.5374772712071703
+26,Bayes,test,accuracy,0.7452198938753485
+26,Bayes,test,precision,0.7503986941593651
+26,Bayes,test,recall,0.9789262418464626
+26,Bayes,test,f1,0.8495626915050104
+26,Bayes,test,roc_auc,0.5381451441956131
+26,Bayes,validation,accuracy,0.7446263153161256
+26,Bayes,validation,precision,0.7496952648851383
+26,Bayes,validation,recall,0.9791806992835712
+26,Bayes,validation,f1,0.8492074028836196
+26,Bayes,validation,roc_auc,0.5376689005136325
+27,Bayes,train,accuracy,0.8137052350200482
+27,Bayes,train,precision,0.8439149042908429
+27,Bayes,train,recall,0.9156642081484908
+27,Bayes,train,f1,0.8783267170191833
+27,Bayes,train,roc_auc,0.7237690427902628
+27,Bayes,test,accuracy,0.8138321791528015
+27,Bayes,test,precision,0.8440414566205411
+27,Bayes,test,recall,0.9159130126173314
+27,Bayes,test,f1,0.8785097192224622
+27,Bayes,test,roc_auc,0.7233837885965513
+27,Bayes,validation,accuracy,0.8171373324939293
+27,Bayes,validation,precision,0.847033190911406
+27,Bayes,validation,recall,0.91650848080338
+27,Bayes,validation,f1,0.8804023351910946
+27,Bayes,validation,roc_auc,0.729457897080207
+28,Bayes,train,accuracy,0.7395230897985186
+28,Bayes,train,precision,0.7633472264259394
+28,Bayes,train,recall,0.9352291592956482
+28,Bayes,train,f1,0.840591675266598
+28,Bayes,train,roc_auc,0.5668942554078791
+28,Bayes,test,accuracy,0.7396708337080673
+28,Bayes,test,precision,0.7636425409451101
+28,Bayes,test,recall,0.9352245052806776
+28,Bayes,test,f1,0.8407688160804463
+28,Bayes,test,roc_auc,0.5664011388906356
+28,Bayes,validation,accuracy,0.7384207212878856
+28,Bayes,validation,precision,0.7625349580503396
+28,Bayes,validation,recall,0.9349703018798604
+28,Bayes,validation,f1,0.8399944986934397
+28,Bayes,validation,roc_auc,0.5649965780602959
+29,Bayes,train,accuracy,0.752998488576889
+29,Bayes,train,precision,0.7664574961275676
+29,Bayes,train,recall,0.95447091963095
+29,Bayes,train,f1,0.850193865692515
+29,Bayes,train,roc_auc,0.575283249473274
+29,Bayes,test,accuracy,0.7529993704469826
+29,Bayes,test,precision,0.7664567718105642
+29,Bayes,test,recall,0.9548419468138484
+29,Bayes,test,f1,0.8503405808947742
+29,Bayes,test,roc_auc,0.5741574119861554
+29,Bayes,validation,accuracy,0.7541595467218275
+29,Bayes,validation,precision,0.7672044862019775
+29,Bayes,validation,recall,0.9550241871287736
+29,Bayes,validation,f1,0.8508728859792689
+29,Bayes,validation,roc_auc,0.576928040745697
+30,Bayes,train,accuracy,0.7452415154202631
+30,Bayes,train,precision,0.7527278089059275
+30,Bayes,train,recall,0.9725662030863022
+30,Bayes,train,f1,0.8486410107223007
+30,Bayes,train,roc_auc,0.5447224617146748
+30,Bayes,test,accuracy,0.7456246065293641
+30,Bayes,test,precision,0.7533596987888962
+30,Bayes,test,recall,0.9721219389815574
+30,Bayes,test,f1,0.8488731205317547
+30,Bayes,test,roc_auc,0.5449373816087011
+30,Bayes,validation,accuracy,0.745008543933807
+30,Bayes,validation,precision,0.7527682276229994
+30,Bayes,validation,recall,0.9720164105076236
+30,Bayes,validation,f1,0.8484573138955329
+30,Bayes,validation,roc_auc,0.5447097457989277
+31,Bayes,train,accuracy,0.8140050214222366
+31,Bayes,train,precision,0.8343391754430326
+31,Bayes,train,recall,0.931711482459244
+31,Bayes,train,f1,0.8803409874428031
+31,Bayes,train,roc_auc,0.7101782508919348
+31,Bayes,test,accuracy,0.8138681536109362
+31,Bayes,test,precision,0.8347101997827733
+31,Bayes,test,recall,0.9311003145154382
+31,Bayes,test,f1,0.8802744385694947
+31,Bayes,test,roc_auc,0.7099949786438846
+31,Bayes,validation,accuracy,0.816215487004227
+31,Bayes,validation,precision,0.8367621981407118
+31,Bayes,validation,recall,0.931449390729288
+31,Bayes,validation,f1,0.8815705592581861
+31,Bayes,validation,roc_auc,0.7145396606600561
+32,Bayes,train,accuracy,1.0
+32,Bayes,train,precision,1.0
+32,Bayes,train,recall,1.0
+32,Bayes,train,f1,1.0
+32,Bayes,train,roc_auc,1.0
+32,Bayes,test,accuracy,0.7348952243906827
+32,Bayes,test,precision,0.7348952243906827
+32,Bayes,test,recall,1.0
+32,Bayes,test,f1,0.8471926304930457
+32,Bayes,test,roc_auc,0.5
+32,Bayes,validation,accuracy,0.7343735947477291
+32,Bayes,validation,precision,0.7343735947477291
+32,Bayes,validation,recall,1.0
+32,Bayes,validation,f1,0.846845912520418
+32,Bayes,validation,roc_auc,0.5
+33,Bayes,train,accuracy,1.0
+33,Bayes,train,precision,1.0
+33,Bayes,train,recall,1.0
+33,Bayes,train,f1,1.0
+33,Bayes,train,roc_auc,1.0
+33,Bayes,test,accuracy,0.7348952243906827
+33,Bayes,test,precision,0.7348952243906827
+33,Bayes,test,recall,1.0
+33,Bayes,test,f1,0.8471926304930457
+33,Bayes,test,roc_auc,0.5
+33,Bayes,validation,accuracy,0.7343735947477291
+33,Bayes,validation,precision,0.7343735947477291
+33,Bayes,validation,recall,1.0
+33,Bayes,validation,f1,0.846845912520418
+33,Bayes,validation,roc_auc,0.5
+34,Bayes,train,accuracy,1.0
+34,Bayes,train,precision,1.0
+34,Bayes,train,recall,1.0
+34,Bayes,train,f1,1.0
+34,Bayes,train,roc_auc,1.0
+34,Bayes,test,accuracy,0.7348952243906827
+34,Bayes,test,precision,0.7348952243906827
+34,Bayes,test,recall,1.0
+34,Bayes,test,f1,0.8471926304930457
+34,Bayes,test,roc_auc,0.5
+34,Bayes,validation,accuracy,0.7343735947477291
+34,Bayes,validation,precision,0.7343735947477291
+34,Bayes,validation,recall,1.0
+34,Bayes,validation,f1,0.846845912520418
+34,Bayes,validation,roc_auc,0.5
+35,Bayes,train,accuracy,1.0
+35,Bayes,train,precision,1.0
+35,Bayes,train,recall,1.0
+35,Bayes,train,f1,1.0
+35,Bayes,train,roc_auc,1.0
+35,Bayes,test,accuracy,0.7348952243906827
+35,Bayes,test,precision,0.7348952243906827
+35,Bayes,test,recall,1.0
+35,Bayes,test,f1,0.8471926304930457
+35,Bayes,test,roc_auc,0.5
+35,Bayes,validation,accuracy,0.7343735947477291
+35,Bayes,validation,precision,0.7343735947477291
+35,Bayes,validation,recall,1.0
+35,Bayes,validation,f1,0.846845912520418
+35,Bayes,validation,roc_auc,0.5
+36,Bayes,train,accuracy,1.0
+36,Bayes,train,precision,1.0
+36,Bayes,train,recall,1.0
+36,Bayes,train,f1,1.0
+36,Bayes,train,roc_auc,1.0
+36,Bayes,test,accuracy,0.7348952243906827
+36,Bayes,test,precision,0.7348952243906827
+36,Bayes,test,recall,1.0
+36,Bayes,test,f1,0.8471926304930457
+36,Bayes,test,roc_auc,0.5
+36,Bayes,validation,accuracy,0.7343735947477291
+36,Bayes,validation,precision,0.7343735947477291
+36,Bayes,validation,recall,1.0
+36,Bayes,validation,f1,0.846845912520418
+36,Bayes,validation,roc_auc,0.5
+37,Bayes,train,accuracy,1.0
+37,Bayes,train,precision,1.0
+37,Bayes,train,recall,1.0
+37,Bayes,train,f1,1.0
+37,Bayes,train,roc_auc,1.0
+37,Bayes,test,accuracy,0.7348952243906827
+37,Bayes,test,precision,0.7348952243906827
+37,Bayes,test,recall,1.0
+37,Bayes,test,f1,0.8471926304930457
+37,Bayes,test,roc_auc,0.5
+37,Bayes,validation,accuracy,0.7343735947477291
+37,Bayes,validation,precision,0.7343735947477291
+37,Bayes,validation,recall,1.0
+37,Bayes,validation,f1,0.846845912520418
+37,Bayes,validation,roc_auc,0.5
+38,Bayes,train,accuracy,1.0
+38,Bayes,train,precision,1.0
+38,Bayes,train,recall,1.0
+38,Bayes,train,f1,1.0
+38,Bayes,train,roc_auc,1.0
+38,Bayes,test,accuracy,0.7348952243906827
+38,Bayes,test,precision,0.7348952243906827
+38,Bayes,test,recall,1.0
+38,Bayes,test,f1,0.8471926304930457
+38,Bayes,test,roc_auc,0.5
+38,Bayes,validation,accuracy,0.7343735947477291
+38,Bayes,validation,precision,0.7343735947477291
+38,Bayes,validation,recall,1.0
+38,Bayes,validation,f1,0.846845912520418
+38,Bayes,validation,roc_auc,0.5
+39,Bayes,train,accuracy,1.0
+39,Bayes,train,precision,1.0
+39,Bayes,train,recall,1.0
+39,Bayes,train,f1,1.0
+39,Bayes,train,roc_auc,1.0
+39,Bayes,test,accuracy,0.7348952243906827
+39,Bayes,test,precision,0.7348952243906827
+39,Bayes,test,recall,1.0
+39,Bayes,test,f1,0.8471926304930457
+39,Bayes,test,roc_auc,0.5
+39,Bayes,validation,accuracy,0.7343735947477291
+39,Bayes,validation,precision,0.7343735947477291
+39,Bayes,validation,recall,1.0
+39,Bayes,validation,f1,0.846845912520418
+39,Bayes,validation,roc_auc,0.5
+40,Bayes,train,accuracy,1.0
+40,Bayes,train,precision,1.0
+40,Bayes,train,recall,1.0
+40,Bayes,train,f1,1.0
+40,Bayes,train,roc_auc,1.0
+40,Bayes,test,accuracy,0.7348952243906827
+40,Bayes,test,precision,0.7348952243906827
+40,Bayes,test,recall,1.0
+40,Bayes,test,f1,0.8471926304930457
+40,Bayes,test,roc_auc,0.5
+40,Bayes,validation,accuracy,0.7343735947477291
+40,Bayes,validation,precision,0.7343735947477291
+40,Bayes,validation,recall,1.0
+40,Bayes,validation,f1,0.846845912520418
+40,Bayes,validation,roc_auc,0.5
+41,Bayes,train,accuracy,1.0
+41,Bayes,train,precision,1.0
+41,Bayes,train,recall,1.0
+41,Bayes,train,f1,1.0
+41,Bayes,train,roc_auc,1.0
+41,Bayes,test,accuracy,0.7348952243906827
+41,Bayes,test,precision,0.7348952243906827
+41,Bayes,test,recall,1.0
+41,Bayes,test,f1,0.8471926304930457
+41,Bayes,test,roc_auc,0.5
+41,Bayes,validation,accuracy,0.7343735947477291
+41,Bayes,validation,precision,0.7343735947477291
+41,Bayes,validation,recall,1.0
+41,Bayes,validation,f1,0.846845912520418
+41,Bayes,validation,roc_auc,0.5
+42,Bayes,train,accuracy,1.0
+42,Bayes,train,precision,1.0
+42,Bayes,train,recall,1.0
+42,Bayes,train,f1,1.0
+42,Bayes,train,roc_auc,1.0
+42,Bayes,test,accuracy,0.7348952243906827
+42,Bayes,test,precision,0.7348952243906827
+42,Bayes,test,recall,1.0
+42,Bayes,test,f1,0.8471926304930457
+42,Bayes,test,roc_auc,0.5
+42,Bayes,validation,accuracy,0.7343735947477291
+42,Bayes,validation,precision,0.7343735947477291
+42,Bayes,validation,recall,1.0
+42,Bayes,validation,f1,0.846845912520418
+42,Bayes,validation,roc_auc,0.5
+43,Bayes,train,accuracy,1.0
+43,Bayes,train,precision,1.0
+43,Bayes,train,recall,1.0
+43,Bayes,train,f1,1.0
+43,Bayes,train,roc_auc,1.0
+43,Bayes,test,accuracy,0.7348952243906827
+43,Bayes,test,precision,0.7348952243906827
+43,Bayes,test,recall,1.0
+43,Bayes,test,f1,0.8471926304930457
+43,Bayes,test,roc_auc,0.5
+43,Bayes,validation,accuracy,0.7343735947477291
+43,Bayes,validation,precision,0.7343735947477291
+43,Bayes,validation,recall,1.0
+43,Bayes,validation,f1,0.846845912520418
+43,Bayes,validation,roc_auc,0.5
+44,Bayes,train,accuracy,1.0
+44,Bayes,train,precision,1.0
+44,Bayes,train,recall,1.0
+44,Bayes,train,f1,1.0
+44,Bayes,train,roc_auc,1.0
+44,Bayes,test,accuracy,0.7348952243906827
+44,Bayes,test,precision,0.7348952243906827
+44,Bayes,test,recall,1.0
+44,Bayes,test,f1,0.8471926304930457
+44,Bayes,test,roc_auc,0.5
+44,Bayes,validation,accuracy,0.7343735947477291
+44,Bayes,validation,precision,0.7343735947477291
+44,Bayes,validation,recall,1.0
+44,Bayes,validation,f1,0.846845912520418
+44,Bayes,validation,roc_auc,0.5
+45,Bayes,train,accuracy,1.0
+45,Bayes,train,precision,1.0
+45,Bayes,train,recall,1.0
+45,Bayes,train,f1,1.0
+45,Bayes,train,roc_auc,1.0
+45,Bayes,test,accuracy,0.7348952243906827
+45,Bayes,test,precision,0.7348952243906827
+45,Bayes,test,recall,1.0
+45,Bayes,test,f1,0.8471926304930457
+45,Bayes,test,roc_auc,0.5
+45,Bayes,validation,accuracy,0.7343735947477291
+45,Bayes,validation,precision,0.7343735947477291
+45,Bayes,validation,recall,1.0
+45,Bayes,validation,f1,0.846845912520418
+45,Bayes,validation,roc_auc,0.5
+46,Bayes,train,accuracy,1.0
+46,Bayes,train,precision,1.0
+46,Bayes,train,recall,1.0
+46,Bayes,train,f1,1.0
+46,Bayes,train,roc_auc,1.0
+46,Bayes,test,accuracy,0.7348952243906827
+46,Bayes,test,precision,0.7348952243906827
+46,Bayes,test,recall,1.0
+46,Bayes,test,f1,0.8471926304930457
+46,Bayes,test,roc_auc,0.5
+46,Bayes,validation,accuracy,0.7343735947477291
+46,Bayes,validation,precision,0.7343735947477291
+46,Bayes,validation,recall,1.0
+46,Bayes,validation,f1,0.846845912520418
+46,Bayes,validation,roc_auc,0.5
+47,Bayes,train,accuracy,1.0
+47,Bayes,train,precision,1.0
+47,Bayes,train,recall,1.0
+47,Bayes,train,f1,1.0
+47,Bayes,train,roc_auc,1.0
+47,Bayes,test,accuracy,0.7348952243906827
+47,Bayes,test,precision,0.7348952243906827
+47,Bayes,test,recall,1.0
+47,Bayes,test,f1,0.8471926304930457
+47,Bayes,test,roc_auc,0.5
+47,Bayes,validation,accuracy,0.7343735947477291
+47,Bayes,validation,precision,0.7343735947477291
+47,Bayes,validation,recall,1.0
+47,Bayes,validation,f1,0.846845912520418
+47,Bayes,validation,roc_auc,0.5
+48,Bayes,train,accuracy,1.0
+48,Bayes,train,precision,1.0
+48,Bayes,train,recall,1.0
+48,Bayes,train,f1,1.0
+48,Bayes,train,roc_auc,1.0
+48,Bayes,test,accuracy,0.7348952243906827
+48,Bayes,test,precision,0.7348952243906827
+48,Bayes,test,recall,1.0
+48,Bayes,test,f1,0.8471926304930457
+48,Bayes,test,roc_auc,0.5
+48,Bayes,validation,accuracy,0.7343735947477291
+48,Bayes,validation,precision,0.7343735947477291
+48,Bayes,validation,recall,1.0
+48,Bayes,validation,f1,0.846845912520418
+48,Bayes,validation,roc_auc,0.5
+49,Bayes,train,accuracy,1.0
+49,Bayes,train,precision,1.0
+49,Bayes,train,recall,1.0
+49,Bayes,train,f1,1.0
+49,Bayes,train,roc_auc,1.0
+49,Bayes,test,accuracy,0.7348952243906827
+49,Bayes,test,precision,0.7348952243906827
+49,Bayes,test,recall,1.0
+49,Bayes,test,f1,0.8471926304930457
+49,Bayes,test,roc_auc,0.5
+49,Bayes,validation,accuracy,0.7343735947477291
+49,Bayes,validation,precision,0.7343735947477291
+49,Bayes,validation,recall,1.0
+49,Bayes,validation,f1,0.846845912520418
+49,Bayes,validation,roc_auc,0.5
+50,Bayes,train,accuracy,1.0
+50,Bayes,train,precision,1.0
+50,Bayes,train,recall,1.0
+50,Bayes,train,f1,1.0
+50,Bayes,train,roc_auc,1.0
+50,Bayes,test,accuracy,0.7348952243906827
+50,Bayes,test,precision,0.7348952243906827
+50,Bayes,test,recall,1.0
+50,Bayes,test,f1,0.8471926304930457
+50,Bayes,test,roc_auc,0.5
+50,Bayes,validation,accuracy,0.7343735947477291
+50,Bayes,validation,precision,0.7343735947477291
+50,Bayes,validation,recall,1.0
+50,Bayes,validation,f1,0.846845912520418
+50,Bayes,validation,roc_auc,0.5
+51,Bayes,train,accuracy,1.0
+51,Bayes,train,precision,1.0
+51,Bayes,train,recall,1.0
+51,Bayes,train,f1,1.0
+51,Bayes,train,roc_auc,1.0
+51,Bayes,test,accuracy,0.7348952243906827
+51,Bayes,test,precision,0.7348952243906827
+51,Bayes,test,recall,1.0
+51,Bayes,test,f1,0.8471926304930457
+51,Bayes,test,roc_auc,0.5
+51,Bayes,validation,accuracy,0.7343735947477291
+51,Bayes,validation,precision,0.7343735947477291
+51,Bayes,validation,recall,1.0
+51,Bayes,validation,f1,0.846845912520418
+51,Bayes,validation,roc_auc,0.5
+52,Bayes,train,accuracy,1.0
+52,Bayes,train,precision,1.0
+52,Bayes,train,recall,1.0
+52,Bayes,train,f1,1.0
+52,Bayes,train,roc_auc,1.0
+52,Bayes,test,accuracy,0.7348952243906827
+52,Bayes,test,precision,0.7348952243906827
+52,Bayes,test,recall,1.0
+52,Bayes,test,f1,0.8471926304930457
+52,Bayes,test,roc_auc,0.5
+52,Bayes,validation,accuracy,0.7343735947477291
+52,Bayes,validation,precision,0.7343735947477291
+52,Bayes,validation,recall,1.0
+52,Bayes,validation,f1,0.846845912520418
+52,Bayes,validation,roc_auc,0.5
+53,Bayes,train,accuracy,1.0
+53,Bayes,train,precision,1.0
+53,Bayes,train,recall,1.0
+53,Bayes,train,f1,1.0
+53,Bayes,train,roc_auc,1.0
+53,Bayes,test,accuracy,0.7348952243906827
+53,Bayes,test,precision,0.7348952243906827
+53,Bayes,test,recall,1.0
+53,Bayes,test,f1,0.8471926304930457
+53,Bayes,test,roc_auc,0.5
+53,Bayes,validation,accuracy,0.7343735947477291
+53,Bayes,validation,precision,0.7343735947477291
+53,Bayes,validation,recall,1.0
+53,Bayes,validation,f1,0.846845912520418
+53,Bayes,validation,roc_auc,0.5
+54,Bayes,train,accuracy,1.0
+54,Bayes,train,precision,1.0
+54,Bayes,train,recall,1.0
+54,Bayes,train,f1,1.0
+54,Bayes,train,roc_auc,1.0
+54,Bayes,test,accuracy,0.7348952243906827
+54,Bayes,test,precision,0.7348952243906827
+54,Bayes,test,recall,1.0
+54,Bayes,test,f1,0.8471926304930457
+54,Bayes,test,roc_auc,0.5
+54,Bayes,validation,accuracy,0.7343735947477291
+54,Bayes,validation,precision,0.7343735947477291
+54,Bayes,validation,recall,1.0
+54,Bayes,validation,f1,0.846845912520418
+54,Bayes,validation,roc_auc,0.5
+55,Bayes,train,accuracy,1.0
+55,Bayes,train,precision,1.0
+55,Bayes,train,recall,1.0
+55,Bayes,train,f1,1.0
+55,Bayes,train,roc_auc,1.0
+55,Bayes,test,accuracy,0.7348952243906827
+55,Bayes,test,precision,0.7348952243906827
+55,Bayes,test,recall,1.0
+55,Bayes,test,f1,0.8471926304930457
+55,Bayes,test,roc_auc,0.5
+55,Bayes,validation,accuracy,0.7343735947477291
+55,Bayes,validation,precision,0.7343735947477291
+55,Bayes,validation,recall,1.0
+55,Bayes,validation,f1,0.846845912520418
+55,Bayes,validation,roc_auc,0.5
+56,Bayes,train,accuracy,1.0
+56,Bayes,train,precision,1.0
+56,Bayes,train,recall,1.0
+56,Bayes,train,f1,1.0
+56,Bayes,train,roc_auc,1.0
+56,Bayes,test,accuracy,0.7348952243906827
+56,Bayes,test,precision,0.7348952243906827
+56,Bayes,test,recall,1.0
+56,Bayes,test,f1,0.8471926304930457
+56,Bayes,test,roc_auc,0.5
+56,Bayes,validation,accuracy,0.7343735947477291
+56,Bayes,validation,precision,0.7343735947477291
+56,Bayes,validation,recall,1.0
+56,Bayes,validation,f1,0.846845912520418
+56,Bayes,validation,roc_auc,0.5
+57,Bayes,train,accuracy,1.0
+57,Bayes,train,precision,1.0
+57,Bayes,train,recall,1.0
+57,Bayes,train,f1,1.0
+57,Bayes,train,roc_auc,1.0
+57,Bayes,test,accuracy,0.7348952243906827
+57,Bayes,test,precision,0.7348952243906827
+57,Bayes,test,recall,1.0
+57,Bayes,test,f1,0.8471926304930457
+57,Bayes,test,roc_auc,0.5
+57,Bayes,validation,accuracy,0.7343735947477291
+57,Bayes,validation,precision,0.7343735947477291
+57,Bayes,validation,recall,1.0
+57,Bayes,validation,f1,0.846845912520418
+57,Bayes,validation,roc_auc,0.5
+58,Bayes,train,accuracy,1.0
+58,Bayes,train,precision,1.0
+58,Bayes,train,recall,1.0
+58,Bayes,train,f1,1.0
+58,Bayes,train,roc_auc,1.0
+58,Bayes,test,accuracy,0.7348952243906827
+58,Bayes,test,precision,0.7348952243906827
+58,Bayes,test,recall,1.0
+58,Bayes,test,f1,0.8471926304930457
+58,Bayes,test,roc_auc,0.5
+58,Bayes,validation,accuracy,0.7343735947477291
+58,Bayes,validation,precision,0.7343735947477291
+58,Bayes,validation,recall,1.0
+58,Bayes,validation,f1,0.846845912520418
+58,Bayes,validation,roc_auc,0.5
+59,Bayes,train,accuracy,1.0
+59,Bayes,train,precision,1.0
+59,Bayes,train,recall,1.0
+59,Bayes,train,f1,1.0
+59,Bayes,train,roc_auc,1.0
+59,Bayes,test,accuracy,0.7348952243906827
+59,Bayes,test,precision,0.7348952243906827
+59,Bayes,test,recall,1.0
+59,Bayes,test,f1,0.8471926304930457
+59,Bayes,test,roc_auc,0.5
+59,Bayes,validation,accuracy,0.7343735947477291
+59,Bayes,validation,precision,0.7343735947477291
+59,Bayes,validation,recall,1.0
+59,Bayes,validation,f1,0.846845912520418
+59,Bayes,validation,roc_auc,0.5
+60,Bayes,train,accuracy,1.0
+60,Bayes,train,precision,1.0
+60,Bayes,train,recall,1.0
+60,Bayes,train,f1,1.0
+60,Bayes,train,roc_auc,1.0
+60,Bayes,test,accuracy,0.7348952243906827
+60,Bayes,test,precision,0.7348952243906827
+60,Bayes,test,recall,1.0
+60,Bayes,test,f1,0.8471926304930457
+60,Bayes,test,roc_auc,0.5
+60,Bayes,validation,accuracy,0.7343735947477291
+60,Bayes,validation,precision,0.7343735947477291
+60,Bayes,validation,recall,1.0
+60,Bayes,validation,f1,0.846845912520418
+60,Bayes,validation,roc_auc,0.5
+61,Bayes,train,accuracy,1.0
+61,Bayes,train,precision,1.0
+61,Bayes,train,recall,1.0
+61,Bayes,train,f1,1.0
+61,Bayes,train,roc_auc,1.0
+61,Bayes,test,accuracy,0.7348952243906827
+61,Bayes,test,precision,0.7348952243906827
+61,Bayes,test,recall,1.0
+61,Bayes,test,f1,0.8471926304930457
+61,Bayes,test,roc_auc,0.5
+61,Bayes,validation,accuracy,0.7343735947477291
+61,Bayes,validation,precision,0.7343735947477291
+61,Bayes,validation,recall,1.0
+61,Bayes,validation,f1,0.846845912520418
+61,Bayes,validation,roc_auc,0.5
+62,Bayes,train,accuracy,1.0
+62,Bayes,train,precision,1.0
+62,Bayes,train,recall,1.0
+62,Bayes,train,f1,1.0
+62,Bayes,train,roc_auc,1.0
+62,Bayes,test,accuracy,0.7348952243906827
+62,Bayes,test,precision,0.7348952243906827
+62,Bayes,test,recall,1.0
+62,Bayes,test,f1,0.8471926304930457
+62,Bayes,test,roc_auc,0.5
+62,Bayes,validation,accuracy,0.7343735947477291
+62,Bayes,validation,precision,0.7343735947477291
+62,Bayes,validation,recall,1.0
+62,Bayes,validation,f1,0.846845912520418
+62,Bayes,validation,roc_auc,0.5
+63,Bayes,train,accuracy,1.0
+63,Bayes,train,precision,1.0
+63,Bayes,train,recall,1.0
+63,Bayes,train,f1,1.0
+63,Bayes,train,roc_auc,1.0
+63,Bayes,test,accuracy,0.7348952243906827
+63,Bayes,test,precision,0.7348952243906827
+63,Bayes,test,recall,1.0
+63,Bayes,test,f1,0.8471926304930457
+63,Bayes,test,roc_auc,0.5
+63,Bayes,validation,accuracy,0.7343735947477291
+63,Bayes,validation,precision,0.7343735947477291
+63,Bayes,validation,recall,1.0
+63,Bayes,validation,f1,0.846845912520418
+63,Bayes,validation,roc_auc,0.5
