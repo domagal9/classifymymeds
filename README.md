@@ -1,6 +1,8 @@
 # CoverMyMeds Challenge at The Erdos Institute 2021 Boot Camp
 Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 
+# video will be inserted here
+
 ## Overview 
 [Project Description](#project-description)  
 [Main Takeaways](#main-takeaways)  
@@ -23,11 +25,15 @@ Maybe just a sentence for each
 >  Highlight KPIs? 
 
 ### Data 
-Each event in the dataset corresponds to a prescription written by a provider. For each event, there is information about the patient's insurer, the patient, the drug prescribed and whether or not the original prescription claim was accepted. If it was rejected, the reject code is included as well as whether the subsequent PA was accepted or rejected. Additionally, the month, day and year of the claim is included. The data spans 3 years and our dataset consists of approximately 1 million data points, with roughly half resulting in a PA. 
+The dataset is provided by [CoverMyMeds](https://covermymeds.com/). It contains over one million entries of pharmacy claims data, spanning the years 2016, 2017, and 2018. 
+Each event in the dataset corresponds to a prescription written by a provider. For each event, there is information about the patient's insurer, the patient's medical situation, the drug prescribed, and whether or not the original prescription claim was accepted. If it was rejected, the reject code is included, as well as whether the subsequent PA was accepted or rejected. Additionally, the month, day and year of the claim is included. Roughly half of the entries require a PA. 
 
 All of the features for each event are categorical or binary; there are no continuous features. 
+The date information provided in [data/dim_date.csv](data/dim_date.csv) contains information about when the pharmacy claim was submitted. In addition to the calendar date, it also includes whether this date was a weekday, workday, or holiday.   
+The claims information provided in [data/dim_claims.csv](data/dim_claims.csv) contains the BIN for the payer, which drug was prescribed, the rejection code, and a flag if the pharmacy claim was approved. There are four payers: 417380, 417614, 417740, 999001, three drugs: A, B, C, and three reject codes: 70, 75, 76. To see which drugs are on the formulary for each payer, see [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer).   
+Prior authorization information is available in [data/dim_pa.csv](data/dim_pa.csv). Here we can learn for each prior authorization whether the patient has the correct diagnosis, has tried and failed generic alternatives, or has any associated contraindications for the requested medication. Also included is a flag for whether the prior authorization was favorably reviewed and approved. 
 
-See [exploration.ipynb](exploration.ipynb)
+For information and summary of this dataset, see [exploration.ipynb](exploration.ipynb)
 
 ## Predicting PA Acceptance 
 
