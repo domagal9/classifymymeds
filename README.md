@@ -8,7 +8,7 @@ Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 [Predicting PA Acceptance](#predicting-pa-acceptance)  
 [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)  
 [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)  
-[Predicting the Number of Refills](#predicting-the-number-of-refills)  
+[Predicting the Limitation of Fills](#predicting-the-limitation-of-fills)  
 
 ## Project Description
 
@@ -27,7 +27,7 @@ Each event in the dataset corresponds to a prescription written by a provider. F
 
 All of the features for each event are categorical or binary; there are no continuous features. 
 
-See [exploration.ipynb](https://github.com/domagal9/cmm_pa/blob/main/exploration.ipynb)
+See [exploration.ipynb](exploration.ipynb)
 
 ## Predicting PA Acceptance 
 
@@ -46,7 +46,26 @@ Through examining the data from each payer and each drug, we find the following:
 
 These results can be observed in [exploration.ipynb](exploration.ipynb)
 
-## Predicting the Number of Refills
+## Predicting the Limitation of Fills
+
+Reject code 76 occurs if a patient fill certain drug many times, exceeding the limitation of fills. For example, if a payer decides drug X has limitation of fills to be 5 times, the a patient with this payer can fill the drug without any issue for the first 5 times. But when the patient try to fill for the sixth time, the patient gets rejected with code 76.
+
+Assuming that the numbers of fills for drug X obey a Poisson distribution, we can infer the relation between limitation of fills and the average number of fills from the data:
+
+| Average | Limitation |
+| ------- | ---------- |
+| 4       | 7          |
+| 5       | 9          |
+| 6       | 10         |
+| 7       | 11         |
+| 8       | 12         |
+
+The table is taken from [number_of_fills.ipynb](number_of_fills.ipynb). If the average number of fills for the drug X is 4, then the limitation of fills inferred from the data is 7. Under the assumption of Poisson distribution, the best estimate is that the average number of fills is 7 and the limitation of fills is 11.
+
+The estimate is helpful for payers to make strategy on limitation of fills to balance the cost between processing prior authorization and approving the drug X. Currently, 10% of pharmacy claims for drug X require prior authorizations. Using the best estimate of average number of fills being 7, we conclude that increasing the limitation of fills to 12 can reduce the volume of prior authorizations in half. That is, only 5% of pharmacy claims for drug X now require prior authorizations. It cuts the cost of processing prior authorization in half! Of course, it increases the cost from approving the drug X at the same time.
+
+See [number_of_fills.ipynb](number_of_fills.ipynb) for more details.
+
 
 
 
