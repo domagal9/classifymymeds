@@ -58,6 +58,15 @@ We turn our random forest model into a Heroku app: [https://pachecker.herokuapp.
 ![](images/screenshot_of_webapp_result.png)
 
 ## Predicting PA and Claim Volume 
+For healthcare technology companies, knowing the prior authorization volume is a predictor of revenue. We use a variety of time series analysis approaches to find the best predictor of PA volume at the monthly level. This will assist in budgeting and resource allocation. 
+
+- models: exponential smoothing, simple exponential smoothing, Holt's method, ARIMA
+- features: calendar date, is_weekday, is_workday, is_holiday. 
+- scoring functions: mean square error (MSE) and 95% prediction intervals
+
+We find that the exponential smoothing model with an additive damped trend and additive seasonal period of length 12 has the lowest MSE. When training on a subset of the first 2.5 years of the data, the forecasted last 6 months has a 95% chance of being within 7.6% of the true number of PAs filed monthly. 
+
+![](images/exponential_smoothing.png)
 
 ## Identifying the Formulary for Each Payer 
 The formulary of a payer is list of the preferred drugs each payer has. These lists are often tiered with certain drugs being lower in cost than others, and other drugs needing a prior authorization before the payer will agree to cover them. If an initial pharmacy claim is rejected, a "reject code" is provided which explains why the drug was not covered. In this data, we have three different reject codes: 70, 75, 76. From these codes, we are able to determine the formulary of each payer. 
