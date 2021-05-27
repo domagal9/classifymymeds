@@ -31,6 +31,24 @@ See [exploration.ipynb](exploration.ipynb)
 
 ## Predicting PA Acceptance 
 
+Not all prior authorizations (PA) get approved. It is extremely useful to know whether a PA is accepted because it can save doctors' time and help patients get their treatment in time. We evaluate a list of models on all possible non-empty feature subsets using various scoring functions in [pa_classifier.ipynb](pa_classifier.ipynb):
+
+- models: logistic regression, decision tree, random forest, support vector classifier, voting classifier (using the previous 4 models), and AdaBoost classifier on decision tree with depth 1.
+- feature subsets: all non-empty subsets of [bin, drug, correct_diagnosis, tried_and_failed, contraindication]. See [exploration.ipynb](exploration.ipynb) for their meanings.
+- scoring functions: accuracy, precision, recall, f1, roc auc
+
+Looking at the baseline model which always predicts 1, we see that roc auc score is the better for selecting models. If a PA is approved, we want our model to confirm it, so that patients are sure to get their treatment. We want high true positive rate, or recall, of our models. If a PA is denied, we want our model to detect it, so doctors can alter the course of treatment immediately. We want high true negative rate as well. In binary classification, roc auc score is the average of true positive rate and true negative rate. Therefore, roc auc score is the most suitable score for selecting models.
+
+Let's look at the best models in roc auc score:
+
+![](images/models_comparison_roc_auc.png)
+
+From the table, we see that all scores but roc auc for the baseline model are relatively high. The roc auc score for the baseline model is 0.5, so it is basically a random guessing model. Decision tree and random forest are the best model in roc auc score. In [pa_classifier_feature_importances.ipynb](pa_classifier_feature_importances.ipynb), we use drop-feature importances to decide that random forest is better than decision tree.
+
+We turn our random forest model into a Heroku app: [https://pachecker.herokuapp.com](https://pachecker.herokuapp.com). It includes the formulary found in [exploration.ipynb](exploration.ipynb). So it can tell whether a patient needs a prior authorization, and decides the probability of the PA being accepted.
+
+![](images/screenshot_of_webapp_result.png)
+
 ## Predicting PA and Claim Volume 
 
 ## Identifying the Formulary for Each Payer 
