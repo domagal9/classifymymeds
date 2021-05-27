@@ -30,7 +30,9 @@ Each event in the dataset corresponds to a prescription written by a provider. F
 
 All of the features for each event are categorical or binary; there are no continuous features. 
 The date information provided in [data/dim_date.csv](data/dim_date.csv) contains information about when the pharmacy claim was submitted. In addition to the calendar date, it also includes whether this date was a weekday, workday, or holiday.   
-The claims information provided in [data/dim_claims.csv](data/dim_claims.csv) contains the BIN for the payer, which drug was prescribed, the rejection code, and a flag if the pharmacy claim was approved. There are four payers: 417380, 417614, 417740, 999001, three drugs: A, B, C, and three reject codes: 70, 75, 76. To see which drugs are on the formulary for each payer, see [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer).   
+
+The claims information provided in [data/dim_claims.csv](data/dim_claims.csv) contains the BIN for the payer, which drug was prescribed, the rejection code, and a flag if the pharmacy claim was approved. There are four payers: 417380, 417614, 417740, 999001, three drugs: A, B, C, and three reject codes: 70, 75, 76. To see which drugs are on the formulary for each payer, see [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer).  
+
 Prior authorization information is available in [data/dim_pa.csv](data/dim_pa.csv). Here we can learn for each prior authorization whether the patient has the correct diagnosis, has tried and failed generic alternatives, or has any associated contraindications for the requested medication. Also included is a flag for whether the prior authorization was favorably reviewed and approved. 
 
 For information and summary of this dataset, see [exploration.ipynb](exploration.ipynb)
