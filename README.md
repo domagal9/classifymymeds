@@ -53,7 +53,7 @@ Let's look at the best models in roc auc score:
 
 From the table, we see that all scores but roc auc for the baseline model are relatively high. The roc auc score for the baseline model is 0.5, so it is basically a random guessing model. Decision tree and random forest are the best model in roc auc score. In [pa_classifier_feature_importances.ipynb](pa_classifier_feature_importances.ipynb), we use drop-feature importances to decide that random forest is better than decision tree.
 
-We turn our random forest model into a Heroku app: [https://pachecker.herokuapp.com](https://pachecker.herokuapp.com). It includes the formulary found in [exploration.ipynb](exploration.ipynb). So it can tell whether a patient needs a prior authorization, and decides the probability of the PA being accepted.
+We turn our random forest model into a Heroku app: [https://pachecker.herokuapp.com](https://pachecker.herokuapp.com). It includes the formulary found in [exploration.ipynb](exploration.ipynb). So it can tell whether a patient needs a prior authorization, and decides the probability of the PA being accepted. Source code and details of the app are located at [wormtooth/pachecker](https://github.com/wormtooth/pachecker).
 
 ![](images/screenshot_of_webapp_result.png)
 
