@@ -1,7 +1,8 @@
-# CoverMyMeds Challenge at The Erdos Institute 2021 Boot Camp
+# ClassifyMyMeds: Predicting Prior Authorization Approval and Volume for CoverMyMeds
+## CoverMyMeds Challenge at The Erdos Institute 2021 Boot Camp
 Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 
-# video will be inserted here
+[![Watch Our 5 Minute Presentation](presentation/classifymymeds_youtubelink.jpg)](https://www.youtube.com/watch?v=f2bvzskTrqE)
 
 ## Overview 
 [Project Description](#project-description)  
@@ -64,7 +65,7 @@ For healthcare technology companies, knowing the prior authorization volume is a
 - features: calendar date, is_weekday, is_workday, is_holiday. 
 - scoring functions: mean square error (MSE) and 95% prediction intervals
 
-We find that the exponential smoothing model with an additive damped trend and additive seasonal period of length 12 has the lowest MSE. When training on a subset of the first 2.5 years of the data, the forecasted last 6 months has a 95% chance of being within 7.6% of the true number of PAs filed monthly. 
+We find that the exponential smoothing model with an additive damped trend and additive seasonal period of length 12 has the lowest MSE. When training on a subset of the first 2.5 years of the data, the forecasted last 6 months has a 95% chance of being within 5.04% of the true number of PAs filed monthly. See [volumeCI.ipynb](volumeCI.ipynb).
 
 ![](images/exponential_smoothing.png)
 
