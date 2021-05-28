@@ -1,4 +1,5 @@
-# CoverMyMeds Challenge at The Erdos Institute 2021 Boot Camp
+# ClassifyMyMeds: Predicting Prior Authorization Approval and Volume for CoverMyMeds
+## CoverMyMeds Challenge at The Erdos Institute 2021 Boot Camp
 Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 
 # video will be inserted here
