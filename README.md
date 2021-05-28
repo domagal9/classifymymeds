@@ -68,6 +68,16 @@ We find that the exponential smoothing model with an additive damped trend and a
 
 ![](images/exponential_smoothing.png)
 
+We also used random forest regression and LSTM to obtain daily volume forecast. For random forest regression, we used the features that contained information about each date (for example, 'is_workday', 'is_weekday'). However, because these features do not account for differences between years, we had to normalize by the total PA volume of each year. With this approach, we obtain an accuracy of almost 95% with RMSE of 38 (daily PA volume approximately ranges from 200 to 800). The below shows a plot of the actual data (blue line) with the prediction interval (brown area) for the last 50 days of 2019.
+
+![](images/volume_rf.png)
+
+We also used Long Short Term Memory (LTSM) model to obtain daily volume prediction. With epoch number of 40, drop out rate of 0.0, and look back of 28 days, we acheived approximately 91% of accuracy with 40 RMSE averaged over 100 repetitions. Thus, achieve slightly less accuracy but this approach does not require prior knowledge of total PA volume for the year.
+
+![](images/volume_rnn.png)
+
+The composite of the daily predictions for each day of a given month of course generates a monthly prediction.
+
 ## Identifying the Formulary for Each Payer 
 The formulary of a payer is list of the preferred drugs each payer has. These lists are often tiered with certain drugs being lower in cost than others, and other drugs needing a prior authorization before the payer will agree to cover them. If an initial pharmacy claim is rejected, a "reject code" is provided which explains why the drug was not covered. In this data, we have three different reject codes: 
 * 70: the drug is not on the formulary and is not covered by the payer;
