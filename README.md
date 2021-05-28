@@ -2,7 +2,7 @@
 ## CoverMyMeds Challenge at The Erdos Institute 2021 Boot Camp
 Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 
-[![Watch Our 5 Minute Presentation](https://img.youtube.com/vi/f2bvzskTrqE/maxresdefault.jpg)](https://www.youtube.com/watch?v=f2bvzskTrqE)
+[![Watch Our 5 Minute Presentation](presentation/classifymymeds_youtubelink.jpg)](https://www.youtube.com/watch?v=f2bvzskTrqE)
 
 ## Overview 
 [Project Description](#project-description)  
