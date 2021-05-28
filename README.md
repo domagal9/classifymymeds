@@ -18,7 +18,6 @@ Rachel Domagalski, Rachel Lee, Hannah Pieper and Rongqing Ye
 When a patient tries to get a prescription from a pharmacy, a claim is created against the patient's insurance (payer). Such a pharmacy claim might be rejected for various reasons and might require prior authorization (PA). A PA is a form that providers submit on behalf of a patient to the insurance making a case for the prescribed therapy. In this project, we surveyed many classifiers for predicting how likely a certain PA will be approved, and forecast future volume of PAs with time series analysis techniques. Additionally, we identify the formulary for each payer and predict the number of times certain drugs can be refilled.
 
 ### Main Takeaways
-Maybe just a sentence for each
 - With highest ROC AUC, drop feature and permutation importance score, a random forest model should be used to predict prior authorization classification. [Predicting PA Acceptance](#predicting-pa-acceptance)
 - Additive exponential smoothing provides an accurate forecast for monthly volume of PAs. [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
 - Random Forest and LSTM provide an accurate forecast for daily volume of PAs. [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
