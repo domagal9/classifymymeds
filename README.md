@@ -21,7 +21,7 @@ When a patient tries to get a prescription from a pharmacy, a claim is created a
 - With highest ROC AUC, drop feature and permutation importance score, a random forest model should be used to predict prior authorization classification. [Predicting PA Acceptance](#predicting-pa-acceptance)
 - Additive exponential smoothing provides an accurate forecast for monthly volume of PAs. [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
 - Random Forest and LSTM provide an accurate forecast for daily volume of PAs. [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
-- We have identified the formulary for each payer. [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)
+- The formulary for each payer is identified. [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)
 - We can predict the limitation on the number of refills for a drug. [Predicting the Limitation of Fills](#predicting-the-limitation-of-fills)  
 
 ### CoverMyMeds Data 
@@ -69,11 +69,13 @@ We find that the exponential smoothing model with an additive damped trend and a
 ![](images/exponential_smoothing.png)
 
 ## Identifying the Formulary for Each Payer 
-The formulary of a payer is list of the preferred drugs each payer has. These lists are often tiered with certain drugs being lower in cost than others, and other drugs needing a prior authorization before the payer will agree to cover them. If an initial pharmacy claim is rejected, a "reject code" is provided which explains why the drug was not covered. In this data, we have three different reject codes: 70, 75, 76. From these codes, we are able to determine the formulary of each payer. 
+The formulary of a payer is list of the preferred drugs each payer has. These lists are often tiered with certain drugs being lower in cost than others, and other drugs needing a prior authorization before the payer will agree to cover them. If an initial pharmacy claim is rejected, a "reject code" is provided which explains why the drug was not covered. In this data, we have three different reject codes: 
+* 70: the drug is not on the formulary and is not covered by the payer;
+* 75: the drug is on the formulary, but another drug is typically preferred;
+* 76: the drug is covered but plan limitations ahve been exceeded.
+A presciption fill request with reject code 75 requires a prior authorization and a code 76 typically means the patient has exceeded the number of refills for the medication.
 
-Each reject code has a different meaning. A code 70 means that the drug is not on the formulary and is not covered by the payer. A code 75 means the drug is on the formulary, but another drug is typically prefered. These drugs will require a prior authorization. A code 76 means that while the drug is covered, plan limitations ahve been exceeded. This typically means the patient is over the number of refills on the prescription. 
-
-Through examining the data from each payer and each drug, we find the following: 
+We determine the formulary of each payer from these codes. In particular, by examining the data from each payer and each drug, we find the following: 
 * Payer 417380: Drug A is on formulary, but requires a PA (Code 75), Drug B is on formulary and only requires a PA if the patient is over refills (Code 76), Drug C is not covered (Code 70).
 * Payer 417614: Drug A is not covered (Code 70), Drug B is on formulary but requires a PA (Code 75), Drug C is on formulary and only requires a PA if patient is over refills (Code 76). 
 * Payer 417740: Drug A is on formulary and only requires a PA if patient is over refills (Code 76), Drug B is not covered (Code 70), Drug C is on formulary but requires a PA (Code 75). 
@@ -83,7 +85,7 @@ These results can be observed in [exploration.ipynb](exploration.ipynb)
 
 ## Predicting the Limitation of Fills
 
-Reject code 76 occurs if a patient fill certain drug many times, exceeding the limitation of fills. For example, if a payer decides drug X has limitation of fills to be 5 times, then a patient with this payer can fill the drug without any issue for the first 5 times. But when the patient try to fill for the sixth time, the patient gets rejected with code 76.
+Reject code 76 occurs if a patient fills a certain drug many times, exceeding the limitation of fills. For example, if a payer decides drug X has limitation of fills to be 5 times, then a patient with this payer can fill the drug without any issue for the first 5 times. But when the patient try to fill for the sixth time, the patient gets rejected with code 76.
 
 Assuming that the numbers of fills for drug X obey a Poisson distribution, we can infer the relation between limitation of fills and the average number of fills from the data:
 
