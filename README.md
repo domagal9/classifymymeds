@@ -19,11 +19,11 @@ When a patient tries to get a prescription from a pharmacy, a claim is created a
 
 ### Main Takeaways
 Maybe just a sentence for each
-> Summarize best classifier 
-> Summarize best method for volume prediction 
-> Formulary for each payer 
->  Number of fills 
->  Highlight KPIs? 
+- With highest ROC AUC, drop feature and permutation importance score, a random forest model should be used to predict prior authorization classification. [Predicting PA Acceptance](#predicting-pa-acceptance)
+- Additive exponential smoothing provides an accurate forecast for monthly volume of PAs. [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
+- Random Forest and LSTM provide an accurate forecast for daily volume of PAs. [Predicting PA and Claim Volume](#predicting-pa-and-claim-volume)
+- We have identified the formulary for each payer. [Identifying the Formulary for Each Payer](#identifying-the-formulary-for-each-payer)
+- We can predict the limitation on the number of refills for a drug. [Predicting the Limitation of Fills](#predicting-the-limitation-of-fills)  
 
 ### CoverMyMeds Data 
 The dataset is provided by [CoverMyMeds](https://covermymeds.com/). It contains over one million entries of pharmacy claims data, spanning the years 2016, 2017, and 2018. 
