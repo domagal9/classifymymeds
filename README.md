@@ -85,9 +85,9 @@ These results can be observed in [exploration.ipynb](exploration.ipynb)
 
 ## Predicting the Limitation of Fills
 
-Reject code 76 occurs if a patient fills a certain drug many times, exceeding the limitation of fills. For example, if a payer decides drug X has limitation of fills to be 5 times, then a patient with this payer can fill the drug without any issue for the first 5 times. But when the patient try to fill for the sixth time, the patient gets rejected with code 76.
+A reject code 76 occurs if a patient fills a certain drug too many times and exceeds the number of allowed fills. For example, if a payer decides drug X can be refilled 5 times, then a patient with this payer can refill their prescription 5 times without any issue. However, when the patient tries to refill their medication for the sixth time, the request gets rejected with code 76.
 
-Assuming that the numbers of fills for drug X obey a Poisson distribution, we can infer the relation between limitation of fills and the average number of fills from the data:
+Assuming that the numbers of fills for drug X obeys a Poisson distribution, we can infer the relation between limitation of fills and the average number of fills from the data:
 
 | Average | Limitation |
 | ------- | ---------- |
