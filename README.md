@@ -72,11 +72,11 @@ We also used random forest regression and LSTM to obtain daily volume forecast. 
 
 ![](images/volume_rf.png)
 
-We also used Long Short Term Memory (LTSM) model to obtain daily volume prediction. With epoch number of 40, drop out rate of 0.0, and look back of 28 days, we acheived approximately 91% of accuracy with 40 RMSE averaged over 100 repetitions. Thus, achieve slightly less accuracy but this approach does not require prior knowledge of total PA volume for the year.
+We also used Long Short Term Memory (LTSM) model to obtain daily volume prediction. With epoch number of 40, (input) drop out rate of 0.0, and look back of 28 days, we acheived approximately 91% of accuracy with 40 RMSE averaged over 100 repetitions. Thus we obtain lower accuracy and higher RMSE with LTSM compared to the above approach but it is worth to notice with this approach, prior knowledge of yearly PA volume is not required. The plot below shows the actual data (blue line) with possible interval for the prediction values (green area). Notice the coloured area does not represent prediction area. It was rather needed as the prediction values of LSTM model tend to vary due to the stochastic nature of the model.
 
 ![](images/volume_rnn.png)
 
-The composite of the daily predictions for each day of a given month of course generates a monthly prediction.
+The composite of the daily predictions for each day of a given month can of course generate a monthly prediction as well.
 
 ## Identifying the Formulary for Each Payer 
 The formulary of a payer is list of the preferred drugs each payer has. These lists are often tiered with certain drugs being lower in cost than others, and other drugs needing a prior authorization before the payer will agree to cover them. If an initial pharmacy claim is rejected, a "reject code" is provided which explains why the drug was not covered. In this data, we have three different reject codes: 
