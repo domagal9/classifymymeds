@@ -64,7 +64,7 @@ For healthcare technology companies, knowing the prior authorization volume is a
 - features: calendar date, is_weekday, is_workday, is_holiday. 
 - scoring functions: mean square error (MSE) and 95% prediction intervals
 
-We find that the exponential smoothing model with an additive damped trend and additive seasonal period of length 12 has the lowest MSE. When training on a subset of the first 2.5 years of the data, the forecasted last 6 months has a 95% chance of being within 7.6% of the true number of PAs filed monthly. 
+We find that the exponential smoothing model with an additive damped trend and additive seasonal period of length 12 has the lowest MSE. When training on a subset of the first 2.5 years of the data, the forecasted last 6 months has a 95% chance of being within 5.04% of the true number of PAs filed monthly. See [volumeCI.ipynb](volumeCI.ipynb).
 
 ![](images/exponential_smoothing.png)
 
