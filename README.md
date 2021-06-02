@@ -25,7 +25,7 @@ When a patient tries to get a prescription from a pharmacy, a claim is created a
 - We can predict the limitation on the number of refills for a drug. [Predicting the Limitation of Fills](#predicting-the-limitation-of-fills)  
 
 ### CoverMyMeds Data 
-The dataset is provided by [CoverMyMeds](https://covermymeds.com/). It contains over one million entries of pharmacy claims data, spanning the years 2016, 2017, and 2018. 
+The simulated dataset was a challenge provided by [CoverMyMeds](https://covermymeds.com/). It contains over one million generated entries of fake pharmacy claims data, spanning the years 2016, 2017, and 2018. 
 Each event in the dataset corresponds to a prescription written by a provider. For each event, there is information about the patient's insurer, the patient's medical situation, the drug prescribed, and whether or not the original prescription claim was accepted. If it was rejected, the reject code is included, as well as whether the subsequent PA was accepted or rejected. Additionally, the month, day and year of the claim is included. Roughly half of the entries require a PA. 
 
 All of the features for each event are categorical or binary; there are no continuous features. 
